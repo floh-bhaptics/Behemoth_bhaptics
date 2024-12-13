@@ -60,7 +60,6 @@ xmake version 2.9.6+master.5aebd42c0
       <Configuration>LessEqual421__Shipping__Win64</Configuration>
       <Platform>x64</Platform>
     </ProjectConfiguration>
-
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{715E68A9-2888-449F-BAAB-3A15690A1454}</ProjectGuid>
@@ -68,7 +67,9 @@ xmake version 2.9.6+master.5aebd42c0
     <Platform Condition="'$(Platform)' == ''">Win32</Platform>
     <XmakeScriptDir>..\..\Behemoth_bhaptics</XmakeScriptDir>
     <XmakeProjectDir>..\..</XmakeProjectDir>
-    <XmakeProjectFile><!-- nil --></XmakeProjectFile>
+    <XmakeProjectFile>
+      <!-- nil -->
+    </XmakeProjectFile>
     <XmakeTarget>Behemoth_bhaptics</XmakeTarget>
   </PropertyGroup>
   <PropertyGroup Label="XmakeProgram">
@@ -86,21 +87,35 @@ xmake version 2.9.6+master.5aebd42c0
     <XmakeArch>x64</XmakeArch>
     <XmakeKind>shared</XmakeKind>
     <XmakeDefault>true</XmakeDefault>
-    <XmakeDefines>_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR=1;WITH_CASE_PRESERVING_NAME;UE_GAME;UE_BUILD_DEVELOPMENT;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;UNICODE;_UNICODE;UE4SS_LIB_VERSION_MAJOR=3;UE4SS_LIB_VERSION_MINOR=0;UE4SS_LIB_VERSION_HOTFIX=1;UE4SS_LIB_VERSION_PRERELEASE=0;UE4SS_LIB_VERSION_BETA=0;UE4SS_LIB_BETA_STARTED=1;UE4SS_LIB_IS_BETA=1;UE4SS_LIB_BUILD_GITSHA=&quot;8f077f6&quot;;UE4SS_CONFIGURATION=&quot;CasePreserving__Dev__Win64&quot;;GLFW_INCLUDE_NONE;ZYDIS_STATIC_BUILD;ZYCORE_STATIC_BUILD;IS_TRACY=1;IS_SUPERLUMINAL=0</XmakeDefines>
+    <XmakeDefines>_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR=1;WITH_CASE_PRESERVING_NAME;UE_GAME;UE_BUILD_DEVELOPMENT;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;UNICODE;_UNICODE;UE4SS_LIB_VERSION_MAJOR=3;UE4SS_LIB_VERSION_MINOR=0;UE4SS_LIB_VERSION_HOTFIX=1;UE4SS_LIB_VERSION_PRERELEASE=0;UE4SS_LIB_VERSION_BETA=0;UE4SS_LIB_BETA_STARTED=1;UE4SS_LIB_IS_BETA=1;UE4SS_LIB_BUILD_GITSHA="8f077f6";UE4SS_CONFIGURATION="CasePreserving__Dev__Win64";GLFW_INCLUDE_NONE;ZYDIS_STATIC_BUILD;ZYCORE_STATIC_BUILD;IS_TRACY=1;IS_SUPERLUMINAL=0</XmakeDefines>
     <XmakeLanguages>cxx23</XmakeLanguages>
     <XmakeSubSystem>console</XmakeSubSystem>
-    <XmakeCudaVersion><!-- nil --></XmakeCudaVersion>
-    <XmakeWindowsSdkVersion><!-- nil --></XmakeWindowsSdkVersion>
-    <XmakeMfcKind><!-- nil --></XmakeMfcKind>
+    <XmakeCudaVersion>
+      <!-- nil -->
+    </XmakeCudaVersion>
+    <XmakeWindowsSdkVersion>
+      <!-- nil -->
+    </XmakeWindowsSdkVersion>
+    <XmakeMfcKind>
+      <!-- nil -->
+    </XmakeMfcKind>
     <XmakeRunEnvs>PATH=C:\Users\Flori\AppData\Local\.xmake\packages\c\cmake\3.30.2\2b80cef30074424181b5e19a46ef30fc\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\HostX64\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\VCPackages;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\bin\Roslyn;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\FSharp\Tools;C:\Program Files\Microsoft Visual Studio\2022\Community\Team Tools\DiagnosticsHub\Collector;C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64;C:\Program Files (x86)\Windows Kits\10\bin\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\libnvvp;C:\Program Files\Oculus\Support\oculus-runtime;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\Nsight Compute 2024.1.1;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit;C:\Users\Flori\.cargo\bin;C:\Users\Flori\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\Flori\AppData\Local\Programs\Python\Python310;C:\Users\Flori\AppData\Local\Microsoft\WindowsApps;C:\Users\Flori\.dotnet\tools;C:\Users\Flori\AppData\Local\GitHubDesktop\bin;C:\Users\Flori\xmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\Linux\bin\ConnectionManagerExe;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\vcpkg;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\4e7cdbbaec04488eadc5a50a1ead8000\lib;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\da86e8e8bbda406fbd81493e831dfb83\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\0326f53953ca44829e2e908a812b0026\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\79a61ff95e1244efb05f36744b2c116f\lib;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\694b58f2ef38459bb962315096367668\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\3f556a5364774ac68fc55c4087b14666\lib;$(XmakeProjectDir)\Binaries\CasePreserving__Dev__Win64\UE4SS;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\249310043d2640f09e5454357e7de716\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\fc0d7c5633c04ff880db1f927ebe5daf\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\af85ab9dbc1b4c9693ac313f41fb3cec\lib;$([System.Environment]::GetEnvironmentVariable('PATH'))</XmakeRunEnvs>
-    <XmakeRunArgs><!-- nil --></XmakeRunArgs>
-    <XmakeConfigFlags></XmakeConfigFlags>
+    <XmakeRunArgs>
+      <!-- nil -->
+    </XmakeRunArgs>
+    <XmakeConfigFlags>
+    </XmakeConfigFlags>
     <XmakeIncludeDirs>$(XmakeProjectDir)\Behemoth_bhaptics;$(XmakeProjectDir)\RE-UE4SS\UE4SS\include;$(XmakeProjectDir)\RE-UE4SS\UE4SS\generated_include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\generated_include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include\Unreal;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include\Unreal\Core;$(XmakeProjectDir)\RE-UE4SS\deps\first\ASMHelper\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\DynamicOutput\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\SinglePassSigScanner\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\LuaMadeSimple\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\LuaRaw\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Function\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\IniParser\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\JSON\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\ParserBase\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\File\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Input\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Constructs\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Helpers\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\String\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\MProgram\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\ScopedTimer\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Profiler\include;$(XmakeProjectDir)\RE-UE4SS\deps\third\glad\include;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\da86e8e8bbda406fbd81493e831dfb83\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\include\imgui;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\include\backends;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\include\misc\cpp;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\249310043d2640f09e5454357e7de716\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\fc0d7c5633c04ff880db1f927ebe5daf\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\include\imgui;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\include\backends;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\include\misc\cpp;C:\Users\Flori\AppData\Local\.xmake\packages\i\iconfontcppheaders\v1.0\cdb05c67e0f9401c8608e7fb412191db\include;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\af85ab9dbc1b4c9693ac313f41fb3cec\include;C:\Users\Flori\AppData\Local\.xmake\packages\g\glaze\v2.9.5\f7a54d37d6b64c0c878a5707ee202b36\include;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\694b58f2ef38459bb962315096367668\include;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\3f556a5364774ac68fc55c4087b14666\include;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\79a61ff95e1244efb05f36744b2c116f\include;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\4e7cdbbaec04488eadc5a50a1ead8000\include</XmakeIncludeDirs>
-    <XmakeForceIncludes></XmakeForceIncludes>
+    <XmakeForceIncludes>
+    </XmakeForceIncludes>
     <XmakeLinkDirs>$(XmakeProjectDir)\Binaries\CasePreserving__Dev__Win64\UE4SS;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\da86e8e8bbda406fbd81493e831dfb83\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\249310043d2640f09e5454357e7de716\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\fc0d7c5633c04ff880db1f927ebe5daf\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\af85ab9dbc1b4c9693ac313f41fb3cec\lib;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\694b58f2ef38459bb962315096367668\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\3f556a5364774ac68fc55c4087b14666\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\79a61ff95e1244efb05f36744b2c116f\lib;$(XmakeProjectDir)\Binaries\CasePreserving__Dev__Win64\Unreal;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\0326f53953ca44829e2e908a812b0026\lib;$(XmakeProjectDir)\Binaries\CasePreserving__Dev__Win64\ASMHelper;$(XmakeProjectDir)\Binaries\CasePreserving__Dev__Win64\DynamicOutput;$(XmakeProjectDir)\Binaries\CasePreserving__Dev__Win64\SinglePassSigScanner;$(XmakeProjectDir)\Binaries\CasePreserving__Dev__Win64\LuaMadeSimple;$(XmakeProjectDir)\Binaries\CasePreserving__Dev__Win64\LuaRaw;$(XmakeProjectDir)\Binaries\CasePreserving__Dev__Win64\IniParser;$(XmakeProjectDir)\Binaries\CasePreserving__Dev__Win64\JSON;$(XmakeProjectDir)\Binaries\CasePreserving__Dev__Win64\ParserBase;$(XmakeProjectDir)\Binaries\CasePreserving__Dev__Win64\File;$(XmakeProjectDir)\Binaries\CasePreserving__Dev__Win64\Input;$(XmakeProjectDir)\Binaries\CasePreserving__Dev__Win64\Helpers;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\4e7cdbbaec04488eadc5a50a1ead8000\lib;$(XmakeProjectDir)\Binaries\CasePreserving__Dev__Win64\patternsleuth_bind;$(XmakeProjectDir)\Binaries\CasePreserving__Dev__Win64\glad</XmakeLinkDirs>
-    <XmakeSourceDirs></XmakeSourceDirs>
-    <XmakePrecompiledHeader><!-- nil --></XmakePrecompiledHeader>
-    <XmakeCFlags></XmakeCFlags>
+    <XmakeSourceDirs>
+    </XmakeSourceDirs>
+    <XmakePrecompiledHeader>
+      <!-- nil -->
+    </XmakePrecompiledHeader>
+    <XmakeCFlags>
+    </XmakeCFlags>
     <XmakeCXFlags>/MP /W3 /wd4005 /wd4251 /wd4068 /Zc:inline /Zc:strictStrings /Zc:preprocessor</XmakeCXFlags>
     <XmakeCXXFlags>/utf-8 /Zc:preprocessor /permissive- /Zc:lambda</XmakeCXXFlags>
   </PropertyGroup>
@@ -112,21 +127,35 @@ xmake version 2.9.6+master.5aebd42c0
     <XmakeArch>x64</XmakeArch>
     <XmakeKind>shared</XmakeKind>
     <XmakeDefault>true</XmakeDefault>
-    <XmakeDefines>_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR=1;WITH_CASE_PRESERVING_NAME;UE_GAME;UE_BUILD_SHIPPING;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;UNICODE;_UNICODE;UE4SS_LIB_VERSION_MAJOR=3;UE4SS_LIB_VERSION_MINOR=0;UE4SS_LIB_VERSION_HOTFIX=1;UE4SS_LIB_VERSION_PRERELEASE=0;UE4SS_LIB_VERSION_BETA=0;UE4SS_LIB_BETA_STARTED=1;UE4SS_LIB_IS_BETA=1;UE4SS_LIB_BUILD_GITSHA=&quot;8f077f6&quot;;UE4SS_CONFIGURATION=&quot;CasePreserving__Shipping__Win64&quot;;GLFW_INCLUDE_NONE;ZYDIS_STATIC_BUILD;ZYCORE_STATIC_BUILD;IS_TRACY=1;IS_SUPERLUMINAL=0</XmakeDefines>
+    <XmakeDefines>_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR=1;WITH_CASE_PRESERVING_NAME;UE_GAME;UE_BUILD_SHIPPING;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;UNICODE;_UNICODE;UE4SS_LIB_VERSION_MAJOR=3;UE4SS_LIB_VERSION_MINOR=0;UE4SS_LIB_VERSION_HOTFIX=1;UE4SS_LIB_VERSION_PRERELEASE=0;UE4SS_LIB_VERSION_BETA=0;UE4SS_LIB_BETA_STARTED=1;UE4SS_LIB_IS_BETA=1;UE4SS_LIB_BUILD_GITSHA="8f077f6";UE4SS_CONFIGURATION="CasePreserving__Shipping__Win64";GLFW_INCLUDE_NONE;ZYDIS_STATIC_BUILD;ZYCORE_STATIC_BUILD;IS_TRACY=1;IS_SUPERLUMINAL=0</XmakeDefines>
     <XmakeLanguages>cxx23</XmakeLanguages>
     <XmakeSubSystem>console</XmakeSubSystem>
-    <XmakeCudaVersion><!-- nil --></XmakeCudaVersion>
-    <XmakeWindowsSdkVersion><!-- nil --></XmakeWindowsSdkVersion>
-    <XmakeMfcKind><!-- nil --></XmakeMfcKind>
+    <XmakeCudaVersion>
+      <!-- nil -->
+    </XmakeCudaVersion>
+    <XmakeWindowsSdkVersion>
+      <!-- nil -->
+    </XmakeWindowsSdkVersion>
+    <XmakeMfcKind>
+      <!-- nil -->
+    </XmakeMfcKind>
     <XmakeRunEnvs>PATH=C:\Users\Flori\AppData\Local\.xmake\packages\c\cmake\3.30.2\2b80cef30074424181b5e19a46ef30fc\bin;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\d59f6dd71e7647cc95d2c1d35e51a39a\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\HostX64\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\VCPackages;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\bin\Roslyn;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\FSharp\Tools;C:\Program Files\Microsoft Visual Studio\2022\Community\Team Tools\DiagnosticsHub\Collector;C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64;C:\Program Files (x86)\Windows Kits\10\bin\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\libnvvp;C:\Program Files\Oculus\Support\oculus-runtime;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\Nsight Compute 2024.1.1;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit;C:\Users\Flori\.cargo\bin;C:\Users\Flori\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\Flori\AppData\Local\Programs\Python\Python310;C:\Users\Flori\AppData\Local\Microsoft\WindowsApps;C:\Users\Flori\.dotnet\tools;C:\Users\Flori\AppData\Local\GitHubDesktop\bin;C:\Users\Flori\xmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\Linux\bin\ConnectionManagerExe;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\vcpkg;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\d10701989a2d47cdb1b5fc555ef9e281\lib;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\2eeacf73125546e1ae5a2a161567d6e6\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\0d628bf0862642d6bfd12a460e4d571a\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\597400a2515a48799d0d4afb60f6c5f7\lib;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\3c332be551f6485e8d17e1830ee49789\lib;$(XmakeProjectDir)\Binaries\CasePreserving__Shipping__Win64\UE4SS;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\d59f6dd71e7647cc95d2c1d35e51a39a\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\4c3e42adc03e4ecf98d4c3fd38dae708\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\abfe1ea4ece04143b46bca0514660389\lib;$([System.Environment]::GetEnvironmentVariable('PATH'))</XmakeRunEnvs>
-    <XmakeRunArgs><!-- nil --></XmakeRunArgs>
-    <XmakeConfigFlags></XmakeConfigFlags>
+    <XmakeRunArgs>
+      <!-- nil -->
+    </XmakeRunArgs>
+    <XmakeConfigFlags>
+    </XmakeConfigFlags>
     <XmakeIncludeDirs>$(XmakeProjectDir)\Behemoth_bhaptics;$(XmakeProjectDir)\RE-UE4SS\UE4SS\include;$(XmakeProjectDir)\RE-UE4SS\UE4SS\generated_include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\generated_include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include\Unreal;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include\Unreal\Core;$(XmakeProjectDir)\RE-UE4SS\deps\first\ASMHelper\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\DynamicOutput\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\SinglePassSigScanner\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\LuaMadeSimple\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\LuaRaw\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Function\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\IniParser\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\JSON\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\ParserBase\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\File\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Input\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Constructs\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Helpers\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\String\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\MProgram\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\ScopedTimer\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Profiler\include;$(XmakeProjectDir)\RE-UE4SS\deps\third\glad\include;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\2eeacf73125546e1ae5a2a161567d6e6\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\include\imgui;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\include\backends;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\include\misc\cpp;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\d59f6dd71e7647cc95d2c1d35e51a39a\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\4c3e42adc03e4ecf98d4c3fd38dae708\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\include\imgui;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\include\backends;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\include\misc\cpp;C:\Users\Flori\AppData\Local\.xmake\packages\i\iconfontcppheaders\v1.0\2954fa4ab1e34272ba3110a0835e0beb\include;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\abfe1ea4ece04143b46bca0514660389\include;C:\Users\Flori\AppData\Local\.xmake\packages\g\glaze\v2.9.5\fc3dece1b790476da4bffc6ca0de5430\include;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\3c332be551f6485e8d17e1830ee49789\include;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\0d628bf0862642d6bfd12a460e4d571a\include;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\597400a2515a48799d0d4afb60f6c5f7\include;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\d10701989a2d47cdb1b5fc555ef9e281\include</XmakeIncludeDirs>
-    <XmakeForceIncludes></XmakeForceIncludes>
+    <XmakeForceIncludes>
+    </XmakeForceIncludes>
     <XmakeLinkDirs>$(XmakeProjectDir)\Binaries\CasePreserving__Shipping__Win64\UE4SS;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\2eeacf73125546e1ae5a2a161567d6e6\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\d59f6dd71e7647cc95d2c1d35e51a39a\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\4c3e42adc03e4ecf98d4c3fd38dae708\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\abfe1ea4ece04143b46bca0514660389\lib;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\3c332be551f6485e8d17e1830ee49789\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\0d628bf0862642d6bfd12a460e4d571a\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\597400a2515a48799d0d4afb60f6c5f7\lib;$(XmakeProjectDir)\Binaries\CasePreserving__Shipping__Win64\Unreal;$(XmakeProjectDir)\Binaries\CasePreserving__Shipping__Win64\ASMHelper;$(XmakeProjectDir)\Binaries\CasePreserving__Shipping__Win64\DynamicOutput;$(XmakeProjectDir)\Binaries\CasePreserving__Shipping__Win64\SinglePassSigScanner;$(XmakeProjectDir)\Binaries\CasePreserving__Shipping__Win64\LuaMadeSimple;$(XmakeProjectDir)\Binaries\CasePreserving__Shipping__Win64\LuaRaw;$(XmakeProjectDir)\Binaries\CasePreserving__Shipping__Win64\IniParser;$(XmakeProjectDir)\Binaries\CasePreserving__Shipping__Win64\JSON;$(XmakeProjectDir)\Binaries\CasePreserving__Shipping__Win64\ParserBase;$(XmakeProjectDir)\Binaries\CasePreserving__Shipping__Win64\File;$(XmakeProjectDir)\Binaries\CasePreserving__Shipping__Win64\Input;$(XmakeProjectDir)\Binaries\CasePreserving__Shipping__Win64\Helpers;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\d10701989a2d47cdb1b5fc555ef9e281\lib;$(XmakeProjectDir)\Binaries\CasePreserving__Shipping__Win64\patternsleuth_bind;$(XmakeProjectDir)\Binaries\CasePreserving__Shipping__Win64\glad</XmakeLinkDirs>
-    <XmakeSourceDirs></XmakeSourceDirs>
-    <XmakePrecompiledHeader><!-- nil --></XmakePrecompiledHeader>
-    <XmakeCFlags></XmakeCFlags>
+    <XmakeSourceDirs>
+    </XmakeSourceDirs>
+    <XmakePrecompiledHeader>
+      <!-- nil -->
+    </XmakePrecompiledHeader>
+    <XmakeCFlags>
+    </XmakeCFlags>
     <XmakeCXFlags>/MP /W3 /wd4005 /wd4251 /wd4068 /Zc:inline /Zc:strictStrings /Zc:preprocessor</XmakeCXFlags>
     <XmakeCXXFlags>/utf-8 /Zc:preprocessor /permissive- /Zc:lambda</XmakeCXXFlags>
   </PropertyGroup>
@@ -138,21 +167,35 @@ xmake version 2.9.6+master.5aebd42c0
     <XmakeArch>x64</XmakeArch>
     <XmakeKind>shared</XmakeKind>
     <XmakeDefault>true</XmakeDefault>
-    <XmakeDefines>_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR=1;FNAME_ALIGN8;UE_GAME;UE_BUILD_DEVELOPMENT;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;UNICODE;_UNICODE;UE4SS_LIB_VERSION_MAJOR=3;UE4SS_LIB_VERSION_MINOR=0;UE4SS_LIB_VERSION_HOTFIX=1;UE4SS_LIB_VERSION_PRERELEASE=0;UE4SS_LIB_VERSION_BETA=0;UE4SS_LIB_BETA_STARTED=1;UE4SS_LIB_IS_BETA=1;UE4SS_LIB_BUILD_GITSHA=&quot;8f077f6&quot;;UE4SS_CONFIGURATION=&quot;LessEqual421__Dev__Win64&quot;;GLFW_INCLUDE_NONE;ZYDIS_STATIC_BUILD;ZYCORE_STATIC_BUILD;IS_TRACY=1;IS_SUPERLUMINAL=0</XmakeDefines>
+    <XmakeDefines>_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR=1;FNAME_ALIGN8;UE_GAME;UE_BUILD_DEVELOPMENT;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;UNICODE;_UNICODE;UE4SS_LIB_VERSION_MAJOR=3;UE4SS_LIB_VERSION_MINOR=0;UE4SS_LIB_VERSION_HOTFIX=1;UE4SS_LIB_VERSION_PRERELEASE=0;UE4SS_LIB_VERSION_BETA=0;UE4SS_LIB_BETA_STARTED=1;UE4SS_LIB_IS_BETA=1;UE4SS_LIB_BUILD_GITSHA="8f077f6";UE4SS_CONFIGURATION="LessEqual421__Dev__Win64";GLFW_INCLUDE_NONE;ZYDIS_STATIC_BUILD;ZYCORE_STATIC_BUILD;IS_TRACY=1;IS_SUPERLUMINAL=0</XmakeDefines>
     <XmakeLanguages>cxx23</XmakeLanguages>
     <XmakeSubSystem>console</XmakeSubSystem>
-    <XmakeCudaVersion><!-- nil --></XmakeCudaVersion>
-    <XmakeWindowsSdkVersion><!-- nil --></XmakeWindowsSdkVersion>
-    <XmakeMfcKind><!-- nil --></XmakeMfcKind>
+    <XmakeCudaVersion>
+      <!-- nil -->
+    </XmakeCudaVersion>
+    <XmakeWindowsSdkVersion>
+      <!-- nil -->
+    </XmakeWindowsSdkVersion>
+    <XmakeMfcKind>
+      <!-- nil -->
+    </XmakeMfcKind>
     <XmakeRunEnvs>PATH=C:\Users\Flori\AppData\Local\.xmake\packages\c\cmake\3.30.2\2b80cef30074424181b5e19a46ef30fc\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\HostX64\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\VCPackages;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\bin\Roslyn;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\FSharp\Tools;C:\Program Files\Microsoft Visual Studio\2022\Community\Team Tools\DiagnosticsHub\Collector;C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64;C:\Program Files (x86)\Windows Kits\10\bin\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\libnvvp;C:\Program Files\Oculus\Support\oculus-runtime;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\Nsight Compute 2024.1.1;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit;C:\Users\Flori\.cargo\bin;C:\Users\Flori\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\Flori\AppData\Local\Programs\Python\Python310;C:\Users\Flori\AppData\Local\Microsoft\WindowsApps;C:\Users\Flori\.dotnet\tools;C:\Users\Flori\AppData\Local\GitHubDesktop\bin;C:\Users\Flori\xmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\Linux\bin\ConnectionManagerExe;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\vcpkg;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\4e7cdbbaec04488eadc5a50a1ead8000\lib;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\da86e8e8bbda406fbd81493e831dfb83\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\0326f53953ca44829e2e908a812b0026\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\79a61ff95e1244efb05f36744b2c116f\lib;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\694b58f2ef38459bb962315096367668\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\3f556a5364774ac68fc55c4087b14666\lib;$(XmakeProjectDir)\Binaries\LessEqual421__Dev__Win64\UE4SS;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\249310043d2640f09e5454357e7de716\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\fc0d7c5633c04ff880db1f927ebe5daf\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\af85ab9dbc1b4c9693ac313f41fb3cec\lib;$([System.Environment]::GetEnvironmentVariable('PATH'))</XmakeRunEnvs>
-    <XmakeRunArgs><!-- nil --></XmakeRunArgs>
-    <XmakeConfigFlags></XmakeConfigFlags>
+    <XmakeRunArgs>
+      <!-- nil -->
+    </XmakeRunArgs>
+    <XmakeConfigFlags>
+    </XmakeConfigFlags>
     <XmakeIncludeDirs>$(XmakeProjectDir)\Behemoth_bhaptics;$(XmakeProjectDir)\RE-UE4SS\UE4SS\include;$(XmakeProjectDir)\RE-UE4SS\UE4SS\generated_include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\generated_include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include\Unreal;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include\Unreal\Core;$(XmakeProjectDir)\RE-UE4SS\deps\first\ASMHelper\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\DynamicOutput\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\SinglePassSigScanner\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\LuaMadeSimple\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\LuaRaw\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Function\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\IniParser\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\JSON\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\ParserBase\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\File\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Input\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Constructs\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Helpers\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\String\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\MProgram\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\ScopedTimer\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Profiler\include;$(XmakeProjectDir)\RE-UE4SS\deps\third\glad\include;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\da86e8e8bbda406fbd81493e831dfb83\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\include\imgui;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\include\backends;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\include\misc\cpp;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\249310043d2640f09e5454357e7de716\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\fc0d7c5633c04ff880db1f927ebe5daf\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\include\imgui;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\include\backends;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\include\misc\cpp;C:\Users\Flori\AppData\Local\.xmake\packages\i\iconfontcppheaders\v1.0\cdb05c67e0f9401c8608e7fb412191db\include;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\af85ab9dbc1b4c9693ac313f41fb3cec\include;C:\Users\Flori\AppData\Local\.xmake\packages\g\glaze\v2.9.5\f7a54d37d6b64c0c878a5707ee202b36\include;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\694b58f2ef38459bb962315096367668\include;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\3f556a5364774ac68fc55c4087b14666\include;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\79a61ff95e1244efb05f36744b2c116f\include;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\4e7cdbbaec04488eadc5a50a1ead8000\include</XmakeIncludeDirs>
-    <XmakeForceIncludes></XmakeForceIncludes>
+    <XmakeForceIncludes>
+    </XmakeForceIncludes>
     <XmakeLinkDirs>$(XmakeProjectDir)\Binaries\LessEqual421__Dev__Win64\UE4SS;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\da86e8e8bbda406fbd81493e831dfb83\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\249310043d2640f09e5454357e7de716\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\fc0d7c5633c04ff880db1f927ebe5daf\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\af85ab9dbc1b4c9693ac313f41fb3cec\lib;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\694b58f2ef38459bb962315096367668\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\3f556a5364774ac68fc55c4087b14666\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\79a61ff95e1244efb05f36744b2c116f\lib;$(XmakeProjectDir)\Binaries\LessEqual421__Dev__Win64\Unreal;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\0326f53953ca44829e2e908a812b0026\lib;$(XmakeProjectDir)\Binaries\LessEqual421__Dev__Win64\ASMHelper;$(XmakeProjectDir)\Binaries\LessEqual421__Dev__Win64\DynamicOutput;$(XmakeProjectDir)\Binaries\LessEqual421__Dev__Win64\SinglePassSigScanner;$(XmakeProjectDir)\Binaries\LessEqual421__Dev__Win64\LuaMadeSimple;$(XmakeProjectDir)\Binaries\LessEqual421__Dev__Win64\LuaRaw;$(XmakeProjectDir)\Binaries\LessEqual421__Dev__Win64\IniParser;$(XmakeProjectDir)\Binaries\LessEqual421__Dev__Win64\JSON;$(XmakeProjectDir)\Binaries\LessEqual421__Dev__Win64\ParserBase;$(XmakeProjectDir)\Binaries\LessEqual421__Dev__Win64\File;$(XmakeProjectDir)\Binaries\LessEqual421__Dev__Win64\Input;$(XmakeProjectDir)\Binaries\LessEqual421__Dev__Win64\Helpers;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\4e7cdbbaec04488eadc5a50a1ead8000\lib;$(XmakeProjectDir)\Binaries\LessEqual421__Dev__Win64\patternsleuth_bind;$(XmakeProjectDir)\Binaries\LessEqual421__Dev__Win64\glad</XmakeLinkDirs>
-    <XmakeSourceDirs></XmakeSourceDirs>
-    <XmakePrecompiledHeader><!-- nil --></XmakePrecompiledHeader>
-    <XmakeCFlags></XmakeCFlags>
+    <XmakeSourceDirs>
+    </XmakeSourceDirs>
+    <XmakePrecompiledHeader>
+      <!-- nil -->
+    </XmakePrecompiledHeader>
+    <XmakeCFlags>
+    </XmakeCFlags>
     <XmakeCXFlags>/MP /W3 /wd4005 /wd4251 /wd4068 /Zc:inline /Zc:strictStrings /Zc:preprocessor</XmakeCXFlags>
     <XmakeCXXFlags>/utf-8 /Zc:preprocessor /permissive- /Zc:lambda</XmakeCXXFlags>
   </PropertyGroup>
@@ -164,21 +207,35 @@ xmake version 2.9.6+master.5aebd42c0
     <XmakeArch>x64</XmakeArch>
     <XmakeKind>shared</XmakeKind>
     <XmakeDefault>true</XmakeDefault>
-    <XmakeDefines>_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR=1;FNAME_ALIGN8;UE_GAME;UE_BUILD_DEBUG;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;UNICODE;_UNICODE;UE4SS_LIB_VERSION_MAJOR=3;UE4SS_LIB_VERSION_MINOR=0;UE4SS_LIB_VERSION_HOTFIX=1;UE4SS_LIB_VERSION_PRERELEASE=0;UE4SS_LIB_VERSION_BETA=0;UE4SS_LIB_BETA_STARTED=1;UE4SS_LIB_IS_BETA=1;UE4SS_LIB_BUILD_GITSHA=&quot;8f077f6&quot;;UE4SS_CONFIGURATION=&quot;LessEqual421__Debug__Win64&quot;;GLFW_INCLUDE_NONE;ZYDIS_STATIC_BUILD;ZYCORE_STATIC_BUILD;IS_TRACY=1;IS_SUPERLUMINAL=0</XmakeDefines>
+    <XmakeDefines>_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR=1;FNAME_ALIGN8;UE_GAME;UE_BUILD_DEBUG;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;UNICODE;_UNICODE;UE4SS_LIB_VERSION_MAJOR=3;UE4SS_LIB_VERSION_MINOR=0;UE4SS_LIB_VERSION_HOTFIX=1;UE4SS_LIB_VERSION_PRERELEASE=0;UE4SS_LIB_VERSION_BETA=0;UE4SS_LIB_BETA_STARTED=1;UE4SS_LIB_IS_BETA=1;UE4SS_LIB_BUILD_GITSHA="8f077f6";UE4SS_CONFIGURATION="LessEqual421__Debug__Win64";GLFW_INCLUDE_NONE;ZYDIS_STATIC_BUILD;ZYCORE_STATIC_BUILD;IS_TRACY=1;IS_SUPERLUMINAL=0</XmakeDefines>
     <XmakeLanguages>cxx23</XmakeLanguages>
     <XmakeSubSystem>console</XmakeSubSystem>
-    <XmakeCudaVersion><!-- nil --></XmakeCudaVersion>
-    <XmakeWindowsSdkVersion><!-- nil --></XmakeWindowsSdkVersion>
-    <XmakeMfcKind><!-- nil --></XmakeMfcKind>
+    <XmakeCudaVersion>
+      <!-- nil -->
+    </XmakeCudaVersion>
+    <XmakeWindowsSdkVersion>
+      <!-- nil -->
+    </XmakeWindowsSdkVersion>
+    <XmakeMfcKind>
+      <!-- nil -->
+    </XmakeMfcKind>
     <XmakeRunEnvs>PATH=C:\Users\Flori\AppData\Local\.xmake\packages\c\cmake\3.30.2\2b80cef30074424181b5e19a46ef30fc\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\HostX64\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\VCPackages;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\bin\Roslyn;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\FSharp\Tools;C:\Program Files\Microsoft Visual Studio\2022\Community\Team Tools\DiagnosticsHub\Collector;C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64;C:\Program Files (x86)\Windows Kits\10\bin\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\libnvvp;C:\Program Files\Oculus\Support\oculus-runtime;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\Nsight Compute 2024.1.1;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit;C:\Users\Flori\.cargo\bin;C:\Users\Flori\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\Flori\AppData\Local\Programs\Python\Python310;C:\Users\Flori\AppData\Local\Microsoft\WindowsApps;C:\Users\Flori\.dotnet\tools;C:\Users\Flori\AppData\Local\GitHubDesktop\bin;C:\Users\Flori\xmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\Linux\bin\ConnectionManagerExe;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\vcpkg;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\4e7cdbbaec04488eadc5a50a1ead8000\lib;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\da86e8e8bbda406fbd81493e831dfb83\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\0326f53953ca44829e2e908a812b0026\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\79a61ff95e1244efb05f36744b2c116f\lib;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\694b58f2ef38459bb962315096367668\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\3f556a5364774ac68fc55c4087b14666\lib;$(XmakeProjectDir)\Binaries\LessEqual421__Debug__Win64\UE4SS;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\249310043d2640f09e5454357e7de716\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\fc0d7c5633c04ff880db1f927ebe5daf\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\af85ab9dbc1b4c9693ac313f41fb3cec\lib;$([System.Environment]::GetEnvironmentVariable('PATH'))</XmakeRunEnvs>
-    <XmakeRunArgs><!-- nil --></XmakeRunArgs>
-    <XmakeConfigFlags></XmakeConfigFlags>
+    <XmakeRunArgs>
+      <!-- nil -->
+    </XmakeRunArgs>
+    <XmakeConfigFlags>
+    </XmakeConfigFlags>
     <XmakeIncludeDirs>$(XmakeProjectDir)\Behemoth_bhaptics;$(XmakeProjectDir)\RE-UE4SS\UE4SS\include;$(XmakeProjectDir)\RE-UE4SS\UE4SS\generated_include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\generated_include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include\Unreal;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include\Unreal\Core;$(XmakeProjectDir)\RE-UE4SS\deps\first\ASMHelper\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\DynamicOutput\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\SinglePassSigScanner\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\LuaMadeSimple\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\LuaRaw\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Function\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\IniParser\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\JSON\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\ParserBase\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\File\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Input\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Constructs\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Helpers\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\String\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\MProgram\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\ScopedTimer\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Profiler\include;$(XmakeProjectDir)\RE-UE4SS\deps\third\glad\include;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\da86e8e8bbda406fbd81493e831dfb83\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\include\imgui;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\include\backends;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\include\misc\cpp;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\249310043d2640f09e5454357e7de716\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\fc0d7c5633c04ff880db1f927ebe5daf\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\include\imgui;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\include\backends;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\include\misc\cpp;C:\Users\Flori\AppData\Local\.xmake\packages\i\iconfontcppheaders\v1.0\cdb05c67e0f9401c8608e7fb412191db\include;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\af85ab9dbc1b4c9693ac313f41fb3cec\include;C:\Users\Flori\AppData\Local\.xmake\packages\g\glaze\v2.9.5\f7a54d37d6b64c0c878a5707ee202b36\include;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\694b58f2ef38459bb962315096367668\include;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\3f556a5364774ac68fc55c4087b14666\include;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\79a61ff95e1244efb05f36744b2c116f\include;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\4e7cdbbaec04488eadc5a50a1ead8000\include</XmakeIncludeDirs>
-    <XmakeForceIncludes></XmakeForceIncludes>
+    <XmakeForceIncludes>
+    </XmakeForceIncludes>
     <XmakeLinkDirs>$(XmakeProjectDir)\Binaries\LessEqual421__Debug__Win64\UE4SS;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\da86e8e8bbda406fbd81493e831dfb83\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\249310043d2640f09e5454357e7de716\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\fc0d7c5633c04ff880db1f927ebe5daf\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\af85ab9dbc1b4c9693ac313f41fb3cec\lib;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\694b58f2ef38459bb962315096367668\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\3f556a5364774ac68fc55c4087b14666\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\79a61ff95e1244efb05f36744b2c116f\lib;$(XmakeProjectDir)\Binaries\LessEqual421__Debug__Win64\Unreal;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\0326f53953ca44829e2e908a812b0026\lib;$(XmakeProjectDir)\Binaries\LessEqual421__Debug__Win64\ASMHelper;$(XmakeProjectDir)\Binaries\LessEqual421__Debug__Win64\DynamicOutput;$(XmakeProjectDir)\Binaries\LessEqual421__Debug__Win64\SinglePassSigScanner;$(XmakeProjectDir)\Binaries\LessEqual421__Debug__Win64\LuaMadeSimple;$(XmakeProjectDir)\Binaries\LessEqual421__Debug__Win64\LuaRaw;$(XmakeProjectDir)\Binaries\LessEqual421__Debug__Win64\IniParser;$(XmakeProjectDir)\Binaries\LessEqual421__Debug__Win64\JSON;$(XmakeProjectDir)\Binaries\LessEqual421__Debug__Win64\ParserBase;$(XmakeProjectDir)\Binaries\LessEqual421__Debug__Win64\File;$(XmakeProjectDir)\Binaries\LessEqual421__Debug__Win64\Input;$(XmakeProjectDir)\Binaries\LessEqual421__Debug__Win64\Helpers;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\4e7cdbbaec04488eadc5a50a1ead8000\lib;$(XmakeProjectDir)\Binaries\LessEqual421__Debug__Win64\patternsleuth_bind;$(XmakeProjectDir)\Binaries\LessEqual421__Debug__Win64\glad</XmakeLinkDirs>
-    <XmakeSourceDirs></XmakeSourceDirs>
-    <XmakePrecompiledHeader><!-- nil --></XmakePrecompiledHeader>
-    <XmakeCFlags></XmakeCFlags>
+    <XmakeSourceDirs>
+    </XmakeSourceDirs>
+    <XmakePrecompiledHeader>
+      <!-- nil -->
+    </XmakePrecompiledHeader>
+    <XmakeCFlags>
+    </XmakeCFlags>
     <XmakeCXFlags>/MP /W3 /wd4005 /wd4251 /wd4068 /Zc:inline /Zc:strictStrings /Zc:preprocessor</XmakeCXFlags>
     <XmakeCXXFlags>/utf-8 /Zc:preprocessor /permissive- /Zc:lambda</XmakeCXXFlags>
   </PropertyGroup>
@@ -190,21 +247,35 @@ xmake version 2.9.6+master.5aebd42c0
     <XmakeArch>x64</XmakeArch>
     <XmakeKind>shared</XmakeKind>
     <XmakeDefault>true</XmakeDefault>
-    <XmakeDefines>_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR=1;WITH_CASE_PRESERVING_NAME;UE_GAME;UE_BUILD_DEBUG;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;UNICODE;_UNICODE;UE4SS_LIB_VERSION_MAJOR=3;UE4SS_LIB_VERSION_MINOR=0;UE4SS_LIB_VERSION_HOTFIX=1;UE4SS_LIB_VERSION_PRERELEASE=0;UE4SS_LIB_VERSION_BETA=0;UE4SS_LIB_BETA_STARTED=1;UE4SS_LIB_IS_BETA=1;UE4SS_LIB_BUILD_GITSHA=&quot;8f077f6&quot;;UE4SS_CONFIGURATION=&quot;CasePreserving__Debug__Win64&quot;;GLFW_INCLUDE_NONE;ZYDIS_STATIC_BUILD;ZYCORE_STATIC_BUILD;IS_TRACY=1;IS_SUPERLUMINAL=0</XmakeDefines>
+    <XmakeDefines>_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR=1;WITH_CASE_PRESERVING_NAME;UE_GAME;UE_BUILD_DEBUG;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;UNICODE;_UNICODE;UE4SS_LIB_VERSION_MAJOR=3;UE4SS_LIB_VERSION_MINOR=0;UE4SS_LIB_VERSION_HOTFIX=1;UE4SS_LIB_VERSION_PRERELEASE=0;UE4SS_LIB_VERSION_BETA=0;UE4SS_LIB_BETA_STARTED=1;UE4SS_LIB_IS_BETA=1;UE4SS_LIB_BUILD_GITSHA="8f077f6";UE4SS_CONFIGURATION="CasePreserving__Debug__Win64";GLFW_INCLUDE_NONE;ZYDIS_STATIC_BUILD;ZYCORE_STATIC_BUILD;IS_TRACY=1;IS_SUPERLUMINAL=0</XmakeDefines>
     <XmakeLanguages>cxx23</XmakeLanguages>
     <XmakeSubSystem>console</XmakeSubSystem>
-    <XmakeCudaVersion><!-- nil --></XmakeCudaVersion>
-    <XmakeWindowsSdkVersion><!-- nil --></XmakeWindowsSdkVersion>
-    <XmakeMfcKind><!-- nil --></XmakeMfcKind>
+    <XmakeCudaVersion>
+      <!-- nil -->
+    </XmakeCudaVersion>
+    <XmakeWindowsSdkVersion>
+      <!-- nil -->
+    </XmakeWindowsSdkVersion>
+    <XmakeMfcKind>
+      <!-- nil -->
+    </XmakeMfcKind>
     <XmakeRunEnvs>PATH=C:\Users\Flori\AppData\Local\.xmake\packages\c\cmake\3.30.2\2b80cef30074424181b5e19a46ef30fc\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\HostX64\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\VCPackages;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\bin\Roslyn;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\FSharp\Tools;C:\Program Files\Microsoft Visual Studio\2022\Community\Team Tools\DiagnosticsHub\Collector;C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64;C:\Program Files (x86)\Windows Kits\10\bin\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\libnvvp;C:\Program Files\Oculus\Support\oculus-runtime;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\Nsight Compute 2024.1.1;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit;C:\Users\Flori\.cargo\bin;C:\Users\Flori\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\Flori\AppData\Local\Programs\Python\Python310;C:\Users\Flori\AppData\Local\Microsoft\WindowsApps;C:\Users\Flori\.dotnet\tools;C:\Users\Flori\AppData\Local\GitHubDesktop\bin;C:\Users\Flori\xmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\Linux\bin\ConnectionManagerExe;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\vcpkg;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\4e7cdbbaec04488eadc5a50a1ead8000\lib;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\da86e8e8bbda406fbd81493e831dfb83\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\0326f53953ca44829e2e908a812b0026\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\79a61ff95e1244efb05f36744b2c116f\lib;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\694b58f2ef38459bb962315096367668\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\3f556a5364774ac68fc55c4087b14666\lib;$(XmakeProjectDir)\Binaries\CasePreserving__Debug__Win64\UE4SS;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\249310043d2640f09e5454357e7de716\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\fc0d7c5633c04ff880db1f927ebe5daf\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\af85ab9dbc1b4c9693ac313f41fb3cec\lib;$([System.Environment]::GetEnvironmentVariable('PATH'))</XmakeRunEnvs>
-    <XmakeRunArgs><!-- nil --></XmakeRunArgs>
-    <XmakeConfigFlags></XmakeConfigFlags>
+    <XmakeRunArgs>
+      <!-- nil -->
+    </XmakeRunArgs>
+    <XmakeConfigFlags>
+    </XmakeConfigFlags>
     <XmakeIncludeDirs>$(XmakeProjectDir)\Behemoth_bhaptics;$(XmakeProjectDir)\RE-UE4SS\UE4SS\include;$(XmakeProjectDir)\RE-UE4SS\UE4SS\generated_include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\generated_include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include\Unreal;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include\Unreal\Core;$(XmakeProjectDir)\RE-UE4SS\deps\first\ASMHelper\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\DynamicOutput\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\SinglePassSigScanner\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\LuaMadeSimple\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\LuaRaw\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Function\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\IniParser\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\JSON\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\ParserBase\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\File\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Input\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Constructs\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Helpers\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\String\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\MProgram\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\ScopedTimer\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Profiler\include;$(XmakeProjectDir)\RE-UE4SS\deps\third\glad\include;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\da86e8e8bbda406fbd81493e831dfb83\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\include\imgui;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\include\backends;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\include\misc\cpp;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\249310043d2640f09e5454357e7de716\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\fc0d7c5633c04ff880db1f927ebe5daf\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\include\imgui;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\include\backends;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\include\misc\cpp;C:\Users\Flori\AppData\Local\.xmake\packages\i\iconfontcppheaders\v1.0\cdb05c67e0f9401c8608e7fb412191db\include;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\af85ab9dbc1b4c9693ac313f41fb3cec\include;C:\Users\Flori\AppData\Local\.xmake\packages\g\glaze\v2.9.5\f7a54d37d6b64c0c878a5707ee202b36\include;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\694b58f2ef38459bb962315096367668\include;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\3f556a5364774ac68fc55c4087b14666\include;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\79a61ff95e1244efb05f36744b2c116f\include;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\4e7cdbbaec04488eadc5a50a1ead8000\include</XmakeIncludeDirs>
-    <XmakeForceIncludes></XmakeForceIncludes>
+    <XmakeForceIncludes>
+    </XmakeForceIncludes>
     <XmakeLinkDirs>$(XmakeProjectDir)\Binaries\CasePreserving__Debug__Win64\UE4SS;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\da86e8e8bbda406fbd81493e831dfb83\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\249310043d2640f09e5454357e7de716\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\fc0d7c5633c04ff880db1f927ebe5daf\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\af85ab9dbc1b4c9693ac313f41fb3cec\lib;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\694b58f2ef38459bb962315096367668\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\3f556a5364774ac68fc55c4087b14666\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\79a61ff95e1244efb05f36744b2c116f\lib;$(XmakeProjectDir)\Binaries\CasePreserving__Debug__Win64\Unreal;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\0326f53953ca44829e2e908a812b0026\lib;$(XmakeProjectDir)\Binaries\CasePreserving__Debug__Win64\ASMHelper;$(XmakeProjectDir)\Binaries\CasePreserving__Debug__Win64\DynamicOutput;$(XmakeProjectDir)\Binaries\CasePreserving__Debug__Win64\SinglePassSigScanner;$(XmakeProjectDir)\Binaries\CasePreserving__Debug__Win64\LuaMadeSimple;$(XmakeProjectDir)\Binaries\CasePreserving__Debug__Win64\LuaRaw;$(XmakeProjectDir)\Binaries\CasePreserving__Debug__Win64\IniParser;$(XmakeProjectDir)\Binaries\CasePreserving__Debug__Win64\JSON;$(XmakeProjectDir)\Binaries\CasePreserving__Debug__Win64\ParserBase;$(XmakeProjectDir)\Binaries\CasePreserving__Debug__Win64\File;$(XmakeProjectDir)\Binaries\CasePreserving__Debug__Win64\Input;$(XmakeProjectDir)\Binaries\CasePreserving__Debug__Win64\Helpers;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\4e7cdbbaec04488eadc5a50a1ead8000\lib;$(XmakeProjectDir)\Binaries\CasePreserving__Debug__Win64\patternsleuth_bind;$(XmakeProjectDir)\Binaries\CasePreserving__Debug__Win64\glad</XmakeLinkDirs>
-    <XmakeSourceDirs></XmakeSourceDirs>
-    <XmakePrecompiledHeader><!-- nil --></XmakePrecompiledHeader>
-    <XmakeCFlags></XmakeCFlags>
+    <XmakeSourceDirs>
+    </XmakeSourceDirs>
+    <XmakePrecompiledHeader>
+      <!-- nil -->
+    </XmakePrecompiledHeader>
+    <XmakeCFlags>
+    </XmakeCFlags>
     <XmakeCXFlags>/MP /W3 /wd4005 /wd4251 /wd4068 /Zc:inline /Zc:strictStrings /Zc:preprocessor</XmakeCXFlags>
     <XmakeCXXFlags>/utf-8 /Zc:preprocessor /permissive- /Zc:lambda</XmakeCXXFlags>
   </PropertyGroup>
@@ -216,21 +287,35 @@ xmake version 2.9.6+master.5aebd42c0
     <XmakeArch>x64</XmakeArch>
     <XmakeKind>shared</XmakeKind>
     <XmakeDefault>true</XmakeDefault>
-    <XmakeDefines>_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR=1;WITH_CASE_PRESERVING_NAME;UE_GAME;UE_BUILD_TEST;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;UNICODE;_UNICODE;UE4SS_LIB_VERSION_MAJOR=3;UE4SS_LIB_VERSION_MINOR=0;UE4SS_LIB_VERSION_HOTFIX=1;UE4SS_LIB_VERSION_PRERELEASE=0;UE4SS_LIB_VERSION_BETA=0;UE4SS_LIB_BETA_STARTED=1;UE4SS_LIB_IS_BETA=1;UE4SS_LIB_BUILD_GITSHA=&quot;8f077f6&quot;;UE4SS_CONFIGURATION=&quot;CasePreserving__Test__Win64&quot;;GLFW_INCLUDE_NONE;ZYDIS_STATIC_BUILD;ZYCORE_STATIC_BUILD;IS_TRACY=1;IS_SUPERLUMINAL=0</XmakeDefines>
+    <XmakeDefines>_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR=1;WITH_CASE_PRESERVING_NAME;UE_GAME;UE_BUILD_TEST;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;UNICODE;_UNICODE;UE4SS_LIB_VERSION_MAJOR=3;UE4SS_LIB_VERSION_MINOR=0;UE4SS_LIB_VERSION_HOTFIX=1;UE4SS_LIB_VERSION_PRERELEASE=0;UE4SS_LIB_VERSION_BETA=0;UE4SS_LIB_BETA_STARTED=1;UE4SS_LIB_IS_BETA=1;UE4SS_LIB_BUILD_GITSHA="8f077f6";UE4SS_CONFIGURATION="CasePreserving__Test__Win64";GLFW_INCLUDE_NONE;ZYDIS_STATIC_BUILD;ZYCORE_STATIC_BUILD;IS_TRACY=1;IS_SUPERLUMINAL=0</XmakeDefines>
     <XmakeLanguages>cxx23</XmakeLanguages>
     <XmakeSubSystem>console</XmakeSubSystem>
-    <XmakeCudaVersion><!-- nil --></XmakeCudaVersion>
-    <XmakeWindowsSdkVersion><!-- nil --></XmakeWindowsSdkVersion>
-    <XmakeMfcKind><!-- nil --></XmakeMfcKind>
+    <XmakeCudaVersion>
+      <!-- nil -->
+    </XmakeCudaVersion>
+    <XmakeWindowsSdkVersion>
+      <!-- nil -->
+    </XmakeWindowsSdkVersion>
+    <XmakeMfcKind>
+      <!-- nil -->
+    </XmakeMfcKind>
     <XmakeRunEnvs>PATH=C:\Users\Flori\AppData\Local\.xmake\packages\c\cmake\3.30.2\2b80cef30074424181b5e19a46ef30fc\bin;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\d59f6dd71e7647cc95d2c1d35e51a39a\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\HostX64\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\VCPackages;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\bin\Roslyn;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\FSharp\Tools;C:\Program Files\Microsoft Visual Studio\2022\Community\Team Tools\DiagnosticsHub\Collector;C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64;C:\Program Files (x86)\Windows Kits\10\bin\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\libnvvp;C:\Program Files\Oculus\Support\oculus-runtime;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\Nsight Compute 2024.1.1;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit;C:\Users\Flori\.cargo\bin;C:\Users\Flori\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\Flori\AppData\Local\Programs\Python\Python310;C:\Users\Flori\AppData\Local\Microsoft\WindowsApps;C:\Users\Flori\.dotnet\tools;C:\Users\Flori\AppData\Local\GitHubDesktop\bin;C:\Users\Flori\xmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\Linux\bin\ConnectionManagerExe;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\vcpkg;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\d10701989a2d47cdb1b5fc555ef9e281\lib;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\2eeacf73125546e1ae5a2a161567d6e6\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\0d628bf0862642d6bfd12a460e4d571a\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\597400a2515a48799d0d4afb60f6c5f7\lib;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\3c332be551f6485e8d17e1830ee49789\lib;$(XmakeProjectDir)\Binaries\CasePreserving__Test__Win64\UE4SS;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\d59f6dd71e7647cc95d2c1d35e51a39a\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\4c3e42adc03e4ecf98d4c3fd38dae708\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\abfe1ea4ece04143b46bca0514660389\lib;$([System.Environment]::GetEnvironmentVariable('PATH'))</XmakeRunEnvs>
-    <XmakeRunArgs><!-- nil --></XmakeRunArgs>
-    <XmakeConfigFlags></XmakeConfigFlags>
+    <XmakeRunArgs>
+      <!-- nil -->
+    </XmakeRunArgs>
+    <XmakeConfigFlags>
+    </XmakeConfigFlags>
     <XmakeIncludeDirs>$(XmakeProjectDir)\Behemoth_bhaptics;$(XmakeProjectDir)\RE-UE4SS\UE4SS\include;$(XmakeProjectDir)\RE-UE4SS\UE4SS\generated_include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\generated_include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include\Unreal;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include\Unreal\Core;$(XmakeProjectDir)\RE-UE4SS\deps\first\ASMHelper\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\DynamicOutput\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\SinglePassSigScanner\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\LuaMadeSimple\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\LuaRaw\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Function\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\IniParser\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\JSON\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\ParserBase\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\File\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Input\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Constructs\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Helpers\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\String\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\MProgram\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\ScopedTimer\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Profiler\include;$(XmakeProjectDir)\RE-UE4SS\deps\third\glad\include;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\2eeacf73125546e1ae5a2a161567d6e6\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\include\imgui;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\include\backends;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\include\misc\cpp;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\d59f6dd71e7647cc95d2c1d35e51a39a\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\4c3e42adc03e4ecf98d4c3fd38dae708\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\include\imgui;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\include\backends;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\include\misc\cpp;C:\Users\Flori\AppData\Local\.xmake\packages\i\iconfontcppheaders\v1.0\2954fa4ab1e34272ba3110a0835e0beb\include;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\abfe1ea4ece04143b46bca0514660389\include;C:\Users\Flori\AppData\Local\.xmake\packages\g\glaze\v2.9.5\fc3dece1b790476da4bffc6ca0de5430\include;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\3c332be551f6485e8d17e1830ee49789\include;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\0d628bf0862642d6bfd12a460e4d571a\include;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\597400a2515a48799d0d4afb60f6c5f7\include;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\d10701989a2d47cdb1b5fc555ef9e281\include</XmakeIncludeDirs>
-    <XmakeForceIncludes></XmakeForceIncludes>
+    <XmakeForceIncludes>
+    </XmakeForceIncludes>
     <XmakeLinkDirs>$(XmakeProjectDir)\Binaries\CasePreserving__Test__Win64\UE4SS;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\2eeacf73125546e1ae5a2a161567d6e6\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\d59f6dd71e7647cc95d2c1d35e51a39a\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\4c3e42adc03e4ecf98d4c3fd38dae708\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\abfe1ea4ece04143b46bca0514660389\lib;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\3c332be551f6485e8d17e1830ee49789\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\0d628bf0862642d6bfd12a460e4d571a\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\597400a2515a48799d0d4afb60f6c5f7\lib;$(XmakeProjectDir)\Binaries\CasePreserving__Test__Win64\Unreal;$(XmakeProjectDir)\Binaries\CasePreserving__Test__Win64\ASMHelper;$(XmakeProjectDir)\Binaries\CasePreserving__Test__Win64\DynamicOutput;$(XmakeProjectDir)\Binaries\CasePreserving__Test__Win64\SinglePassSigScanner;$(XmakeProjectDir)\Binaries\CasePreserving__Test__Win64\LuaMadeSimple;$(XmakeProjectDir)\Binaries\CasePreserving__Test__Win64\LuaRaw;$(XmakeProjectDir)\Binaries\CasePreserving__Test__Win64\IniParser;$(XmakeProjectDir)\Binaries\CasePreserving__Test__Win64\JSON;$(XmakeProjectDir)\Binaries\CasePreserving__Test__Win64\ParserBase;$(XmakeProjectDir)\Binaries\CasePreserving__Test__Win64\File;$(XmakeProjectDir)\Binaries\CasePreserving__Test__Win64\Input;$(XmakeProjectDir)\Binaries\CasePreserving__Test__Win64\Helpers;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\d10701989a2d47cdb1b5fc555ef9e281\lib;$(XmakeProjectDir)\Binaries\CasePreserving__Test__Win64\patternsleuth_bind;$(XmakeProjectDir)\Binaries\CasePreserving__Test__Win64\glad</XmakeLinkDirs>
-    <XmakeSourceDirs></XmakeSourceDirs>
-    <XmakePrecompiledHeader><!-- nil --></XmakePrecompiledHeader>
-    <XmakeCFlags></XmakeCFlags>
+    <XmakeSourceDirs>
+    </XmakeSourceDirs>
+    <XmakePrecompiledHeader>
+      <!-- nil -->
+    </XmakePrecompiledHeader>
+    <XmakeCFlags>
+    </XmakeCFlags>
     <XmakeCXFlags>/MP /W3 /wd4005 /wd4251 /wd4068 /Zc:inline /Zc:strictStrings /Zc:preprocessor</XmakeCXFlags>
     <XmakeCXXFlags>/utf-8 /Zc:preprocessor /permissive- /Zc:lambda</XmakeCXXFlags>
   </PropertyGroup>
@@ -242,21 +327,35 @@ xmake version 2.9.6+master.5aebd42c0
     <XmakeArch>x64</XmakeArch>
     <XmakeKind>shared</XmakeKind>
     <XmakeDefault>true</XmakeDefault>
-    <XmakeDefines>_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR=1;FNAME_ALIGN8;UE_GAME;UE_BUILD_TEST;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;UNICODE;_UNICODE;UE4SS_LIB_VERSION_MAJOR=3;UE4SS_LIB_VERSION_MINOR=0;UE4SS_LIB_VERSION_HOTFIX=1;UE4SS_LIB_VERSION_PRERELEASE=0;UE4SS_LIB_VERSION_BETA=0;UE4SS_LIB_BETA_STARTED=1;UE4SS_LIB_IS_BETA=1;UE4SS_LIB_BUILD_GITSHA=&quot;8f077f6&quot;;UE4SS_CONFIGURATION=&quot;LessEqual421__Test__Win64&quot;;GLFW_INCLUDE_NONE;ZYDIS_STATIC_BUILD;ZYCORE_STATIC_BUILD;IS_TRACY=1;IS_SUPERLUMINAL=0</XmakeDefines>
+    <XmakeDefines>_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR=1;FNAME_ALIGN8;UE_GAME;UE_BUILD_TEST;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;UNICODE;_UNICODE;UE4SS_LIB_VERSION_MAJOR=3;UE4SS_LIB_VERSION_MINOR=0;UE4SS_LIB_VERSION_HOTFIX=1;UE4SS_LIB_VERSION_PRERELEASE=0;UE4SS_LIB_VERSION_BETA=0;UE4SS_LIB_BETA_STARTED=1;UE4SS_LIB_IS_BETA=1;UE4SS_LIB_BUILD_GITSHA="8f077f6";UE4SS_CONFIGURATION="LessEqual421__Test__Win64";GLFW_INCLUDE_NONE;ZYDIS_STATIC_BUILD;ZYCORE_STATIC_BUILD;IS_TRACY=1;IS_SUPERLUMINAL=0</XmakeDefines>
     <XmakeLanguages>cxx23</XmakeLanguages>
     <XmakeSubSystem>console</XmakeSubSystem>
-    <XmakeCudaVersion><!-- nil --></XmakeCudaVersion>
-    <XmakeWindowsSdkVersion><!-- nil --></XmakeWindowsSdkVersion>
-    <XmakeMfcKind><!-- nil --></XmakeMfcKind>
+    <XmakeCudaVersion>
+      <!-- nil -->
+    </XmakeCudaVersion>
+    <XmakeWindowsSdkVersion>
+      <!-- nil -->
+    </XmakeWindowsSdkVersion>
+    <XmakeMfcKind>
+      <!-- nil -->
+    </XmakeMfcKind>
     <XmakeRunEnvs>PATH=C:\Users\Flori\AppData\Local\.xmake\packages\c\cmake\3.30.2\2b80cef30074424181b5e19a46ef30fc\bin;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\d59f6dd71e7647cc95d2c1d35e51a39a\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\HostX64\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\VCPackages;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\bin\Roslyn;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\FSharp\Tools;C:\Program Files\Microsoft Visual Studio\2022\Community\Team Tools\DiagnosticsHub\Collector;C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64;C:\Program Files (x86)\Windows Kits\10\bin\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\libnvvp;C:\Program Files\Oculus\Support\oculus-runtime;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\Nsight Compute 2024.1.1;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit;C:\Users\Flori\.cargo\bin;C:\Users\Flori\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\Flori\AppData\Local\Programs\Python\Python310;C:\Users\Flori\AppData\Local\Microsoft\WindowsApps;C:\Users\Flori\.dotnet\tools;C:\Users\Flori\AppData\Local\GitHubDesktop\bin;C:\Users\Flori\xmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\Linux\bin\ConnectionManagerExe;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\vcpkg;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\d10701989a2d47cdb1b5fc555ef9e281\lib;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\2eeacf73125546e1ae5a2a161567d6e6\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\0d628bf0862642d6bfd12a460e4d571a\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\597400a2515a48799d0d4afb60f6c5f7\lib;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\3c332be551f6485e8d17e1830ee49789\lib;$(XmakeProjectDir)\Binaries\LessEqual421__Test__Win64\UE4SS;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\d59f6dd71e7647cc95d2c1d35e51a39a\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\4c3e42adc03e4ecf98d4c3fd38dae708\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\abfe1ea4ece04143b46bca0514660389\lib;$([System.Environment]::GetEnvironmentVariable('PATH'))</XmakeRunEnvs>
-    <XmakeRunArgs><!-- nil --></XmakeRunArgs>
-    <XmakeConfigFlags></XmakeConfigFlags>
+    <XmakeRunArgs>
+      <!-- nil -->
+    </XmakeRunArgs>
+    <XmakeConfigFlags>
+    </XmakeConfigFlags>
     <XmakeIncludeDirs>$(XmakeProjectDir)\Behemoth_bhaptics;$(XmakeProjectDir)\RE-UE4SS\UE4SS\include;$(XmakeProjectDir)\RE-UE4SS\UE4SS\generated_include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\generated_include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include\Unreal;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include\Unreal\Core;$(XmakeProjectDir)\RE-UE4SS\deps\first\ASMHelper\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\DynamicOutput\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\SinglePassSigScanner\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\LuaMadeSimple\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\LuaRaw\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Function\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\IniParser\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\JSON\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\ParserBase\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\File\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Input\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Constructs\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Helpers\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\String\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\MProgram\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\ScopedTimer\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Profiler\include;$(XmakeProjectDir)\RE-UE4SS\deps\third\glad\include;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\2eeacf73125546e1ae5a2a161567d6e6\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\include\imgui;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\include\backends;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\include\misc\cpp;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\d59f6dd71e7647cc95d2c1d35e51a39a\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\4c3e42adc03e4ecf98d4c3fd38dae708\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\include\imgui;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\include\backends;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\include\misc\cpp;C:\Users\Flori\AppData\Local\.xmake\packages\i\iconfontcppheaders\v1.0\2954fa4ab1e34272ba3110a0835e0beb\include;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\abfe1ea4ece04143b46bca0514660389\include;C:\Users\Flori\AppData\Local\.xmake\packages\g\glaze\v2.9.5\fc3dece1b790476da4bffc6ca0de5430\include;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\3c332be551f6485e8d17e1830ee49789\include;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\0d628bf0862642d6bfd12a460e4d571a\include;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\597400a2515a48799d0d4afb60f6c5f7\include;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\d10701989a2d47cdb1b5fc555ef9e281\include</XmakeIncludeDirs>
-    <XmakeForceIncludes></XmakeForceIncludes>
+    <XmakeForceIncludes>
+    </XmakeForceIncludes>
     <XmakeLinkDirs>$(XmakeProjectDir)\Binaries\LessEqual421__Test__Win64\UE4SS;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\2eeacf73125546e1ae5a2a161567d6e6\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\d59f6dd71e7647cc95d2c1d35e51a39a\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\4c3e42adc03e4ecf98d4c3fd38dae708\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\abfe1ea4ece04143b46bca0514660389\lib;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\3c332be551f6485e8d17e1830ee49789\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\0d628bf0862642d6bfd12a460e4d571a\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\597400a2515a48799d0d4afb60f6c5f7\lib;$(XmakeProjectDir)\Binaries\LessEqual421__Test__Win64\Unreal;$(XmakeProjectDir)\Binaries\LessEqual421__Test__Win64\ASMHelper;$(XmakeProjectDir)\Binaries\LessEqual421__Test__Win64\DynamicOutput;$(XmakeProjectDir)\Binaries\LessEqual421__Test__Win64\SinglePassSigScanner;$(XmakeProjectDir)\Binaries\LessEqual421__Test__Win64\LuaMadeSimple;$(XmakeProjectDir)\Binaries\LessEqual421__Test__Win64\LuaRaw;$(XmakeProjectDir)\Binaries\LessEqual421__Test__Win64\IniParser;$(XmakeProjectDir)\Binaries\LessEqual421__Test__Win64\JSON;$(XmakeProjectDir)\Binaries\LessEqual421__Test__Win64\ParserBase;$(XmakeProjectDir)\Binaries\LessEqual421__Test__Win64\File;$(XmakeProjectDir)\Binaries\LessEqual421__Test__Win64\Input;$(XmakeProjectDir)\Binaries\LessEqual421__Test__Win64\Helpers;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\d10701989a2d47cdb1b5fc555ef9e281\lib;$(XmakeProjectDir)\Binaries\LessEqual421__Test__Win64\patternsleuth_bind;$(XmakeProjectDir)\Binaries\LessEqual421__Test__Win64\glad</XmakeLinkDirs>
-    <XmakeSourceDirs></XmakeSourceDirs>
-    <XmakePrecompiledHeader><!-- nil --></XmakePrecompiledHeader>
-    <XmakeCFlags></XmakeCFlags>
+    <XmakeSourceDirs>
+    </XmakeSourceDirs>
+    <XmakePrecompiledHeader>
+      <!-- nil -->
+    </XmakePrecompiledHeader>
+    <XmakeCFlags>
+    </XmakeCFlags>
     <XmakeCXFlags>/MP /W3 /wd4005 /wd4251 /wd4068 /Zc:inline /Zc:strictStrings /Zc:preprocessor</XmakeCXFlags>
     <XmakeCXXFlags>/utf-8 /Zc:preprocessor /permissive- /Zc:lambda</XmakeCXXFlags>
   </PropertyGroup>
@@ -268,21 +367,35 @@ xmake version 2.9.6+master.5aebd42c0
     <XmakeArch>x64</XmakeArch>
     <XmakeKind>shared</XmakeKind>
     <XmakeDefault>true</XmakeDefault>
-    <XmakeDefines>_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR=1;UE_GAME;UE_BUILD_DEBUG;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;UNICODE;_UNICODE;UE4SS_LIB_VERSION_MAJOR=3;UE4SS_LIB_VERSION_MINOR=0;UE4SS_LIB_VERSION_HOTFIX=1;UE4SS_LIB_VERSION_PRERELEASE=0;UE4SS_LIB_VERSION_BETA=0;UE4SS_LIB_BETA_STARTED=1;UE4SS_LIB_IS_BETA=1;UE4SS_LIB_BUILD_GITSHA=&quot;8f077f6&quot;;UE4SS_CONFIGURATION=&quot;Game__Debug__Win64&quot;;GLFW_INCLUDE_NONE;ZYDIS_STATIC_BUILD;ZYCORE_STATIC_BUILD;IS_TRACY=1;IS_SUPERLUMINAL=0</XmakeDefines>
+    <XmakeDefines>_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR=1;UE_GAME;UE_BUILD_DEBUG;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;UNICODE;_UNICODE;UE4SS_LIB_VERSION_MAJOR=3;UE4SS_LIB_VERSION_MINOR=0;UE4SS_LIB_VERSION_HOTFIX=1;UE4SS_LIB_VERSION_PRERELEASE=0;UE4SS_LIB_VERSION_BETA=0;UE4SS_LIB_BETA_STARTED=1;UE4SS_LIB_IS_BETA=1;UE4SS_LIB_BUILD_GITSHA="8f077f6";UE4SS_CONFIGURATION="Game__Debug__Win64";GLFW_INCLUDE_NONE;ZYDIS_STATIC_BUILD;ZYCORE_STATIC_BUILD;IS_TRACY=1;IS_SUPERLUMINAL=0</XmakeDefines>
     <XmakeLanguages>cxx23</XmakeLanguages>
     <XmakeSubSystem>console</XmakeSubSystem>
-    <XmakeCudaVersion><!-- nil --></XmakeCudaVersion>
-    <XmakeWindowsSdkVersion><!-- nil --></XmakeWindowsSdkVersion>
-    <XmakeMfcKind><!-- nil --></XmakeMfcKind>
+    <XmakeCudaVersion>
+      <!-- nil -->
+    </XmakeCudaVersion>
+    <XmakeWindowsSdkVersion>
+      <!-- nil -->
+    </XmakeWindowsSdkVersion>
+    <XmakeMfcKind>
+      <!-- nil -->
+    </XmakeMfcKind>
     <XmakeRunEnvs>PATH=C:\Users\Flori\AppData\Local\.xmake\packages\c\cmake\3.30.2\2b80cef30074424181b5e19a46ef30fc\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\HostX64\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\VCPackages;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\bin\Roslyn;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\FSharp\Tools;C:\Program Files\Microsoft Visual Studio\2022\Community\Team Tools\DiagnosticsHub\Collector;C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64;C:\Program Files (x86)\Windows Kits\10\bin\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\libnvvp;C:\Program Files\Oculus\Support\oculus-runtime;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\Nsight Compute 2024.1.1;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit;C:\Users\Flori\.cargo\bin;C:\Users\Flori\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\Flori\AppData\Local\Programs\Python\Python310;C:\Users\Flori\AppData\Local\Microsoft\WindowsApps;C:\Users\Flori\.dotnet\tools;C:\Users\Flori\AppData\Local\GitHubDesktop\bin;C:\Users\Flori\xmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\Linux\bin\ConnectionManagerExe;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\vcpkg;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\4e7cdbbaec04488eadc5a50a1ead8000\lib;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\da86e8e8bbda406fbd81493e831dfb83\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\0326f53953ca44829e2e908a812b0026\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\79a61ff95e1244efb05f36744b2c116f\lib;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\694b58f2ef38459bb962315096367668\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\3f556a5364774ac68fc55c4087b14666\lib;$(XmakeProjectDir)\Binaries\Game__Debug__Win64\UE4SS;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\249310043d2640f09e5454357e7de716\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\fc0d7c5633c04ff880db1f927ebe5daf\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\af85ab9dbc1b4c9693ac313f41fb3cec\lib;$([System.Environment]::GetEnvironmentVariable('PATH'))</XmakeRunEnvs>
-    <XmakeRunArgs><!-- nil --></XmakeRunArgs>
-    <XmakeConfigFlags></XmakeConfigFlags>
+    <XmakeRunArgs>
+      <!-- nil -->
+    </XmakeRunArgs>
+    <XmakeConfigFlags>
+    </XmakeConfigFlags>
     <XmakeIncludeDirs>$(XmakeProjectDir)\Behemoth_bhaptics;$(XmakeProjectDir)\RE-UE4SS\UE4SS\include;$(XmakeProjectDir)\RE-UE4SS\UE4SS\generated_include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\generated_include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include\Unreal;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include\Unreal\Core;$(XmakeProjectDir)\RE-UE4SS\deps\first\ASMHelper\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\DynamicOutput\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\SinglePassSigScanner\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\LuaMadeSimple\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\LuaRaw\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Function\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\IniParser\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\JSON\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\ParserBase\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\File\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Input\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Constructs\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Helpers\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\String\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\MProgram\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\ScopedTimer\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Profiler\include;$(XmakeProjectDir)\RE-UE4SS\deps\third\glad\include;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\da86e8e8bbda406fbd81493e831dfb83\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\include\imgui;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\include\backends;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\include\misc\cpp;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\249310043d2640f09e5454357e7de716\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\fc0d7c5633c04ff880db1f927ebe5daf\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\include\imgui;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\include\backends;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\include\misc\cpp;C:\Users\Flori\AppData\Local\.xmake\packages\i\iconfontcppheaders\v1.0\cdb05c67e0f9401c8608e7fb412191db\include;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\af85ab9dbc1b4c9693ac313f41fb3cec\include;C:\Users\Flori\AppData\Local\.xmake\packages\g\glaze\v2.9.5\f7a54d37d6b64c0c878a5707ee202b36\include;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\694b58f2ef38459bb962315096367668\include;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\3f556a5364774ac68fc55c4087b14666\include;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\79a61ff95e1244efb05f36744b2c116f\include;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\4e7cdbbaec04488eadc5a50a1ead8000\include</XmakeIncludeDirs>
-    <XmakeForceIncludes></XmakeForceIncludes>
+    <XmakeForceIncludes>
+    </XmakeForceIncludes>
     <XmakeLinkDirs>$(XmakeProjectDir)\Binaries\Game__Debug__Win64\UE4SS;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\da86e8e8bbda406fbd81493e831dfb83\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\249310043d2640f09e5454357e7de716\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\fc0d7c5633c04ff880db1f927ebe5daf\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\af85ab9dbc1b4c9693ac313f41fb3cec\lib;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\694b58f2ef38459bb962315096367668\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\3f556a5364774ac68fc55c4087b14666\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\79a61ff95e1244efb05f36744b2c116f\lib;$(XmakeProjectDir)\Binaries\Game__Debug__Win64\Unreal;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\0326f53953ca44829e2e908a812b0026\lib;$(XmakeProjectDir)\Binaries\Game__Debug__Win64\ASMHelper;$(XmakeProjectDir)\Binaries\Game__Debug__Win64\DynamicOutput;$(XmakeProjectDir)\Binaries\Game__Debug__Win64\SinglePassSigScanner;$(XmakeProjectDir)\Binaries\Game__Debug__Win64\LuaMadeSimple;$(XmakeProjectDir)\Binaries\Game__Debug__Win64\LuaRaw;$(XmakeProjectDir)\Binaries\Game__Debug__Win64\IniParser;$(XmakeProjectDir)\Binaries\Game__Debug__Win64\JSON;$(XmakeProjectDir)\Binaries\Game__Debug__Win64\ParserBase;$(XmakeProjectDir)\Binaries\Game__Debug__Win64\File;$(XmakeProjectDir)\Binaries\Game__Debug__Win64\Input;$(XmakeProjectDir)\Binaries\Game__Debug__Win64\Helpers;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\4e7cdbbaec04488eadc5a50a1ead8000\lib;$(XmakeProjectDir)\Binaries\Game__Debug__Win64\patternsleuth_bind;$(XmakeProjectDir)\Binaries\Game__Debug__Win64\glad</XmakeLinkDirs>
-    <XmakeSourceDirs></XmakeSourceDirs>
-    <XmakePrecompiledHeader><!-- nil --></XmakePrecompiledHeader>
-    <XmakeCFlags></XmakeCFlags>
+    <XmakeSourceDirs>
+    </XmakeSourceDirs>
+    <XmakePrecompiledHeader>
+      <!-- nil -->
+    </XmakePrecompiledHeader>
+    <XmakeCFlags>
+    </XmakeCFlags>
     <XmakeCXFlags>/MP /W3 /wd4005 /wd4251 /wd4068 /Zc:inline /Zc:strictStrings /Zc:preprocessor</XmakeCXFlags>
     <XmakeCXXFlags>/utf-8 /Zc:preprocessor /permissive- /Zc:lambda</XmakeCXXFlags>
   </PropertyGroup>
@@ -294,21 +407,35 @@ xmake version 2.9.6+master.5aebd42c0
     <XmakeArch>x64</XmakeArch>
     <XmakeKind>shared</XmakeKind>
     <XmakeDefault>true</XmakeDefault>
-    <XmakeDefines>_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR=1;UE_GAME;UE_BUILD_DEVELOPMENT;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;UNICODE;_UNICODE;UE4SS_LIB_VERSION_MAJOR=3;UE4SS_LIB_VERSION_MINOR=0;UE4SS_LIB_VERSION_HOTFIX=1;UE4SS_LIB_VERSION_PRERELEASE=0;UE4SS_LIB_VERSION_BETA=0;UE4SS_LIB_BETA_STARTED=1;UE4SS_LIB_IS_BETA=1;UE4SS_LIB_BUILD_GITSHA=&quot;8f077f6&quot;;UE4SS_CONFIGURATION=&quot;Game__Dev__Win64&quot;;GLFW_INCLUDE_NONE;ZYDIS_STATIC_BUILD;ZYCORE_STATIC_BUILD;IS_TRACY=1;IS_SUPERLUMINAL=0</XmakeDefines>
+    <XmakeDefines>_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR=1;UE_GAME;UE_BUILD_DEVELOPMENT;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;UNICODE;_UNICODE;UE4SS_LIB_VERSION_MAJOR=3;UE4SS_LIB_VERSION_MINOR=0;UE4SS_LIB_VERSION_HOTFIX=1;UE4SS_LIB_VERSION_PRERELEASE=0;UE4SS_LIB_VERSION_BETA=0;UE4SS_LIB_BETA_STARTED=1;UE4SS_LIB_IS_BETA=1;UE4SS_LIB_BUILD_GITSHA="8f077f6";UE4SS_CONFIGURATION="Game__Dev__Win64";GLFW_INCLUDE_NONE;ZYDIS_STATIC_BUILD;ZYCORE_STATIC_BUILD;IS_TRACY=1;IS_SUPERLUMINAL=0</XmakeDefines>
     <XmakeLanguages>cxx23</XmakeLanguages>
     <XmakeSubSystem>console</XmakeSubSystem>
-    <XmakeCudaVersion><!-- nil --></XmakeCudaVersion>
-    <XmakeWindowsSdkVersion><!-- nil --></XmakeWindowsSdkVersion>
-    <XmakeMfcKind><!-- nil --></XmakeMfcKind>
+    <XmakeCudaVersion>
+      <!-- nil -->
+    </XmakeCudaVersion>
+    <XmakeWindowsSdkVersion>
+      <!-- nil -->
+    </XmakeWindowsSdkVersion>
+    <XmakeMfcKind>
+      <!-- nil -->
+    </XmakeMfcKind>
     <XmakeRunEnvs>PATH=C:\Users\Flori\AppData\Local\.xmake\packages\c\cmake\3.30.2\2b80cef30074424181b5e19a46ef30fc\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\HostX64\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\VCPackages;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\bin\Roslyn;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\FSharp\Tools;C:\Program Files\Microsoft Visual Studio\2022\Community\Team Tools\DiagnosticsHub\Collector;C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64;C:\Program Files (x86)\Windows Kits\10\bin\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\libnvvp;C:\Program Files\Oculus\Support\oculus-runtime;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\Nsight Compute 2024.1.1;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit;C:\Users\Flori\.cargo\bin;C:\Users\Flori\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\Flori\AppData\Local\Programs\Python\Python310;C:\Users\Flori\AppData\Local\Microsoft\WindowsApps;C:\Users\Flori\.dotnet\tools;C:\Users\Flori\AppData\Local\GitHubDesktop\bin;C:\Users\Flori\xmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\Linux\bin\ConnectionManagerExe;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\vcpkg;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\4e7cdbbaec04488eadc5a50a1ead8000\lib;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\da86e8e8bbda406fbd81493e831dfb83\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\0326f53953ca44829e2e908a812b0026\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\79a61ff95e1244efb05f36744b2c116f\lib;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\694b58f2ef38459bb962315096367668\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\3f556a5364774ac68fc55c4087b14666\lib;$(XmakeProjectDir)\Binaries\Game__Dev__Win64\UE4SS;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\249310043d2640f09e5454357e7de716\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\fc0d7c5633c04ff880db1f927ebe5daf\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\af85ab9dbc1b4c9693ac313f41fb3cec\lib;$([System.Environment]::GetEnvironmentVariable('PATH'))</XmakeRunEnvs>
-    <XmakeRunArgs><!-- nil --></XmakeRunArgs>
-    <XmakeConfigFlags></XmakeConfigFlags>
+    <XmakeRunArgs>
+      <!-- nil -->
+    </XmakeRunArgs>
+    <XmakeConfigFlags>
+    </XmakeConfigFlags>
     <XmakeIncludeDirs>$(XmakeProjectDir)\Behemoth_bhaptics;$(XmakeProjectDir)\RE-UE4SS\UE4SS\include;$(XmakeProjectDir)\RE-UE4SS\UE4SS\generated_include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\generated_include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include\Unreal;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include\Unreal\Core;$(XmakeProjectDir)\RE-UE4SS\deps\first\ASMHelper\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\DynamicOutput\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\SinglePassSigScanner\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\LuaMadeSimple\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\LuaRaw\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Function\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\IniParser\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\JSON\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\ParserBase\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\File\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Input\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Constructs\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Helpers\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\String\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\MProgram\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\ScopedTimer\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Profiler\include;$(XmakeProjectDir)\RE-UE4SS\deps\third\glad\include;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\da86e8e8bbda406fbd81493e831dfb83\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\include\imgui;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\include\backends;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\include\misc\cpp;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\249310043d2640f09e5454357e7de716\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\fc0d7c5633c04ff880db1f927ebe5daf\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\include\imgui;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\include\backends;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\include\misc\cpp;C:\Users\Flori\AppData\Local\.xmake\packages\i\iconfontcppheaders\v1.0\cdb05c67e0f9401c8608e7fb412191db\include;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\af85ab9dbc1b4c9693ac313f41fb3cec\include;C:\Users\Flori\AppData\Local\.xmake\packages\g\glaze\v2.9.5\f7a54d37d6b64c0c878a5707ee202b36\include;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\694b58f2ef38459bb962315096367668\include;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\3f556a5364774ac68fc55c4087b14666\include;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\79a61ff95e1244efb05f36744b2c116f\include;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\4e7cdbbaec04488eadc5a50a1ead8000\include</XmakeIncludeDirs>
-    <XmakeForceIncludes></XmakeForceIncludes>
+    <XmakeForceIncludes>
+    </XmakeForceIncludes>
     <XmakeLinkDirs>$(XmakeProjectDir)\Binaries\Game__Dev__Win64\UE4SS;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\da86e8e8bbda406fbd81493e831dfb83\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\6395980071f84de0badc9c118ffa9e54\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\249310043d2640f09e5454357e7de716\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\fc0d7c5633c04ff880db1f927ebe5daf\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\bed4408db9a340e1bfe7abc9d93158d8\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\af85ab9dbc1b4c9693ac313f41fb3cec\lib;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\694b58f2ef38459bb962315096367668\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\3f556a5364774ac68fc55c4087b14666\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\79a61ff95e1244efb05f36744b2c116f\lib;$(XmakeProjectDir)\Binaries\Game__Dev__Win64\Unreal;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\0326f53953ca44829e2e908a812b0026\lib;$(XmakeProjectDir)\Binaries\Game__Dev__Win64\ASMHelper;$(XmakeProjectDir)\Binaries\Game__Dev__Win64\DynamicOutput;$(XmakeProjectDir)\Binaries\Game__Dev__Win64\SinglePassSigScanner;$(XmakeProjectDir)\Binaries\Game__Dev__Win64\LuaMadeSimple;$(XmakeProjectDir)\Binaries\Game__Dev__Win64\LuaRaw;$(XmakeProjectDir)\Binaries\Game__Dev__Win64\IniParser;$(XmakeProjectDir)\Binaries\Game__Dev__Win64\JSON;$(XmakeProjectDir)\Binaries\Game__Dev__Win64\ParserBase;$(XmakeProjectDir)\Binaries\Game__Dev__Win64\File;$(XmakeProjectDir)\Binaries\Game__Dev__Win64\Input;$(XmakeProjectDir)\Binaries\Game__Dev__Win64\Helpers;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\4e7cdbbaec04488eadc5a50a1ead8000\lib;$(XmakeProjectDir)\Binaries\Game__Dev__Win64\patternsleuth_bind;$(XmakeProjectDir)\Binaries\Game__Dev__Win64\glad</XmakeLinkDirs>
-    <XmakeSourceDirs></XmakeSourceDirs>
-    <XmakePrecompiledHeader><!-- nil --></XmakePrecompiledHeader>
-    <XmakeCFlags></XmakeCFlags>
+    <XmakeSourceDirs>
+    </XmakeSourceDirs>
+    <XmakePrecompiledHeader>
+      <!-- nil -->
+    </XmakePrecompiledHeader>
+    <XmakeCFlags>
+    </XmakeCFlags>
     <XmakeCXFlags>/MP /W3 /wd4005 /wd4251 /wd4068 /Zc:inline /Zc:strictStrings /Zc:preprocessor</XmakeCXFlags>
     <XmakeCXXFlags>/utf-8 /Zc:preprocessor /permissive- /Zc:lambda</XmakeCXXFlags>
   </PropertyGroup>
@@ -320,21 +447,35 @@ xmake version 2.9.6+master.5aebd42c0
     <XmakeArch>x64</XmakeArch>
     <XmakeKind>shared</XmakeKind>
     <XmakeDefault>true</XmakeDefault>
-    <XmakeDefines>_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR=1;UE_GAME;UE_BUILD_SHIPPING;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;UNICODE;_UNICODE;UE4SS_LIB_VERSION_MAJOR=3;UE4SS_LIB_VERSION_MINOR=0;UE4SS_LIB_VERSION_HOTFIX=1;UE4SS_LIB_VERSION_PRERELEASE=0;UE4SS_LIB_VERSION_BETA=0;UE4SS_LIB_BETA_STARTED=1;UE4SS_LIB_IS_BETA=1;UE4SS_LIB_BUILD_GITSHA=&quot;8f077f6&quot;;UE4SS_CONFIGURATION=&quot;Game__Shipping__Win64&quot;;GLFW_INCLUDE_NONE;ZYDIS_STATIC_BUILD;ZYCORE_STATIC_BUILD;IS_TRACY=1;IS_SUPERLUMINAL=0</XmakeDefines>
+    <XmakeDefines>_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR=1;UE_GAME;UE_BUILD_SHIPPING;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;UNICODE;_UNICODE;UE4SS_LIB_VERSION_MAJOR=3;UE4SS_LIB_VERSION_MINOR=0;UE4SS_LIB_VERSION_HOTFIX=1;UE4SS_LIB_VERSION_PRERELEASE=0;UE4SS_LIB_VERSION_BETA=0;UE4SS_LIB_BETA_STARTED=1;UE4SS_LIB_IS_BETA=1;UE4SS_LIB_BUILD_GITSHA="8f077f6";UE4SS_CONFIGURATION="Game__Shipping__Win64";GLFW_INCLUDE_NONE;ZYDIS_STATIC_BUILD;ZYCORE_STATIC_BUILD;IS_TRACY=1;IS_SUPERLUMINAL=0</XmakeDefines>
     <XmakeLanguages>cxx23</XmakeLanguages>
     <XmakeSubSystem>console</XmakeSubSystem>
-    <XmakeCudaVersion><!-- nil --></XmakeCudaVersion>
-    <XmakeWindowsSdkVersion><!-- nil --></XmakeWindowsSdkVersion>
-    <XmakeMfcKind><!-- nil --></XmakeMfcKind>
+    <XmakeCudaVersion>
+      <!-- nil -->
+    </XmakeCudaVersion>
+    <XmakeWindowsSdkVersion>
+      <!-- nil -->
+    </XmakeWindowsSdkVersion>
+    <XmakeMfcKind>
+      <!-- nil -->
+    </XmakeMfcKind>
     <XmakeRunEnvs>PATH=C:\Users\Flori\AppData\Local\.xmake\packages\c\cmake\3.30.2\2b80cef30074424181b5e19a46ef30fc\bin;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\d59f6dd71e7647cc95d2c1d35e51a39a\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\HostX64\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\VCPackages;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\bin\Roslyn;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\FSharp\Tools;C:\Program Files\Microsoft Visual Studio\2022\Community\Team Tools\DiagnosticsHub\Collector;C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64;C:\Program Files (x86)\Windows Kits\10\bin\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\libnvvp;C:\Program Files\Oculus\Support\oculus-runtime;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\Nsight Compute 2024.1.1;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit;C:\Users\Flori\.cargo\bin;C:\Users\Flori\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\Flori\AppData\Local\Programs\Python\Python310;C:\Users\Flori\AppData\Local\Microsoft\WindowsApps;C:\Users\Flori\.dotnet\tools;C:\Users\Flori\AppData\Local\GitHubDesktop\bin;C:\Users\Flori\xmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\Linux\bin\ConnectionManagerExe;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\vcpkg;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\d10701989a2d47cdb1b5fc555ef9e281\lib;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\2eeacf73125546e1ae5a2a161567d6e6\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\0d628bf0862642d6bfd12a460e4d571a\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\597400a2515a48799d0d4afb60f6c5f7\lib;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\3c332be551f6485e8d17e1830ee49789\lib;$(XmakeProjectDir)\Binaries\Game__Shipping__Win64\UE4SS;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\d59f6dd71e7647cc95d2c1d35e51a39a\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\4c3e42adc03e4ecf98d4c3fd38dae708\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\abfe1ea4ece04143b46bca0514660389\lib;$([System.Environment]::GetEnvironmentVariable('PATH'))</XmakeRunEnvs>
-    <XmakeRunArgs><!-- nil --></XmakeRunArgs>
-    <XmakeConfigFlags></XmakeConfigFlags>
+    <XmakeRunArgs>
+      <!-- nil -->
+    </XmakeRunArgs>
+    <XmakeConfigFlags>
+    </XmakeConfigFlags>
     <XmakeIncludeDirs>$(XmakeProjectDir)\Behemoth_bhaptics;$(XmakeProjectDir)\RE-UE4SS\UE4SS\include;$(XmakeProjectDir)\RE-UE4SS\UE4SS\generated_include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\generated_include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include\Unreal;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include\Unreal\Core;$(XmakeProjectDir)\RE-UE4SS\deps\first\ASMHelper\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\DynamicOutput\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\SinglePassSigScanner\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\LuaMadeSimple\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\LuaRaw\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Function\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\IniParser\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\JSON\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\ParserBase\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\File\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Input\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Constructs\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Helpers\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\String\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\MProgram\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\ScopedTimer\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Profiler\include;$(XmakeProjectDir)\RE-UE4SS\deps\third\glad\include;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\2eeacf73125546e1ae5a2a161567d6e6\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\include\imgui;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\include\backends;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\include\misc\cpp;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\d59f6dd71e7647cc95d2c1d35e51a39a\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\4c3e42adc03e4ecf98d4c3fd38dae708\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\include\imgui;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\include\backends;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\include\misc\cpp;C:\Users\Flori\AppData\Local\.xmake\packages\i\iconfontcppheaders\v1.0\2954fa4ab1e34272ba3110a0835e0beb\include;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\abfe1ea4ece04143b46bca0514660389\include;C:\Users\Flori\AppData\Local\.xmake\packages\g\glaze\v2.9.5\fc3dece1b790476da4bffc6ca0de5430\include;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\3c332be551f6485e8d17e1830ee49789\include;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\0d628bf0862642d6bfd12a460e4d571a\include;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\597400a2515a48799d0d4afb60f6c5f7\include;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\d10701989a2d47cdb1b5fc555ef9e281\include</XmakeIncludeDirs>
-    <XmakeForceIncludes></XmakeForceIncludes>
+    <XmakeForceIncludes>
+    </XmakeForceIncludes>
     <XmakeLinkDirs>$(XmakeProjectDir)\Binaries\Game__Shipping__Win64\UE4SS;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\2eeacf73125546e1ae5a2a161567d6e6\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\d59f6dd71e7647cc95d2c1d35e51a39a\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\4c3e42adc03e4ecf98d4c3fd38dae708\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\abfe1ea4ece04143b46bca0514660389\lib;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\3c332be551f6485e8d17e1830ee49789\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\0d628bf0862642d6bfd12a460e4d571a\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\597400a2515a48799d0d4afb60f6c5f7\lib;$(XmakeProjectDir)\Binaries\Game__Shipping__Win64\Unreal;$(XmakeProjectDir)\Binaries\Game__Shipping__Win64\ASMHelper;$(XmakeProjectDir)\Binaries\Game__Shipping__Win64\DynamicOutput;$(XmakeProjectDir)\Binaries\Game__Shipping__Win64\SinglePassSigScanner;$(XmakeProjectDir)\Binaries\Game__Shipping__Win64\LuaMadeSimple;$(XmakeProjectDir)\Binaries\Game__Shipping__Win64\LuaRaw;$(XmakeProjectDir)\Binaries\Game__Shipping__Win64\IniParser;$(XmakeProjectDir)\Binaries\Game__Shipping__Win64\JSON;$(XmakeProjectDir)\Binaries\Game__Shipping__Win64\ParserBase;$(XmakeProjectDir)\Binaries\Game__Shipping__Win64\File;$(XmakeProjectDir)\Binaries\Game__Shipping__Win64\Input;$(XmakeProjectDir)\Binaries\Game__Shipping__Win64\Helpers;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\d10701989a2d47cdb1b5fc555ef9e281\lib;$(XmakeProjectDir)\Binaries\Game__Shipping__Win64\patternsleuth_bind;$(XmakeProjectDir)\Binaries\Game__Shipping__Win64\glad</XmakeLinkDirs>
-    <XmakeSourceDirs></XmakeSourceDirs>
-    <XmakePrecompiledHeader><!-- nil --></XmakePrecompiledHeader>
-    <XmakeCFlags></XmakeCFlags>
+    <XmakeSourceDirs>
+    </XmakeSourceDirs>
+    <XmakePrecompiledHeader>
+      <!-- nil -->
+    </XmakePrecompiledHeader>
+    <XmakeCFlags>
+    </XmakeCFlags>
     <XmakeCXFlags>/MP /W3 /wd4005 /wd4251 /wd4068 /Zc:inline /Zc:strictStrings /Zc:preprocessor</XmakeCXFlags>
     <XmakeCXXFlags>/utf-8 /Zc:preprocessor /permissive- /Zc:lambda</XmakeCXXFlags>
   </PropertyGroup>
@@ -346,21 +487,35 @@ xmake version 2.9.6+master.5aebd42c0
     <XmakeArch>x64</XmakeArch>
     <XmakeKind>shared</XmakeKind>
     <XmakeDefault>true</XmakeDefault>
-    <XmakeDefines>_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR=1;UE_GAME;UE_BUILD_TEST;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;UNICODE;_UNICODE;UE4SS_LIB_VERSION_MAJOR=3;UE4SS_LIB_VERSION_MINOR=0;UE4SS_LIB_VERSION_HOTFIX=1;UE4SS_LIB_VERSION_PRERELEASE=0;UE4SS_LIB_VERSION_BETA=0;UE4SS_LIB_BETA_STARTED=1;UE4SS_LIB_IS_BETA=1;UE4SS_LIB_BUILD_GITSHA=&quot;8f077f6&quot;;UE4SS_CONFIGURATION=&quot;Game__Test__Win64&quot;;GLFW_INCLUDE_NONE;ZYDIS_STATIC_BUILD;ZYCORE_STATIC_BUILD;IS_TRACY=1;IS_SUPERLUMINAL=0</XmakeDefines>
+    <XmakeDefines>_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR=1;UE_GAME;UE_BUILD_TEST;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;UNICODE;_UNICODE;UE4SS_LIB_VERSION_MAJOR=3;UE4SS_LIB_VERSION_MINOR=0;UE4SS_LIB_VERSION_HOTFIX=1;UE4SS_LIB_VERSION_PRERELEASE=0;UE4SS_LIB_VERSION_BETA=0;UE4SS_LIB_BETA_STARTED=1;UE4SS_LIB_IS_BETA=1;UE4SS_LIB_BUILD_GITSHA="8f077f6";UE4SS_CONFIGURATION="Game__Test__Win64";GLFW_INCLUDE_NONE;ZYDIS_STATIC_BUILD;ZYCORE_STATIC_BUILD;IS_TRACY=1;IS_SUPERLUMINAL=0</XmakeDefines>
     <XmakeLanguages>cxx23</XmakeLanguages>
     <XmakeSubSystem>console</XmakeSubSystem>
-    <XmakeCudaVersion><!-- nil --></XmakeCudaVersion>
-    <XmakeWindowsSdkVersion><!-- nil --></XmakeWindowsSdkVersion>
-    <XmakeMfcKind><!-- nil --></XmakeMfcKind>
+    <XmakeCudaVersion>
+      <!-- nil -->
+    </XmakeCudaVersion>
+    <XmakeWindowsSdkVersion>
+      <!-- nil -->
+    </XmakeWindowsSdkVersion>
+    <XmakeMfcKind>
+      <!-- nil -->
+    </XmakeMfcKind>
     <XmakeRunEnvs>PATH=C:\Users\Flori\AppData\Local\.xmake\packages\c\cmake\3.30.2\2b80cef30074424181b5e19a46ef30fc\bin;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\d59f6dd71e7647cc95d2c1d35e51a39a\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\HostX64\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\VCPackages;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\bin\Roslyn;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\FSharp\Tools;C:\Program Files\Microsoft Visual Studio\2022\Community\Team Tools\DiagnosticsHub\Collector;C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64;C:\Program Files (x86)\Windows Kits\10\bin\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\libnvvp;C:\Program Files\Oculus\Support\oculus-runtime;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\Nsight Compute 2024.1.1;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit;C:\Users\Flori\.cargo\bin;C:\Users\Flori\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\Flori\AppData\Local\Programs\Python\Python310;C:\Users\Flori\AppData\Local\Microsoft\WindowsApps;C:\Users\Flori\.dotnet\tools;C:\Users\Flori\AppData\Local\GitHubDesktop\bin;C:\Users\Flori\xmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\Linux\bin\ConnectionManagerExe;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\vcpkg;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\d10701989a2d47cdb1b5fc555ef9e281\lib;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\2eeacf73125546e1ae5a2a161567d6e6\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\0d628bf0862642d6bfd12a460e4d571a\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\597400a2515a48799d0d4afb60f6c5f7\lib;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\3c332be551f6485e8d17e1830ee49789\lib;$(XmakeProjectDir)\Binaries\Game__Test__Win64\UE4SS;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\d59f6dd71e7647cc95d2c1d35e51a39a\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\4c3e42adc03e4ecf98d4c3fd38dae708\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\abfe1ea4ece04143b46bca0514660389\lib;$([System.Environment]::GetEnvironmentVariable('PATH'))</XmakeRunEnvs>
-    <XmakeRunArgs><!-- nil --></XmakeRunArgs>
-    <XmakeConfigFlags></XmakeConfigFlags>
+    <XmakeRunArgs>
+      <!-- nil -->
+    </XmakeRunArgs>
+    <XmakeConfigFlags>
+    </XmakeConfigFlags>
     <XmakeIncludeDirs>$(XmakeProjectDir)\Behemoth_bhaptics;$(XmakeProjectDir)\RE-UE4SS\UE4SS\include;$(XmakeProjectDir)\RE-UE4SS\UE4SS\generated_include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\generated_include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include\Unreal;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include\Unreal\Core;$(XmakeProjectDir)\RE-UE4SS\deps\first\ASMHelper\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\DynamicOutput\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\SinglePassSigScanner\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\LuaMadeSimple\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\LuaRaw\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Function\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\IniParser\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\JSON\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\ParserBase\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\File\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Input\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Constructs\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Helpers\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\String\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\MProgram\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\ScopedTimer\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Profiler\include;$(XmakeProjectDir)\RE-UE4SS\deps\third\glad\include;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\2eeacf73125546e1ae5a2a161567d6e6\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\include\imgui;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\include\backends;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\include\misc\cpp;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\d59f6dd71e7647cc95d2c1d35e51a39a\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\4c3e42adc03e4ecf98d4c3fd38dae708\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\include\imgui;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\include\backends;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\include\misc\cpp;C:\Users\Flori\AppData\Local\.xmake\packages\i\iconfontcppheaders\v1.0\2954fa4ab1e34272ba3110a0835e0beb\include;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\abfe1ea4ece04143b46bca0514660389\include;C:\Users\Flori\AppData\Local\.xmake\packages\g\glaze\v2.9.5\fc3dece1b790476da4bffc6ca0de5430\include;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\3c332be551f6485e8d17e1830ee49789\include;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\0d628bf0862642d6bfd12a460e4d571a\include;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\597400a2515a48799d0d4afb60f6c5f7\include;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\d10701989a2d47cdb1b5fc555ef9e281\include</XmakeIncludeDirs>
-    <XmakeForceIncludes></XmakeForceIncludes>
+    <XmakeForceIncludes>
+    </XmakeForceIncludes>
     <XmakeLinkDirs>$(XmakeProjectDir)\Binaries\Game__Test__Win64\UE4SS;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\2eeacf73125546e1ae5a2a161567d6e6\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\d59f6dd71e7647cc95d2c1d35e51a39a\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\4c3e42adc03e4ecf98d4c3fd38dae708\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\abfe1ea4ece04143b46bca0514660389\lib;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\3c332be551f6485e8d17e1830ee49789\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\0d628bf0862642d6bfd12a460e4d571a\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\597400a2515a48799d0d4afb60f6c5f7\lib;$(XmakeProjectDir)\Binaries\Game__Test__Win64\Unreal;$(XmakeProjectDir)\Binaries\Game__Test__Win64\ASMHelper;$(XmakeProjectDir)\Binaries\Game__Test__Win64\DynamicOutput;$(XmakeProjectDir)\Binaries\Game__Test__Win64\SinglePassSigScanner;$(XmakeProjectDir)\Binaries\Game__Test__Win64\LuaMadeSimple;$(XmakeProjectDir)\Binaries\Game__Test__Win64\LuaRaw;$(XmakeProjectDir)\Binaries\Game__Test__Win64\IniParser;$(XmakeProjectDir)\Binaries\Game__Test__Win64\JSON;$(XmakeProjectDir)\Binaries\Game__Test__Win64\ParserBase;$(XmakeProjectDir)\Binaries\Game__Test__Win64\File;$(XmakeProjectDir)\Binaries\Game__Test__Win64\Input;$(XmakeProjectDir)\Binaries\Game__Test__Win64\Helpers;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\d10701989a2d47cdb1b5fc555ef9e281\lib;$(XmakeProjectDir)\Binaries\Game__Test__Win64\patternsleuth_bind;$(XmakeProjectDir)\Binaries\Game__Test__Win64\glad</XmakeLinkDirs>
-    <XmakeSourceDirs></XmakeSourceDirs>
-    <XmakePrecompiledHeader><!-- nil --></XmakePrecompiledHeader>
-    <XmakeCFlags></XmakeCFlags>
+    <XmakeSourceDirs>
+    </XmakeSourceDirs>
+    <XmakePrecompiledHeader>
+      <!-- nil -->
+    </XmakePrecompiledHeader>
+    <XmakeCFlags>
+    </XmakeCFlags>
     <XmakeCXFlags>/MP /W3 /wd4005 /wd4251 /wd4068 /Zc:inline /Zc:strictStrings /Zc:preprocessor</XmakeCXFlags>
     <XmakeCXXFlags>/utf-8 /Zc:preprocessor /permissive- /Zc:lambda</XmakeCXXFlags>
   </PropertyGroup>
@@ -372,132 +527,174 @@ xmake version 2.9.6+master.5aebd42c0
     <XmakeArch>x64</XmakeArch>
     <XmakeKind>shared</XmakeKind>
     <XmakeDefault>true</XmakeDefault>
-    <XmakeDefines>_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR=1;FNAME_ALIGN8;UE_GAME;UE_BUILD_SHIPPING;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;UNICODE;_UNICODE;UE4SS_LIB_VERSION_MAJOR=3;UE4SS_LIB_VERSION_MINOR=0;UE4SS_LIB_VERSION_HOTFIX=1;UE4SS_LIB_VERSION_PRERELEASE=0;UE4SS_LIB_VERSION_BETA=0;UE4SS_LIB_BETA_STARTED=1;UE4SS_LIB_IS_BETA=1;UE4SS_LIB_BUILD_GITSHA=&quot;8f077f6&quot;;UE4SS_CONFIGURATION=&quot;LessEqual421__Shipping__Win64&quot;;GLFW_INCLUDE_NONE;ZYDIS_STATIC_BUILD;ZYCORE_STATIC_BUILD;IS_TRACY=1;IS_SUPERLUMINAL=0</XmakeDefines>
+    <XmakeDefines>_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR=1;FNAME_ALIGN8;UE_GAME;UE_BUILD_SHIPPING;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;UNICODE;_UNICODE;UE4SS_LIB_VERSION_MAJOR=3;UE4SS_LIB_VERSION_MINOR=0;UE4SS_LIB_VERSION_HOTFIX=1;UE4SS_LIB_VERSION_PRERELEASE=0;UE4SS_LIB_VERSION_BETA=0;UE4SS_LIB_BETA_STARTED=1;UE4SS_LIB_IS_BETA=1;UE4SS_LIB_BUILD_GITSHA="8f077f6";UE4SS_CONFIGURATION="LessEqual421__Shipping__Win64";GLFW_INCLUDE_NONE;ZYDIS_STATIC_BUILD;ZYCORE_STATIC_BUILD;IS_TRACY=1;IS_SUPERLUMINAL=0</XmakeDefines>
     <XmakeLanguages>cxx23</XmakeLanguages>
     <XmakeSubSystem>console</XmakeSubSystem>
-    <XmakeCudaVersion><!-- nil --></XmakeCudaVersion>
-    <XmakeWindowsSdkVersion><!-- nil --></XmakeWindowsSdkVersion>
-    <XmakeMfcKind><!-- nil --></XmakeMfcKind>
+    <XmakeCudaVersion>
+      <!-- nil -->
+    </XmakeCudaVersion>
+    <XmakeWindowsSdkVersion>
+      <!-- nil -->
+    </XmakeWindowsSdkVersion>
+    <XmakeMfcKind>
+      <!-- nil -->
+    </XmakeMfcKind>
     <XmakeRunEnvs>PATH=C:\Users\Flori\AppData\Local\.xmake\packages\c\cmake\3.30.2\2b80cef30074424181b5e19a46ef30fc\bin;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\d59f6dd71e7647cc95d2c1d35e51a39a\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\HostX64\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\VCPackages;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\bin\Roslyn;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\FSharp\Tools;C:\Program Files\Microsoft Visual Studio\2022\Community\Team Tools\DiagnosticsHub\Collector;C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64;C:\Program Files (x86)\Windows Kits\10\bin\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\libnvvp;C:\Program Files\Oculus\Support\oculus-runtime;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\Nsight Compute 2024.1.1;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit;C:\Users\Flori\.cargo\bin;C:\Users\Flori\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\Flori\AppData\Local\Programs\Python\Python310;C:\Users\Flori\AppData\Local\Microsoft\WindowsApps;C:\Users\Flori\.dotnet\tools;C:\Users\Flori\AppData\Local\GitHubDesktop\bin;C:\Users\Flori\xmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\Linux\bin\ConnectionManagerExe;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\vcpkg;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\d10701989a2d47cdb1b5fc555ef9e281\lib;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\2eeacf73125546e1ae5a2a161567d6e6\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\0d628bf0862642d6bfd12a460e4d571a\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\597400a2515a48799d0d4afb60f6c5f7\lib;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\3c332be551f6485e8d17e1830ee49789\lib;$(XmakeProjectDir)\Binaries\LessEqual421__Shipping__Win64\UE4SS;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\d59f6dd71e7647cc95d2c1d35e51a39a\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\4c3e42adc03e4ecf98d4c3fd38dae708\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\abfe1ea4ece04143b46bca0514660389\lib;$([System.Environment]::GetEnvironmentVariable('PATH'))</XmakeRunEnvs>
-    <XmakeRunArgs><!-- nil --></XmakeRunArgs>
-    <XmakeConfigFlags></XmakeConfigFlags>
+    <XmakeRunArgs>
+      <!-- nil -->
+    </XmakeRunArgs>
+    <XmakeConfigFlags>
+    </XmakeConfigFlags>
     <XmakeIncludeDirs>$(XmakeProjectDir)\Behemoth_bhaptics;$(XmakeProjectDir)\RE-UE4SS\UE4SS\include;$(XmakeProjectDir)\RE-UE4SS\UE4SS\generated_include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\generated_include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include\Unreal;$(XmakeProjectDir)\RE-UE4SS\deps\first\Unreal\include\Unreal\Core;$(XmakeProjectDir)\RE-UE4SS\deps\first\ASMHelper\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\DynamicOutput\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\SinglePassSigScanner\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\LuaMadeSimple\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\LuaRaw\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Function\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\IniParser\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\JSON\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\ParserBase\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\File\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Input\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Constructs\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Helpers\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\String\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\MProgram\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\ScopedTimer\include;$(XmakeProjectDir)\RE-UE4SS\deps\first\Profiler\include;$(XmakeProjectDir)\RE-UE4SS\deps\third\glad\include;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\2eeacf73125546e1ae5a2a161567d6e6\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\include\imgui;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\include\backends;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\include\misc\cpp;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\d59f6dd71e7647cc95d2c1d35e51a39a\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\4c3e42adc03e4ecf98d4c3fd38dae708\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\include;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\include\imgui;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\include\backends;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\include\misc\cpp;C:\Users\Flori\AppData\Local\.xmake\packages\i\iconfontcppheaders\v1.0\2954fa4ab1e34272ba3110a0835e0beb\include;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\abfe1ea4ece04143b46bca0514660389\include;C:\Users\Flori\AppData\Local\.xmake\packages\g\glaze\v2.9.5\fc3dece1b790476da4bffc6ca0de5430\include;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\3c332be551f6485e8d17e1830ee49789\include;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\0d628bf0862642d6bfd12a460e4d571a\include;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\597400a2515a48799d0d4afb60f6c5f7\include;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\d10701989a2d47cdb1b5fc555ef9e281\include</XmakeIncludeDirs>
-    <XmakeForceIncludes></XmakeForceIncludes>
+    <XmakeForceIncludes>
+    </XmakeForceIncludes>
     <XmakeLinkDirs>$(XmakeProjectDir)\Binaries\LessEqual421__Shipping__Win64\UE4SS;C:\Users\Flori\AppData\Local\.xmake\packages\f\fmt\10.2.1\2eeacf73125546e1ae5a2a161567d6e6\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\81fe3971818e487f8afd6a8bc7598105\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.4\d59f6dd71e7647cc95d2c1d35e51a39a\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imguitextedit\v1.0\4c3e42adc03e4ecf98d4c3fd38dae708\lib;C:\Users\Flori\AppData\Local\.xmake\packages\i\imgui\v1.89\a2edd7d015f940abac129f44594f4758\lib;C:\Users\Flori\AppData\Local\.xmake\packages\g\glfw\3.3.9\abfe1ea4ece04143b46bca0514660389\lib;$(XmakeProjectDir)\Intermediates\.packages\p\polyhook_2\latest\3c332be551f6485e8d17e1830ee49789\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zydis\v4.1.0\0d628bf0862642d6bfd12a460e4d571a\lib;C:\Users\Flori\AppData\Local\.xmake\packages\z\zycore\v1.5.0\597400a2515a48799d0d4afb60f6c5f7\lib;$(XmakeProjectDir)\Binaries\LessEqual421__Shipping__Win64\Unreal;$(XmakeProjectDir)\Binaries\LessEqual421__Shipping__Win64\ASMHelper;$(XmakeProjectDir)\Binaries\LessEqual421__Shipping__Win64\DynamicOutput;$(XmakeProjectDir)\Binaries\LessEqual421__Shipping__Win64\SinglePassSigScanner;$(XmakeProjectDir)\Binaries\LessEqual421__Shipping__Win64\LuaMadeSimple;$(XmakeProjectDir)\Binaries\LessEqual421__Shipping__Win64\LuaRaw;$(XmakeProjectDir)\Binaries\LessEqual421__Shipping__Win64\IniParser;$(XmakeProjectDir)\Binaries\LessEqual421__Shipping__Win64\JSON;$(XmakeProjectDir)\Binaries\LessEqual421__Shipping__Win64\ParserBase;$(XmakeProjectDir)\Binaries\LessEqual421__Shipping__Win64\File;$(XmakeProjectDir)\Binaries\LessEqual421__Shipping__Win64\Input;$(XmakeProjectDir)\Binaries\LessEqual421__Shipping__Win64\Helpers;C:\Users\Flori\AppData\Local\.xmake\packages\t\tracy\v0.10\d10701989a2d47cdb1b5fc555ef9e281\lib;$(XmakeProjectDir)\Binaries\LessEqual421__Shipping__Win64\patternsleuth_bind;$(XmakeProjectDir)\Binaries\LessEqual421__Shipping__Win64\glad</XmakeLinkDirs>
-    <XmakeSourceDirs></XmakeSourceDirs>
-    <XmakePrecompiledHeader><!-- nil --></XmakePrecompiledHeader>
-    <XmakeCFlags></XmakeCFlags>
+    <XmakeSourceDirs>
+    </XmakeSourceDirs>
+    <XmakePrecompiledHeader>
+      <!-- nil -->
+    </XmakePrecompiledHeader>
+    <XmakeCFlags>
+    </XmakeCFlags>
     <XmakeCXFlags>/MP /W3 /wd4005 /wd4251 /wd4068 /Zc:inline /Zc:strictStrings /Zc:preprocessor</XmakeCXFlags>
     <XmakeCXXFlags>/utf-8 /Zc:preprocessor /permissive- /Zc:lambda</XmakeCXXFlags>
   </PropertyGroup>
-
   <PropertyGroup Label="XmakePath" Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'">
     <XmakeBuilDir>$(XmakeProjectDir)\Intermediates</XmakeBuilDir>
-    <XmakeConfigDir></XmakeConfigDir>
-    <XmakeConfigFileDir></XmakeConfigFileDir>
+    <XmakeConfigDir>
+    </XmakeConfigDir>
+    <XmakeConfigFileDir>
+    </XmakeConfigFileDir>
     <XmakeTargetDir>$(XmakeProjectDir)\Binaries\CasePreserving__Dev__Win64\Behemoth_bhaptics</XmakeTargetDir>
-    <XmakeRunDir></XmakeRunDir>
+    <XmakeRunDir>
+    </XmakeRunDir>
   </PropertyGroup>
   <PropertyGroup Label="XmakePath" Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'">
     <XmakeBuilDir>$(XmakeProjectDir)\Intermediates</XmakeBuilDir>
-    <XmakeConfigDir></XmakeConfigDir>
-    <XmakeConfigFileDir></XmakeConfigFileDir>
+    <XmakeConfigDir>
+    </XmakeConfigDir>
+    <XmakeConfigFileDir>
+    </XmakeConfigFileDir>
     <XmakeTargetDir>$(XmakeProjectDir)\Binaries\CasePreserving__Shipping__Win64\Behemoth_bhaptics</XmakeTargetDir>
-    <XmakeRunDir></XmakeRunDir>
+    <XmakeRunDir>
+    </XmakeRunDir>
   </PropertyGroup>
   <PropertyGroup Label="XmakePath" Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'">
     <XmakeBuilDir>$(XmakeProjectDir)\Intermediates</XmakeBuilDir>
-    <XmakeConfigDir></XmakeConfigDir>
-    <XmakeConfigFileDir></XmakeConfigFileDir>
+    <XmakeConfigDir>
+    </XmakeConfigDir>
+    <XmakeConfigFileDir>
+    </XmakeConfigFileDir>
     <XmakeTargetDir>$(XmakeProjectDir)\Binaries\LessEqual421__Dev__Win64\Behemoth_bhaptics</XmakeTargetDir>
-    <XmakeRunDir></XmakeRunDir>
+    <XmakeRunDir>
+    </XmakeRunDir>
   </PropertyGroup>
   <PropertyGroup Label="XmakePath" Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'">
     <XmakeBuilDir>$(XmakeProjectDir)\Intermediates</XmakeBuilDir>
-    <XmakeConfigDir></XmakeConfigDir>
-    <XmakeConfigFileDir></XmakeConfigFileDir>
+    <XmakeConfigDir>
+    </XmakeConfigDir>
+    <XmakeConfigFileDir>
+    </XmakeConfigFileDir>
     <XmakeTargetDir>$(XmakeProjectDir)\Binaries\LessEqual421__Debug__Win64\Behemoth_bhaptics</XmakeTargetDir>
-    <XmakeRunDir></XmakeRunDir>
+    <XmakeRunDir>
+    </XmakeRunDir>
   </PropertyGroup>
   <PropertyGroup Label="XmakePath" Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'">
     <XmakeBuilDir>$(XmakeProjectDir)\Intermediates</XmakeBuilDir>
-    <XmakeConfigDir></XmakeConfigDir>
-    <XmakeConfigFileDir></XmakeConfigFileDir>
+    <XmakeConfigDir>
+    </XmakeConfigDir>
+    <XmakeConfigFileDir>
+    </XmakeConfigFileDir>
     <XmakeTargetDir>$(XmakeProjectDir)\Binaries\CasePreserving__Debug__Win64\Behemoth_bhaptics</XmakeTargetDir>
-    <XmakeRunDir></XmakeRunDir>
+    <XmakeRunDir>
+    </XmakeRunDir>
   </PropertyGroup>
   <PropertyGroup Label="XmakePath" Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'">
     <XmakeBuilDir>$(XmakeProjectDir)\Intermediates</XmakeBuilDir>
-    <XmakeConfigDir></XmakeConfigDir>
-    <XmakeConfigFileDir></XmakeConfigFileDir>
+    <XmakeConfigDir>
+    </XmakeConfigDir>
+    <XmakeConfigFileDir>
+    </XmakeConfigFileDir>
     <XmakeTargetDir>$(XmakeProjectDir)\Binaries\CasePreserving__Test__Win64\Behemoth_bhaptics</XmakeTargetDir>
-    <XmakeRunDir></XmakeRunDir>
+    <XmakeRunDir>
+    </XmakeRunDir>
   </PropertyGroup>
   <PropertyGroup Label="XmakePath" Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'">
     <XmakeBuilDir>$(XmakeProjectDir)\Intermediates</XmakeBuilDir>
-    <XmakeConfigDir></XmakeConfigDir>
-    <XmakeConfigFileDir></XmakeConfigFileDir>
+    <XmakeConfigDir>
+    </XmakeConfigDir>
+    <XmakeConfigFileDir>
+    </XmakeConfigFileDir>
     <XmakeTargetDir>$(XmakeProjectDir)\Binaries\LessEqual421__Test__Win64\Behemoth_bhaptics</XmakeTargetDir>
-    <XmakeRunDir></XmakeRunDir>
+    <XmakeRunDir>
+    </XmakeRunDir>
   </PropertyGroup>
   <PropertyGroup Label="XmakePath" Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'">
     <XmakeBuilDir>$(XmakeProjectDir)\Intermediates</XmakeBuilDir>
-    <XmakeConfigDir></XmakeConfigDir>
-    <XmakeConfigFileDir></XmakeConfigFileDir>
+    <XmakeConfigDir>
+    </XmakeConfigDir>
+    <XmakeConfigFileDir>
+    </XmakeConfigFileDir>
     <XmakeTargetDir>$(XmakeProjectDir)\Binaries\Game__Debug__Win64\Behemoth_bhaptics</XmakeTargetDir>
-    <XmakeRunDir></XmakeRunDir>
+    <XmakeRunDir>
+    </XmakeRunDir>
   </PropertyGroup>
   <PropertyGroup Label="XmakePath" Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'">
     <XmakeBuilDir>$(XmakeProjectDir)\Intermediates</XmakeBuilDir>
-    <XmakeConfigDir></XmakeConfigDir>
-    <XmakeConfigFileDir></XmakeConfigFileDir>
+    <XmakeConfigDir>
+    </XmakeConfigDir>
+    <XmakeConfigFileDir>
+    </XmakeConfigFileDir>
     <XmakeTargetDir>$(XmakeProjectDir)\Binaries\Game__Dev__Win64\Behemoth_bhaptics</XmakeTargetDir>
-    <XmakeRunDir></XmakeRunDir>
+    <XmakeRunDir>
+    </XmakeRunDir>
   </PropertyGroup>
   <PropertyGroup Label="XmakePath" Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">
     <XmakeBuilDir>$(XmakeProjectDir)\Intermediates</XmakeBuilDir>
-    <XmakeConfigDir></XmakeConfigDir>
-    <XmakeConfigFileDir></XmakeConfigFileDir>
+    <XmakeConfigDir>
+    </XmakeConfigDir>
+    <XmakeConfigFileDir>
+    </XmakeConfigFileDir>
     <XmakeTargetDir>$(XmakeProjectDir)\Binaries\Game__Shipping__Win64\Behemoth_bhaptics</XmakeTargetDir>
-    <XmakeRunDir></XmakeRunDir>
+    <XmakeRunDir>
+    </XmakeRunDir>
   </PropertyGroup>
   <PropertyGroup Label="XmakePath" Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'">
     <XmakeBuilDir>$(XmakeProjectDir)\Intermediates</XmakeBuilDir>
-    <XmakeConfigDir></XmakeConfigDir>
-    <XmakeConfigFileDir></XmakeConfigFileDir>
+    <XmakeConfigDir>
+    </XmakeConfigDir>
+    <XmakeConfigFileDir>
+    </XmakeConfigFileDir>
     <XmakeTargetDir>$(XmakeProjectDir)\Binaries\Game__Test__Win64\Behemoth_bhaptics</XmakeTargetDir>
-    <XmakeRunDir></XmakeRunDir>
+    <XmakeRunDir>
+    </XmakeRunDir>
   </PropertyGroup>
   <PropertyGroup Label="XmakePath" Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'">
     <XmakeBuilDir>$(XmakeProjectDir)\Intermediates</XmakeBuilDir>
-    <XmakeConfigDir></XmakeConfigDir>
-    <XmakeConfigFileDir></XmakeConfigFileDir>
+    <XmakeConfigDir>
+    </XmakeConfigDir>
+    <XmakeConfigFileDir>
+    </XmakeConfigFileDir>
     <XmakeTargetDir>$(XmakeProjectDir)\Binaries\LessEqual421__Shipping__Win64\Behemoth_bhaptics</XmakeTargetDir>
-    <XmakeRunDir></XmakeRunDir>
+    <XmakeRunDir>
+    </XmakeRunDir>
   </PropertyGroup>
-
   <Import Project="$(XmakeProgramDir)\scripts\vsxmake\vsproj\Xmake.props" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">
+    <PostBuildEvent>
+      <Command>XCOPY "C:\Users\Flori\source\repos\UnrealEngineMods\Binaries\Game__Shipping__Win64\Behemoth_bhaptics\Behemoth_bhaptics.dll" "G:\SteamLibrary\steamapps\common\Skydance's BEHEMOTH\BHM\Binaries\Win64\Mods\Behemoth_bhaptics\dlls\main.dll" /Y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
   <ItemGroup>
-
-
   </ItemGroup>
   <ItemGroup>
-
     <ClCompile Include="$(XmakeProjectDir)\Behemoth_bhaptics\dllmain.cpp">
       <CompileAs>CompileAsCpp</CompileAs>
     </ClCompile>
-
-
-
   </ItemGroup>
   <ItemGroup>
-
   </ItemGroup>
   <ItemGroup>
-
-
-
-
   </ItemGroup>
   <!-- <ItemGroup>
     <ProjectReference Include="..\ASMHelper\ASMHelper.vcxproj">
