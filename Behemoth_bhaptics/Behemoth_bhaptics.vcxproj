@@ -682,7 +682,7 @@ xmake version 2.9.6+master.5aebd42c0
   <Import Project="$(XmakeProgramDir)\scripts\vsxmake\vsproj\Xmake.props" />
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">
     <PostBuildEvent>
-      <Command>XCOPY "C:\Users\Flori\source\repos\UnrealEngineMods\Binaries\Game__Shipping__Win64\Behemoth_bhaptics\Behemoth_bhaptics.dll" "G:\SteamLibrary\steamapps\common\Skydance's BEHEMOTH\BHM\Binaries\Win64\Mods\Behemoth_bhaptics\dlls\main.dll" /Y</Command>
+      <Command>ECHO F|XCOPY /Y /F /S /Q /I "C:\Users\Flori\source\repos\UnrealEngineMods\Binaries\Game__Shipping__Win64\Behemoth_bhaptics\Behemoth_bhaptics.dll" "G:\SteamLibrary\steamapps\common\Skydance's BEHEMOTH\BHM\Binaries\Win64\ue4ss\Mods\Behemoth_bhaptics\dlls\main.dll"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
