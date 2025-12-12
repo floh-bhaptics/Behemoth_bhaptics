@@ -361,3 +361,11 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/CasePreserving__Shipping__Win64/lib
+/RE-UE4SS/deps/first/DynamicOutput/DynamicOutput.dir/CasePreserving__Shipping__Win64/DynamicOutput.tlog/CL.17772.write.1.tlog
+*.tlog
+/_deps/raw_pdb-build/src/raw_pdb.dir/CasePreserving__Shipping__Win64/raw_pdb.tlog/CL.command.1.tlog
+/_deps/raw_pdb-build/src/raw_pdb.dir/CasePreserving__Shipping__Win64/raw_pdb.tlog/CL.read.1.tlog
+/_deps/raw_pdb-build/src/raw_pdb.dir/CasePreserving__Shipping__Win64/raw_pdb.tlog/CL.write.1.tlog
+/_deps/zydis-build/zycore/Zycore.dir/CasePreserving__Shipping__Win64/Zycore.tlog/CL.read.1.tlog
+/Behemoth_bhaptics/CasePreserving__Shipping__Win64/Behemoth_bhaptics.dll
