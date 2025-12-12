@@ -1,0 +1,14 @@
+# Target labels
+ glfw-populate
+# Source files and their labels
+C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate
+C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glfw-subbuild/CMakeFiles/37d8095a5124688e5c086e54f9c3920e/glfw-populate.rule
+C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glfw-subbuild/CMakeFiles/7fa9bc227910b79e00291d3adecfac31/glfw-populate-complete.rule
+C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glfw-subbuild/CMakeFiles/af3c49c64704e31c466cfa712d388239/glfw-populate-build.rule
+C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glfw-subbuild/CMakeFiles/af3c49c64704e31c466cfa712d388239/glfw-populate-configure.rule
+C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glfw-subbuild/CMakeFiles/af3c49c64704e31c466cfa712d388239/glfw-populate-download.rule
+C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glfw-subbuild/CMakeFiles/af3c49c64704e31c466cfa712d388239/glfw-populate-install.rule
+C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glfw-subbuild/CMakeFiles/af3c49c64704e31c466cfa712d388239/glfw-populate-mkdir.rule
+C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glfw-subbuild/CMakeFiles/af3c49c64704e31c466cfa712d388239/glfw-populate-patch.rule
+C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glfw-subbuild/CMakeFiles/af3c49c64704e31c466cfa712d388239/glfw-populate-test.rule
+C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glfw-subbuild/CMakeFiles/af3c49c64704e31c466cfa712d388239/glfw-populate-update.rule

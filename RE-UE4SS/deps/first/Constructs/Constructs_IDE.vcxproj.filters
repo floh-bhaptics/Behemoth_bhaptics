@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Constructs\include\Constructs\Annotated.hpp">
+      <Filter>Header Files\Constructs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Constructs\include\Constructs\CompileTimeString.hpp">
+      <Filter>Header Files\Constructs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Constructs\include\Constructs\Generator.hpp">
+      <Filter>Header Files\Constructs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Constructs\include\Constructs\Loop.hpp">
+      <Filter>Header Files\Constructs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Constructs\include\Constructs\Views\EnumerateView.hpp">
+      <Filter>Header Files\Constructs\Views</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Constructs\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{59B5AA01-C4AA-350C-B13E-ECE0B212BBD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Constructs">
+      <UniqueIdentifier>{2EB9CE3E-229F-3D66-86E0-2117E81E22AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Constructs\Views">
+      <UniqueIdentifier>{F29AA176-7B3E-390D-9957-D7752B40A888}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

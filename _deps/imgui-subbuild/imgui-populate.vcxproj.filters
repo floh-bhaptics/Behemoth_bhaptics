@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\imgui-subbuild\CMakeFiles\e186081a021973248384fc2440115997\imgui-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\imgui-subbuild\CMakeFiles\e186081a021973248384fc2440115997\imgui-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\imgui-subbuild\CMakeFiles\e186081a021973248384fc2440115997\imgui-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\imgui-subbuild\CMakeFiles\e186081a021973248384fc2440115997\imgui-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\imgui-subbuild\CMakeFiles\e186081a021973248384fc2440115997\imgui-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\imgui-subbuild\CMakeFiles\e186081a021973248384fc2440115997\imgui-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\imgui-subbuild\CMakeFiles\e186081a021973248384fc2440115997\imgui-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\imgui-subbuild\CMakeFiles\e186081a021973248384fc2440115997\imgui-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\imgui-subbuild\CMakeFiles\7b1d4279129c8762670eadf1dd79947a\imgui-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\imgui-subbuild\CMakeFiles\f3fabae3729bca509e7a31e0fea8cb3d\imgui-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\imgui-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\imgui-subbuild\CMakeFiles\imgui-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6AB80C5D-DA43-33D9-BAD0-4A98881402DB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

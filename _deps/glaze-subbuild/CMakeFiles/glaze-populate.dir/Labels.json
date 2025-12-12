@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glaze-subbuild/CMakeFiles/glaze-populate"
+		},
+		{
+			"file" : "C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glaze-subbuild/CMakeFiles/4887e30811851eb3ab8e87de20bc0d68/glaze-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glaze-subbuild/CMakeFiles/3bec2ad46828caf5862eb5e652ecafcc/glaze-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glaze-subbuild/CMakeFiles/b2f90e70fa4ea247f0a8659351f733bd/glaze-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glaze-subbuild/CMakeFiles/b2f90e70fa4ea247f0a8659351f733bd/glaze-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glaze-subbuild/CMakeFiles/b2f90e70fa4ea247f0a8659351f733bd/glaze-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glaze-subbuild/CMakeFiles/b2f90e70fa4ea247f0a8659351f733bd/glaze-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glaze-subbuild/CMakeFiles/b2f90e70fa4ea247f0a8659351f733bd/glaze-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glaze-subbuild/CMakeFiles/b2f90e70fa4ea247f0a8659351f733bd/glaze-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glaze-subbuild/CMakeFiles/b2f90e70fa4ea247f0a8659351f733bd/glaze-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glaze-subbuild/CMakeFiles/b2f90e70fa4ea247f0a8659351f733bd/glaze-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glaze-populate"
+		],
+		"name" : "glaze-populate"
+	}
+}

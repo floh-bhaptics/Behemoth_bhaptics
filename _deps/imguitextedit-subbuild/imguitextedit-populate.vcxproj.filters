@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\imguitextedit-subbuild\CMakeFiles\8d4a996c50f478ef9aa13c597133f535\imguitextedit-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\imguitextedit-subbuild\CMakeFiles\8d4a996c50f478ef9aa13c597133f535\imguitextedit-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\imguitextedit-subbuild\CMakeFiles\8d4a996c50f478ef9aa13c597133f535\imguitextedit-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\imguitextedit-subbuild\CMakeFiles\8d4a996c50f478ef9aa13c597133f535\imguitextedit-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\imguitextedit-subbuild\CMakeFiles\8d4a996c50f478ef9aa13c597133f535\imguitextedit-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\imguitextedit-subbuild\CMakeFiles\8d4a996c50f478ef9aa13c597133f535\imguitextedit-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\imguitextedit-subbuild\CMakeFiles\8d4a996c50f478ef9aa13c597133f535\imguitextedit-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\imguitextedit-subbuild\CMakeFiles\8d4a996c50f478ef9aa13c597133f535\imguitextedit-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\imguitextedit-subbuild\CMakeFiles\fc2013161c09d6d09482094aab3e1abd\imguitextedit-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\imguitextedit-subbuild\CMakeFiles\cce1f61a8e983e3752b4c341c8dd8fa2\imguitextedit-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\imguitextedit-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\imguitextedit-subbuild\CMakeFiles\imguitextedit-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B7529B78-D811-30E6-920E-8DEE7466416F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

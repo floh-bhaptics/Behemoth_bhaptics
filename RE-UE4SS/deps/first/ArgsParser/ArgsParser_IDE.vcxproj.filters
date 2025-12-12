@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\ArgsParser\include\ArgsParser\ArgsParser.hpp">
+      <Filter>Header Files\ArgsParser</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\ArgsParser\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{59B5AA01-C4AA-350C-B13E-ECE0B212BBD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ArgsParser">
+      <UniqueIdentifier>{3E47E0CA-9453-3985-987C-FB107705F29B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

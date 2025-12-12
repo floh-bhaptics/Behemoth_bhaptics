@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\ASMHelper\src\ASMHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\ASMHelper\include\ASMHelper\ASMHelper.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\ASMHelper\include\ASMHelper\Common.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\ASMHelper\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{59B5AA01-C4AA-350C-B13E-ECE0B212BBD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4A80A2C5-7167-3C70-8213-513C2C35B1EF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

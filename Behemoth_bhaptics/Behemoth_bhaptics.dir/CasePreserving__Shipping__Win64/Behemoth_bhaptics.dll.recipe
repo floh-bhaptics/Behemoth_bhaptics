@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\x64\CasePreserving__Shipping__Win64\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\x64\CasePreserving__Shipping__Win64\cargo-prebuild_patternsleuth_bind</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\x64\CasePreserving__Shipping__Win64\_cargo-build_patternsleuth_bind</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\x64\CasePreserving__Shipping__Win64\cargo-build_patternsleuth_bind</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\CasePreserving__Shipping__Win64\bin\UE4SS.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\Behemoth_bhaptics\CasePreserving__Shipping__Win64\Behemoth_bhaptics.dll</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

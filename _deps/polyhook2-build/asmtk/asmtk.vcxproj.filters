@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\polyhook2-src\asmtk\src\asmtk\asmparser.cpp">
+      <Filter>src\asmtk</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\polyhook2-src\asmtk\src\asmtk\asmtokenizer.cpp">
+      <Filter>src\asmtk</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\polyhook2-src\asmtk\src\asmtk\asmtk.h">
+      <Filter>src\asmtk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\polyhook2-src\asmtk\src\asmtk\asmparser.h">
+      <Filter>src\asmtk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\polyhook2-src\asmtk\src\asmtk\asmtokenizer.h">
+      <Filter>src\asmtk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\polyhook2-src\asmtk\src\asmtk\elfdefs.h">
+      <Filter>src\asmtk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\polyhook2-src\asmtk\src\asmtk\globals.h">
+      <Filter>src\asmtk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\polyhook2-src\asmtk\src\asmtk\parserutils.h">
+      <Filter>src\asmtk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\polyhook2-src\asmtk\src\asmtk\strtod.h">
+      <Filter>src\asmtk</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\polyhook2-src\asmtk\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{50F59FB5-0054-3DC4-983B-7C45A6BBD8AF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\asmtk">
+      <UniqueIdentifier>{ECD29413-F557-32BB-BE95-05D49FF29F6C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

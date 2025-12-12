@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+	<Configurations>
+		<BuildType Name="Game__Debug__Win64"/>
+		<BuildType Name="Game__Dev__Win64"/>
+		<BuildType Name="Game__Shipping__Win64"/>
+		<BuildType Name="Game__Test__Win64"/>
+		<BuildType Name="CasePreserving__Debug__Win64"/>
+		<BuildType Name="CasePreserving__Dev__Win64"/>
+		<BuildType Name="CasePreserving__Shipping__Win64"/>
+		<BuildType Name="CasePreserving__Test__Win64"/>
+		<BuildType Name="LessEqual421__Debug__Win64"/>
+		<BuildType Name="LessEqual421__Dev__Win64"/>
+		<BuildType Name="LessEqual421__Shipping__Win64"/>
+		<BuildType Name="LessEqual421__Test__Win64"/>
+		<Platform Name="x64"/>
+	</Configurations>
+	<Folder Name="/CMakePredefinedTargets/">
+		<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="83ebafa5-7b8b-365d-ac82-ef0542747ce3" DefaultStartup="true">
+			<BuildDependency Project="UnrealVTableDumper.vcxproj"/>
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="INSTALL.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="e4fefccc-e5f4-3161-bd42-e0f2b19a8012">
+			<BuildDependency Project="ALL_BUILD.vcxproj"/>
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<Build Solution="Game__Debug__Win64|*" Project="false"/>
+			<Build Solution="Game__Dev__Win64|*" Project="false"/>
+			<Build Solution="Game__Shipping__Win64|*" Project="false"/>
+			<Build Solution="Game__Test__Win64|*" Project="false"/>
+			<Build Solution="CasePreserving__Debug__Win64|*" Project="false"/>
+			<Build Solution="CasePreserving__Dev__Win64|*" Project="false"/>
+			<Build Solution="CasePreserving__Shipping__Win64|*" Project="false"/>
+			<Build Solution="CasePreserving__Test__Win64|*" Project="false"/>
+			<Build Solution="LessEqual421__Debug__Win64|*" Project="false"/>
+			<Build Solution="LessEqual421__Dev__Win64|*" Project="false"/>
+			<Build Solution="LessEqual421__Shipping__Win64|*" Project="false"/>
+			<Build Solution="LessEqual421__Test__Win64|*" Project="false"/>
+		</Project>
+		<Project Path="../../ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="fc6d9511-acf5-3872-894d-41aca5390a35"/>
+	</Folder>
+	<Folder Name="/Programs/">
+		<Project Path="UnrealVTableDumper.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="9b91a629-66ec-3de4-8ce1-1fbc424f510d">
+			<BuildDependency Project="../deps/first/DynamicOutput/DynamicOutput.vcxproj"/>
+			<BuildDependency Project="../deps/first/File/File.vcxproj"/>
+			<BuildDependency Project="../deps/first/Helpers/Helpers.vcxproj"/>
+			<BuildDependency Project="../deps/first/Input/Input.vcxproj"/>
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../_deps/fmt-build/fmt.vcxproj"/>
+			<BuildDependency Project="../../_deps/raw_pdb-build/src/raw_pdb.vcxproj"/>
+		</Project>
+	</Folder>
+	<Folder Name="/deps/"/>
+	<Folder Name="/deps/first/">
+		<Project Path="../deps/first/DynamicOutput/DynamicOutput.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="acf4dba5-fecd-3412-a9af-efc768dde66d">
+			<BuildDependency Project="../deps/first/File/File.vcxproj"/>
+			<BuildDependency Project="../deps/first/Helpers/Helpers.vcxproj"/>
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../_deps/fmt-build/fmt.vcxproj"/>
+		</Project>
+		<Project Path="../deps/first/File/File.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="7177183e-1d3d-3a1f-8e58-21d0f6964d88">
+			<BuildDependency Project="../deps/first/Helpers/Helpers.vcxproj"/>
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../_deps/fmt-build/fmt.vcxproj"/>
+		</Project>
+		<Project Path="../deps/first/Helpers/Helpers.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="72353ad6-3569-361a-9675-57c7857ba66e">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../_deps/fmt-build/fmt.vcxproj"/>
+		</Project>
+		<Project Path="../deps/first/Input/Input.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="4940aeee-5b6d-31f4-b9ce-1840ddd6de06">
+			<BuildDependency Project="../deps/first/DynamicOutput/DynamicOutput.vcxproj"/>
+			<BuildDependency Project="../deps/first/File/File.vcxproj"/>
+			<BuildDependency Project="../deps/first/Helpers/Helpers.vcxproj"/>
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../_deps/fmt-build/fmt.vcxproj"/>
+		</Project>
+	</Folder>
+	<Folder Name="/deps/third/">
+		<Project Path="../../_deps/fmt-build/fmt.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="7c82e362-7413-3126-95e0-5429dbbbb680">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		</Project>
+	</Folder>
+	<Folder Name="/deps/third/raw_pdb/">
+		<Project Path="../../_deps/raw_pdb-build/src/raw_pdb.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="88eb9111-e73c-39be-a882-abed509cd78d">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		</Project>
+	</Folder>
+</Solution>

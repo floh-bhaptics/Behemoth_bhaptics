@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\corrosion-subbuild\CMakeFiles\94f3e88792a94402611552b2f00fcc23\corrosion-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\corrosion-subbuild\CMakeFiles\94f3e88792a94402611552b2f00fcc23\corrosion-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\corrosion-subbuild\CMakeFiles\94f3e88792a94402611552b2f00fcc23\corrosion-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\corrosion-subbuild\CMakeFiles\94f3e88792a94402611552b2f00fcc23\corrosion-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\corrosion-subbuild\CMakeFiles\94f3e88792a94402611552b2f00fcc23\corrosion-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\corrosion-subbuild\CMakeFiles\94f3e88792a94402611552b2f00fcc23\corrosion-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\corrosion-subbuild\CMakeFiles\94f3e88792a94402611552b2f00fcc23\corrosion-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\corrosion-subbuild\CMakeFiles\94f3e88792a94402611552b2f00fcc23\corrosion-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\corrosion-subbuild\CMakeFiles\24f821f6e3c05b3a79782eb67e446c8b\corrosion-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\corrosion-subbuild\CMakeFiles\110c465e0696fcb4a7e9ebc7fd6e4f0a\corrosion-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\corrosion-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\corrosion-subbuild\CMakeFiles\corrosion-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1A500C5C-7521-38F0-AD4B-A72EE827F1BD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

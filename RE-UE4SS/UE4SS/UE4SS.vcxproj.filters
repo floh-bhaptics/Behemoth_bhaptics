@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\CrashDumper.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\GUI\BPMods.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\GUI\Console.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\GUI\ConsoleOutputDevice.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\GUI\DX11.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\GUI\Dumpers.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\GUI\GLFW3_OpenGL3.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\GUI\GUI.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\GUI\GUITab.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\GUI\ImGuiUtility.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\GUI\LiveView.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\GUI\LuaDebugger.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\GUI\SearcherWidget.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\GUI\UFunctionCallerWidget.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\GUI\Windows.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\LuaLibrary.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\LuaType\LuaAActor.cpp">
+      <Filter>src\LuaType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\LuaType\LuaCustomProperty.cpp">
+      <Filter>src\LuaType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\LuaType\LuaFName.cpp">
+      <Filter>src\LuaType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\LuaType\LuaFOutputDevice.cpp">
+      <Filter>src\LuaType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\LuaType\LuaFSoftObjectPath.cpp">
+      <Filter>src\LuaType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\LuaType\LuaFText.cpp">
+      <Filter>src\LuaType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\LuaType\LuaFURL.cpp">
+      <Filter>src\LuaType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\LuaType\LuaFWeakObjectPtr.cpp">
+      <Filter>src\LuaType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\LuaType\LuaModRef.cpp">
+      <Filter>src\LuaType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\LuaType\LuaTArray.cpp">
+      <Filter>src\LuaType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\LuaType\LuaTMap.cpp">
+      <Filter>src\LuaType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\LuaType\LuaTSet.cpp">
+      <Filter>src\LuaType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\LuaType\LuaTSoftObjectPtr.cpp">
+      <Filter>src\LuaType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\LuaType\LuaUClass.cpp">
+      <Filter>src\LuaType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\LuaType\LuaUDataTable.cpp">
+      <Filter>src\LuaType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\LuaType\LuaUEnum.cpp">
+      <Filter>src\LuaType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\LuaType\LuaUFunction.cpp">
+      <Filter>src\LuaType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\LuaType\LuaUInterface.cpp">
+      <Filter>src\LuaType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\LuaType\LuaUObject.cpp">
+      <Filter>src\LuaType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\LuaType\LuaUScriptStruct.cpp">
+      <Filter>src\LuaType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\LuaType\LuaUStruct.cpp">
+      <Filter>src\LuaType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\LuaType\LuaUWorld.cpp">
+      <Filter>src\LuaType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\LuaType\LuaXArrayProperty.cpp">
+      <Filter>src\LuaType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\LuaType\LuaXBoolProperty.cpp">
+      <Filter>src\LuaType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\LuaType\LuaXDelegateProperty.cpp">
+      <Filter>src\LuaType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\LuaType\LuaXEnumProperty.cpp">
+      <Filter>src\LuaType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\LuaType\LuaXFieldClass.cpp">
+      <Filter>src\LuaType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\LuaType\LuaXInterfaceProperty.cpp">
+      <Filter>src\LuaType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\LuaType\LuaXObjectProperty.cpp">
+      <Filter>src\LuaType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\LuaType\LuaXProperty.cpp">
+      <Filter>src\LuaType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\LuaType\LuaXStructProperty.cpp">
+      <Filter>src\LuaType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\Mod\CppMod.cpp">
+      <Filter>src\Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\Mod\CppUserModBase.cpp">
+      <Filter>src\Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\Mod\LuaMod.cpp">
+      <Filter>src\Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\Mod\Mod.cpp">
+      <Filter>src\Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\ObjectDumper\ObjectToString.cpp">
+      <Filter>src\ObjectDumper</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\SDKGenerator\Common.cpp">
+      <Filter>src\SDKGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\SDKGenerator\Generator.cpp">
+      <Filter>src\SDKGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\SDKGenerator\JSONDumper.cpp">
+      <Filter>src\SDKGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\SDKGenerator\TMapOverrideGen.cpp">
+      <Filter>src\SDKGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\SDKGenerator\UEHeaderGenerator.cpp">
+      <Filter>src\SDKGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\SettingsManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\Signatures.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\UE4SSProgram.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\USMapGenerator\Generator.cpp">
+      <Filter>src\USMapGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\UnrealCustom\CustomProperty.cpp">
+      <Filter>src\UnrealCustom</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\src\main_ue4ss_rewritten.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\Common.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\CrashDumper.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\ExceptionHandling.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\GUI\BPMods.hpp">
+      <Filter>include\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\GUI\Console.hpp">
+      <Filter>include\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\GUI\ConsoleOutputDevice.hpp">
+      <Filter>include\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\GUI\DX11.hpp">
+      <Filter>include\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\GUI\Dumpers.hpp">
+      <Filter>include\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\GUI\GLFW3_OpenGL3.hpp">
+      <Filter>include\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\GUI\GUI.hpp">
+      <Filter>include\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\GUI\GUITab.hpp">
+      <Filter>include\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\GUI\ImGuiUtility.hpp">
+      <Filter>include\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\GUI\LiveView.hpp">
+      <Filter>include\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\GUI\LiveView\Filter\ClassNamesFilter.hpp">
+      <Filter>include\GUI\LiveView\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\GUI\LiveView\Filter\DefaultObjectsOnly.hpp">
+      <Filter>include\GUI\LiveView\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\GUI\LiveView\Filter\FunctionParamFlags.hpp">
+      <Filter>include\GUI\LiveView\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\GUI\LiveView\Filter\HasProperty.hpp">
+      <Filter>include\GUI\LiveView\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\GUI\LiveView\Filter\HasPropertyType.hpp">
+      <Filter>include\GUI\LiveView\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\GUI\LiveView\Filter\IncludeDefaultObjects.hpp">
+      <Filter>include\GUI\LiveView\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\GUI\LiveView\Filter\InstancesOnly.hpp">
+      <Filter>include\GUI\LiveView\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\GUI\LiveView\Filter\MaxValueSize.hpp">
+      <Filter>include\GUI\LiveView\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\GUI\LiveView\Filter\NonInstancesOnly.hpp">
+      <Filter>include\GUI\LiveView\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\GUI\LiveView\Filter\SearchFilter.hpp">
+      <Filter>include\GUI\LiveView\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\GUI\LuaDebugger.hpp">
+      <Filter>include\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\GUI\SearcherWidget.hpp">
+      <Filter>include\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\GUI\UFunctionCallerWidget.hpp">
+      <Filter>include\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\GUI\Windows.hpp">
+      <Filter>include\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaCustomMemberFunctions.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaLibrary.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaScriptMemoryAccess.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaTests.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaType\LuaAActor.hpp">
+      <Filter>include\LuaType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaType\LuaCustomProperty.hpp">
+      <Filter>include\LuaType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaType\LuaFName.hpp">
+      <Filter>include\LuaType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaType\LuaFOutputDevice.hpp">
+      <Filter>include\LuaType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaType\LuaFSoftObjectPath.hpp">
+      <Filter>include\LuaType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaType\LuaFString.hpp">
+      <Filter>include\LuaType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaType\LuaFText.hpp">
+      <Filter>include\LuaType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaType\LuaFURL.hpp">
+      <Filter>include\LuaType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaType\LuaFWeakObjectPtr.hpp">
+      <Filter>include\LuaType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaType\LuaModRef.hpp">
+      <Filter>include\LuaType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaType\LuaTArray.hpp">
+      <Filter>include\LuaType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaType\LuaTMap.hpp">
+      <Filter>include\LuaType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaType\LuaTSet.hpp">
+      <Filter>include\LuaType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaType\LuaTSoftObjectPtr.hpp">
+      <Filter>include\LuaType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaType\LuaUClass.hpp">
+      <Filter>include\LuaType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaType\LuaUDataTable.hpp">
+      <Filter>include\LuaType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaType\LuaUEnum.hpp">
+      <Filter>include\LuaType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaType\LuaUFunction.hpp">
+      <Filter>include\LuaType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaType\LuaUInterface.hpp">
+      <Filter>include\LuaType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaType\LuaUObject.hpp">
+      <Filter>include\LuaType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaType\LuaUScriptStruct.hpp">
+      <Filter>include\LuaType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaType\LuaUStruct.hpp">
+      <Filter>include\LuaType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaType\LuaUWorld.hpp">
+      <Filter>include\LuaType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaType\LuaUnrealString.hpp">
+      <Filter>include\LuaType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaType\LuaXArrayProperty.hpp">
+      <Filter>include\LuaType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaType\LuaXBoolProperty.hpp">
+      <Filter>include\LuaType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaType\LuaXDelegateProperty.hpp">
+      <Filter>include\LuaType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaType\LuaXEnumProperty.hpp">
+      <Filter>include\LuaType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaType\LuaXFieldClass.hpp">
+      <Filter>include\LuaType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaType\LuaXInterfaceProperty.hpp">
+      <Filter>include\LuaType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaType\LuaXObjectProperty.hpp">
+      <Filter>include\LuaType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaType\LuaXProperty.hpp">
+      <Filter>include\LuaType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\LuaType\LuaXStructProperty.hpp">
+      <Filter>include\LuaType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\Mod\CppMod.hpp">
+      <Filter>include\Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\Mod\CppUserModBase.hpp">
+      <Filter>include\Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\Mod\LuaMod.hpp">
+      <Filter>include\Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\Mod\Mod.hpp">
+      <Filter>include\Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\ObjectDumper\ObjectToString.hpp">
+      <Filter>include\ObjectDumper</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\SDKGenerator\Common.hpp">
+      <Filter>include\SDKGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\SDKGenerator\Generator.hpp">
+      <Filter>include\SDKGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\SDKGenerator\JSONDumper.hpp">
+      <Filter>include\SDKGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\SDKGenerator\TMapOverrideGen.hpp">
+      <Filter>include\SDKGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\SDKGenerator\UEHeaderGenerator.hpp">
+      <Filter>include\SDKGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\SettingsManager.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\Signatures.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\UE4SSProgram.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\USMapGenerator\Generator.hpp">
+      <Filter>include\USMapGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\UnrealCustom\CustomProperty.hpp">
+      <Filter>include\UnrealCustom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\include\UnrealDef.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS.natvis" />
+    <Natvis Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Unreal\UEPseudo.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{2F211ABA-E4B3-3533-BBDD-022C4B8AB5A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\GUI">
+      <UniqueIdentifier>{146BBB53-D876-3AEF-812B-E0FD284C926C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\GUI\LiveView">
+      <UniqueIdentifier>{FA0E0BCE-50DD-3A8F-B91A-AFAF023A335D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\GUI\LiveView\Filter">
+      <UniqueIdentifier>{4B9C3E79-1E47-3150-B8E3-3D2CB8A25F8F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\LuaType">
+      <UniqueIdentifier>{EE2A178D-AB4F-3971-8293-A7EE0AE354A5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Mod">
+      <UniqueIdentifier>{EB72D104-8D8B-3542-BE4D-CB1C0B070ED5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\ObjectDumper">
+      <UniqueIdentifier>{E6007D81-CB15-32DF-99A5-6646433622E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\SDKGenerator">
+      <UniqueIdentifier>{68C58419-AB94-3FF8-A60E-82200852DB2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\USMapGenerator">
+      <UniqueIdentifier>{8FA1A4B6-A415-313E-9B26-CE35F8B72A11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UnrealCustom">
+      <UniqueIdentifier>{F844D5B8-64CC-3065-845C-1EB934FE41A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{50F59FB5-0054-3DC4-983B-7C45A6BBD8AF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GUI">
+      <UniqueIdentifier>{1D4FC719-7107-3C20-B9C3-A43DC7759E53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\LuaType">
+      <UniqueIdentifier>{ED05890A-B094-33CF-ADA8-6B1CCE8A8975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Mod">
+      <UniqueIdentifier>{F675CAE3-A8DC-3605-A196-F9D641660107}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ObjectDumper">
+      <UniqueIdentifier>{DD602236-FA00-3227-9C72-3A88C106D2E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SDKGenerator">
+      <UniqueIdentifier>{FB93617C-DE84-36B5-9F79-A9E1B7A174DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\USMapGenerator">
+      <UniqueIdentifier>{1C1E2416-A1A8-3C82-8079-108827FAFD3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UnrealCustom">
+      <UniqueIdentifier>{B898D772-CBDD-3B1B-91F5-6CCECF9BFA2A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

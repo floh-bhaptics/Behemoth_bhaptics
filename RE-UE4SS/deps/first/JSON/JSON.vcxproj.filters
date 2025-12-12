@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\JSON\src\Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\JSON\src\Array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\JSON\src\String.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\JSON\src\Number.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\JSON\src\Null.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\JSON\src\Bool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\JSON\src\Parser\Parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\JSON\src\Parser\TokenParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\JSON\include\JSON\Array.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\JSON\include\JSON\Bool.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\JSON\include\JSON\Common.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\JSON\include\JSON\JSON.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\JSON\include\JSON\KeyValuePair.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\JSON\include\JSON\Null.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\JSON\include\JSON\Number.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\JSON\include\JSON\Object.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\JSON\include\JSON\Parser\Parser.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\JSON\include\JSON\Parser\TokenParser.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\JSON\include\JSON\Parser\Tokens.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\JSON\include\JSON\String.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\JSON\include\JSON\Value.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\JSON\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{59B5AA01-C4AA-350C-B13E-ECE0B212BBD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4A80A2C5-7167-3C70-8213-513C2C35B1EF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

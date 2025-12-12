@@ -1,0 +1,11 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.2/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glaze-src/CMakeLists.txt
+C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glaze-src/cmake/install-rules.cmake
+C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glaze-src/cmake/prelude.cmake
+C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glaze-src/cmake/project-is-top-level.cmake
+C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glaze-src/cmake/variables.cmake

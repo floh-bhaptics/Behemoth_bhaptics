@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+	<Configurations>
+		<BuildType Name="Game__Debug__Win64"/>
+		<BuildType Name="Game__Dev__Win64"/>
+		<BuildType Name="Game__Shipping__Win64"/>
+		<BuildType Name="Game__Test__Win64"/>
+		<BuildType Name="CasePreserving__Debug__Win64"/>
+		<BuildType Name="CasePreserving__Dev__Win64"/>
+		<BuildType Name="CasePreserving__Shipping__Win64"/>
+		<BuildType Name="CasePreserving__Test__Win64"/>
+		<BuildType Name="LessEqual421__Debug__Win64"/>
+		<BuildType Name="LessEqual421__Dev__Win64"/>
+		<BuildType Name="LessEqual421__Shipping__Win64"/>
+		<BuildType Name="LessEqual421__Test__Win64"/>
+		<Platform Name="x64"/>
+	</Configurations>
+	<Folder Name="/CMakePredefinedTargets/">
+		<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="83ebafa5-7b8b-365d-ac82-ef0542747ce3" DefaultStartup="true">
+			<BuildDependency Project="ImGui.vcxproj"/>
+			<BuildDependency Project="../../../../ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="INSTALL.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="e4fefccc-e5f4-3161-bd42-e0f2b19a8012">
+			<BuildDependency Project="ALL_BUILD.vcxproj"/>
+			<BuildDependency Project="../../../../ZERO_CHECK.vcxproj"/>
+			<Build Solution="Game__Debug__Win64|*" Project="false"/>
+			<Build Solution="Game__Dev__Win64|*" Project="false"/>
+			<Build Solution="Game__Shipping__Win64|*" Project="false"/>
+			<Build Solution="Game__Test__Win64|*" Project="false"/>
+			<Build Solution="CasePreserving__Debug__Win64|*" Project="false"/>
+			<Build Solution="CasePreserving__Dev__Win64|*" Project="false"/>
+			<Build Solution="CasePreserving__Shipping__Win64|*" Project="false"/>
+			<Build Solution="CasePreserving__Test__Win64|*" Project="false"/>
+			<Build Solution="LessEqual421__Debug__Win64|*" Project="false"/>
+			<Build Solution="LessEqual421__Dev__Win64|*" Project="false"/>
+			<Build Solution="LessEqual421__Shipping__Win64|*" Project="false"/>
+			<Build Solution="LessEqual421__Test__Win64|*" Project="false"/>
+		</Project>
+		<Project Path="../../../../ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="fc6d9511-acf5-3872-894d-41aca5390a35"/>
+	</Folder>
+	<Folder Name="/deps/"/>
+	<Folder Name="/deps/third/">
+		<Project Path="ImGui.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="8b13cc3c-92a9-3710-bf96-f11669fe4bd9">
+			<BuildDependency Project="../../../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../../../_deps/glfw-build/src/glfw.vcxproj"/>
+		</Project>
+	</Folder>
+	<Folder Name="/deps/third/GLFW3/">
+		<Project Path="../../../../_deps/glfw-build/src/glfw.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="5dae853d-76fd-3bc6-9391-d33d09119abe">
+			<BuildDependency Project="../../../../ZERO_CHECK.vcxproj"/>
+		</Project>
+	</Folder>
+</Solution>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UVTD\src\Config.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UVTD\src\Helpers.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UVTD\src\MemberVarsDumper.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UVTD\src\MemberVarsWrapperGenerator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UVTD\src\SolBindingsGenerator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UVTD\src\Symbols.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UVTD\src\TemplateClassParser.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UVTD\src\TypeContainer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UVTD\src\UVTD.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UVTD\src\UnrealVirtualGenerator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UVTD\src\VTableDumper.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UVTD\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UVTD\include\UVTD\Config.hpp">
+      <Filter>include\UVTD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UVTD\include\UVTD\ConfigUtil.hpp">
+      <Filter>include\UVTD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UVTD\include\UVTD\ExceptionHandling.hpp">
+      <Filter>include\UVTD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UVTD\include\UVTD\Helpers.hpp">
+      <Filter>include\UVTD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UVTD\include\UVTD\MemberVarsDumper.hpp">
+      <Filter>include\UVTD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UVTD\include\UVTD\MemberVarsWrapperGenerator.hpp">
+      <Filter>include\UVTD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UVTD\include\UVTD\SolBindingsGenerator.hpp">
+      <Filter>include\UVTD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UVTD\include\UVTD\Symbols.hpp">
+      <Filter>include\UVTD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UVTD\include\UVTD\TemplateClassParser.hpp">
+      <Filter>include\UVTD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UVTD\include\UVTD\TypeContainer.hpp">
+      <Filter>include\UVTD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UVTD\include\UVTD\UVTD.hpp">
+      <Filter>include\UVTD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UVTD\include\UVTD\UnrealVirtualGenerator.hpp">
+      <Filter>include\UVTD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UVTD\include\UVTD\VTableDumper.hpp">
+      <Filter>include\UVTD</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UVTD\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{2F211ABA-E4B3-3533-BBDD-022C4B8AB5A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\UVTD">
+      <UniqueIdentifier>{7F8E6D19-2BD2-3CDE-A878-A42C105E4384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{50F59FB5-0054-3DC4-983B-7C45A6BBD8AF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

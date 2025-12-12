@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-subbuild\CMakeFiles\7bb756b3126e4277ff1651b774a27991\fmt-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-subbuild\CMakeFiles\7bb756b3126e4277ff1651b774a27991\fmt-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-subbuild\CMakeFiles\7bb756b3126e4277ff1651b774a27991\fmt-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-subbuild\CMakeFiles\7bb756b3126e4277ff1651b774a27991\fmt-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-subbuild\CMakeFiles\7bb756b3126e4277ff1651b774a27991\fmt-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-subbuild\CMakeFiles\7bb756b3126e4277ff1651b774a27991\fmt-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-subbuild\CMakeFiles\7bb756b3126e4277ff1651b774a27991\fmt-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-subbuild\CMakeFiles\7bb756b3126e4277ff1651b774a27991\fmt-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-subbuild\CMakeFiles\e821911b11dda16b833b7499f6d08162\fmt-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-subbuild\CMakeFiles\0aab9588bb60aef65e36d16a2e23244b\fmt-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-subbuild\CMakeFiles\fmt-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E4584634-03ED-3E50-977E-4CCC8C79EEC5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

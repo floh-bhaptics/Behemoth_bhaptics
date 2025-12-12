@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\UE4SS\proxy_generator\proxy\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\proxy_generator\proxy\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\UE4SS\proxy_generator\proxy\dwmapi.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\UE4SS\proxy_generator\proxy\dwmapi.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\proxy_generator\proxy\proxy.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5242D6D0-1CDF-3E00-9455-40FA8A552B45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4A80A2C5-7167-3C70-8213-513C2C35B1EF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

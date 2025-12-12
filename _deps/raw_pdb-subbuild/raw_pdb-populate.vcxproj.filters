@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-subbuild\CMakeFiles\40e5d21ae77c074566a8214ebaa10164\raw_pdb-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-subbuild\CMakeFiles\40e5d21ae77c074566a8214ebaa10164\raw_pdb-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-subbuild\CMakeFiles\40e5d21ae77c074566a8214ebaa10164\raw_pdb-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-subbuild\CMakeFiles\40e5d21ae77c074566a8214ebaa10164\raw_pdb-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-subbuild\CMakeFiles\40e5d21ae77c074566a8214ebaa10164\raw_pdb-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-subbuild\CMakeFiles\40e5d21ae77c074566a8214ebaa10164\raw_pdb-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-subbuild\CMakeFiles\40e5d21ae77c074566a8214ebaa10164\raw_pdb-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-subbuild\CMakeFiles\40e5d21ae77c074566a8214ebaa10164\raw_pdb-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-subbuild\CMakeFiles\032c225965333f71fdd4108d83549c10\raw_pdb-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-subbuild\CMakeFiles\ed97313343b21415cab6caa5d52614d8\raw_pdb-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-subbuild\CMakeFiles\raw_pdb-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3EC18196-A5DB-373C-B6A5-85C077B79E6B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

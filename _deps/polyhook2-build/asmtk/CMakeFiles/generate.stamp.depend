@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.2/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/GNUInstallDirs.cmake
+C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/polyhook2-src/asmjit/CMakeLists.txt
+C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/polyhook2-src/asmtk/CMakeLists.txt

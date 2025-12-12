@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+	<Configurations>
+		<BuildType Name="Game__Debug__Win64"/>
+		<BuildType Name="Game__Dev__Win64"/>
+		<BuildType Name="Game__Shipping__Win64"/>
+		<BuildType Name="Game__Test__Win64"/>
+		<BuildType Name="CasePreserving__Debug__Win64"/>
+		<BuildType Name="CasePreserving__Dev__Win64"/>
+		<BuildType Name="CasePreserving__Shipping__Win64"/>
+		<BuildType Name="CasePreserving__Test__Win64"/>
+		<BuildType Name="LessEqual421__Debug__Win64"/>
+		<BuildType Name="LessEqual421__Dev__Win64"/>
+		<BuildType Name="LessEqual421__Shipping__Win64"/>
+		<BuildType Name="LessEqual421__Test__Win64"/>
+		<Platform Name="x64"/>
+	</Configurations>
+	<Folder Name="/CMakePredefinedTargets/">
+		<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="83ebafa5-7b8b-365d-ac82-ef0542747ce3" DefaultStartup="true">
+			<BuildDependency Project="UE4SS.vcxproj"/>
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="proxy_generator/proxy/proxy.vcxproj"/>
+			<BuildDependency Project="proxy_generator/proxy_generator.vcxproj"/>
+		</Project>
+		<Project Path="INSTALL.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="e4fefccc-e5f4-3161-bd42-e0f2b19a8012">
+			<BuildDependency Project="ALL_BUILD.vcxproj"/>
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<Build Solution="Game__Debug__Win64|*" Project="false"/>
+			<Build Solution="Game__Dev__Win64|*" Project="false"/>
+			<Build Solution="Game__Shipping__Win64|*" Project="false"/>
+			<Build Solution="Game__Test__Win64|*" Project="false"/>
+			<Build Solution="CasePreserving__Debug__Win64|*" Project="false"/>
+			<Build Solution="CasePreserving__Dev__Win64|*" Project="false"/>
+			<Build Solution="CasePreserving__Shipping__Win64|*" Project="false"/>
+			<Build Solution="CasePreserving__Test__Win64|*" Project="false"/>
+			<Build Solution="LessEqual421__Debug__Win64|*" Project="false"/>
+			<Build Solution="LessEqual421__Dev__Win64|*" Project="false"/>
+			<Build Solution="LessEqual421__Shipping__Win64|*" Project="false"/>
+			<Build Solution="LessEqual421__Test__Win64|*" Project="false"/>
+		</Project>
+		<Project Path="../../ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="fc6d9511-acf5-3872-894d-41aca5390a35"/>
+	</Folder>
+	<Folder Name="/Programs/"/>
+	<Folder Name="/Programs/proxy/">
+		<Project Path="proxy_generator/proxy/proxy.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="e4ad78d9-868d-364b-94e9-7018808e376a">
+			<BuildDependency Project="../deps/first/File/File.vcxproj"/>
+			<BuildDependency Project="../deps/first/Helpers/Helpers.vcxproj"/>
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../_deps/fmt-build/fmt.vcxproj"/>
+			<BuildDependency Project="proxy_generator/proxy/proxy_files.vcxproj"/>
+			<BuildDependency Project="proxy_generator/proxy_generator.vcxproj"/>
+		</Project>
+		<Project Path="proxy_generator/proxy/proxy_files.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="3d174ed7-ddcd-3869-8116-41649eb61504">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="proxy_generator/proxy_generator.vcxproj"/>
+		</Project>
+		<Project Path="proxy_generator/proxy_generator.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="09ee1994-0767-3ffe-b082-e5725715e40f">
+			<BuildDependency Project="../deps/first/File/File.vcxproj"/>
+			<BuildDependency Project="../deps/first/Helpers/Helpers.vcxproj"/>
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../_deps/fmt-build/fmt.vcxproj"/>
+		</Project>
+	</Folder>
+	<Folder Name="/RE-UE4SS/">
+		<Project Path="UE4SS.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="a48af243-417b-3ca0-8a5a-ee4c18aa307a">
+			<BuildDependency Project="../deps/first/ASMHelper/ASMHelper.vcxproj"/>
+			<BuildDependency Project="../deps/first/DynamicOutput/DynamicOutput.vcxproj"/>
+			<BuildDependency Project="../deps/first/File/File.vcxproj"/>
+			<BuildDependency Project="../deps/first/Helpers/Helpers.vcxproj"/>
+			<BuildDependency Project="../deps/third/imgui/ImGui.vcxproj"/>
+			<BuildDependency Project="../deps/first/IniParser/IniParser.vcxproj"/>
+			<BuildDependency Project="../deps/first/Input/Input.vcxproj"/>
+			<BuildDependency Project="../deps/first/JSON/JSON.vcxproj"/>
+			<BuildDependency Project="../deps/first/LuaMadeSimple/LuaMadeSimple.vcxproj"/>
+			<BuildDependency Project="../deps/first/LuaRaw/LuaRaw.vcxproj"/>
+			<BuildDependency Project="../deps/first/ParserBase/ParserBase.vcxproj"/>
+			<BuildDependency Project="../../_deps/polyhook2-build/PolyHook_2.vcxproj"/>
+			<BuildDependency Project="../deps/first/SinglePassSigScanner/SinglePassSigScanner.vcxproj"/>
+			<BuildDependency Project="../deps/first/Unreal/Unreal.vcxproj"/>
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../_deps/zydis-build/zycore/Zycore.vcxproj"/>
+			<BuildDependency Project="../../_deps/zydis-build/Zydis.vcxproj"/>
+			<BuildDependency Project="../../_deps/polyhook2-build/asmtk/asmjit.vcxproj"/>
+			<BuildDependency Project="../../_deps/polyhook2-build/asmtk/asmtk.vcxproj"/>
+			<BuildDependency Project="../deps/third/corrosion/cargo-build_patternsleuth_bind.vcxproj"/>
+			<BuildDependency Project="../../_deps/fmt-build/fmt.vcxproj"/>
+			<BuildDependency Project="../deps/third/glad/glad.vcxproj"/>
+			<BuildDependency Project="../../_deps/glfw-build/src/glfw.vcxproj"/>
+		</Project>
+	</Folder>
+	<Folder Name="/deps/"/>
+	<Folder Name="/deps/first/">
+		<Project Path="../deps/first/ASMHelper/ASMHelper.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="67a32f99-0e50-3030-b9c0-d267a60f59c6">
+			<BuildDependency Project="../deps/first/DynamicOutput/DynamicOutput.vcxproj"/>
+			<BuildDependency Project="../deps/first/File/File.vcxproj"/>
+			<BuildDependency Project="../deps/first/Helpers/Helpers.vcxproj"/>
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../_deps/zydis-build/zycore/Zycore.vcxproj"/>
+			<BuildDependency Project="../../_deps/zydis-build/Zydis.vcxproj"/>
+			<BuildDependency Project="../../_deps/fmt-build/fmt.vcxproj"/>
+		</Project>
+		<Project Path="../deps/first/DynamicOutput/DynamicOutput.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="acf4dba5-fecd-3412-a9af-efc768dde66d">
+			<BuildDependency Project="../deps/first/File/File.vcxproj"/>
+			<BuildDependency Project="../deps/first/Helpers/Helpers.vcxproj"/>
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../_deps/fmt-build/fmt.vcxproj"/>
+		</Project>
+		<Project Path="../deps/first/File/File.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="7177183e-1d3d-3a1f-8e58-21d0f6964d88">
+			<BuildDependency Project="../deps/first/Helpers/Helpers.vcxproj"/>
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../_deps/fmt-build/fmt.vcxproj"/>
+		</Project>
+		<Project Path="../deps/first/Helpers/Helpers.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="72353ad6-3569-361a-9675-57c7857ba66e">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../_deps/fmt-build/fmt.vcxproj"/>
+		</Project>
+		<Project Path="../deps/first/IniParser/IniParser.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="fc59d6c0-66c1-3d9f-8fe6-ad7f7fd9f183">
+			<BuildDependency Project="../deps/first/File/File.vcxproj"/>
+			<BuildDependency Project="../deps/first/Helpers/Helpers.vcxproj"/>
+			<BuildDependency Project="../deps/first/ParserBase/ParserBase.vcxproj"/>
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../_deps/fmt-build/fmt.vcxproj"/>
+		</Project>
+		<Project Path="../deps/first/Input/Input.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="4940aeee-5b6d-31f4-b9ce-1840ddd6de06">
+			<BuildDependency Project="../deps/first/DynamicOutput/DynamicOutput.vcxproj"/>
+			<BuildDependency Project="../deps/first/File/File.vcxproj"/>
+			<BuildDependency Project="../deps/first/Helpers/Helpers.vcxproj"/>
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../_deps/fmt-build/fmt.vcxproj"/>
+		</Project>
+		<Project Path="../deps/first/JSON/JSON.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="578295a2-2a29-3154-a01a-f6d968fc8c00">
+			<BuildDependency Project="../deps/first/File/File.vcxproj"/>
+			<BuildDependency Project="../deps/first/Helpers/Helpers.vcxproj"/>
+			<BuildDependency Project="../deps/first/ParserBase/ParserBase.vcxproj"/>
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../_deps/fmt-build/fmt.vcxproj"/>
+		</Project>
+		<Project Path="../deps/first/LuaMadeSimple/LuaMadeSimple.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="4669e893-3699-38f6-b462-fc0e5b166f8f">
+			<BuildDependency Project="../deps/first/Helpers/Helpers.vcxproj"/>
+			<BuildDependency Project="../deps/first/LuaRaw/LuaRaw.vcxproj"/>
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../_deps/fmt-build/fmt.vcxproj"/>
+		</Project>
+		<Project Path="../deps/first/LuaRaw/LuaRaw.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="8a3deb46-5029-3af4-abc9-d1fd2209ec83">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="../deps/first/ParserBase/ParserBase.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="f87ead24-6126-3033-b62f-fc581703ead0">
+			<BuildDependency Project="../deps/first/File/File.vcxproj"/>
+			<BuildDependency Project="../deps/first/Helpers/Helpers.vcxproj"/>
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../_deps/fmt-build/fmt.vcxproj"/>
+		</Project>
+		<Project Path="../deps/first/SinglePassSigScanner/SinglePassSigScanner.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="6f063416-072a-39a0-b97d-8304f293542d">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../_deps/fmt-build/fmt.vcxproj"/>
+		</Project>
+		<Project Path="../deps/first/Unreal/Unreal.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="4c3f5beb-b652-3b8d-898d-4d19380fc552">
+			<BuildDependency Project="../deps/first/ASMHelper/ASMHelper.vcxproj"/>
+			<BuildDependency Project="../deps/first/DynamicOutput/DynamicOutput.vcxproj"/>
+			<BuildDependency Project="../deps/first/File/File.vcxproj"/>
+			<BuildDependency Project="../deps/first/Helpers/Helpers.vcxproj"/>
+			<BuildDependency Project="../../_deps/polyhook2-build/PolyHook_2.vcxproj"/>
+			<BuildDependency Project="../deps/first/SinglePassSigScanner/SinglePassSigScanner.vcxproj"/>
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../_deps/zydis-build/zycore/Zycore.vcxproj"/>
+			<BuildDependency Project="../../_deps/zydis-build/Zydis.vcxproj"/>
+			<BuildDependency Project="../../_deps/polyhook2-build/asmtk/asmjit.vcxproj"/>
+			<BuildDependency Project="../../_deps/polyhook2-build/asmtk/asmtk.vcxproj"/>
+			<BuildDependency Project="../../_deps/fmt-build/fmt.vcxproj"/>
+		</Project>
+	</Folder>
+	<Folder Name="/deps/first/rust/"/>
+	<Folder Name="/deps/first/rust/patternsleuth_bind/">
+		<Project Path="../deps/third/corrosion/_cargo-build_patternsleuth_bind.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="1e48570b-50cd-332b-94ed-d403d81a2018">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../deps/third/corrosion/cargo-prebuild_patternsleuth_bind.vcxproj"/>
+		</Project>
+		<Project Path="../deps/third/corrosion/cargo-build_patternsleuth_bind.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="e1a299a2-69d7-3e06-bc35-eae264514dc8">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../deps/third/corrosion/_cargo-build_patternsleuth_bind.vcxproj"/>
+		</Project>
+		<Project Path="../deps/third/corrosion/cargo-prebuild_patternsleuth_bind.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="fc96652b-f6df-3725-91fb-73b061033f0a">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		</Project>
+	</Folder>
+	<Folder Name="/deps/third/">
+		<Project Path="../deps/third/imgui/ImGui.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="8b13cc3c-92a9-3710-bf96-f11669fe4bd9">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../_deps/glfw-build/src/glfw.vcxproj"/>
+		</Project>
+		<Project Path="../../_deps/polyhook2-build/PolyHook_2.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="b0e9e9e3-e5de-3b08-bb67-265d3a0d6817">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../_deps/zydis-build/zycore/Zycore.vcxproj"/>
+			<BuildDependency Project="../../_deps/zydis-build/Zydis.vcxproj"/>
+			<BuildDependency Project="../../_deps/polyhook2-build/asmtk/asmjit.vcxproj"/>
+			<BuildDependency Project="../../_deps/polyhook2-build/asmtk/asmtk.vcxproj"/>
+		</Project>
+		<Project Path="../../_deps/zydis-build/zycore/Zycore.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="180ae371-cb01-3cd8-a3e0-c71bd2d6dbfe">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="../../_deps/zydis-build/Zydis.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="74a85404-17a7-3c7b-8002-afb47a7763bb">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../_deps/zydis-build/zycore/Zycore.vcxproj"/>
+		</Project>
+		<Project Path="../../_deps/polyhook2-build/asmtk/asmjit.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="e24cc932-601d-3b90-b748-c16c9020b66c">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="../../_deps/polyhook2-build/asmtk/asmtk.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="98135223-9ebc-3e66-a6e4-a8c570cd7fdc">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../_deps/polyhook2-build/asmtk/asmjit.vcxproj"/>
+		</Project>
+		<Project Path="../../_deps/fmt-build/fmt.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="7c82e362-7413-3126-95e0-5429dbbbb680">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="../deps/third/glad/glad.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="b98de7c4-3cfb-3870-9fea-e90ee3131151">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		</Project>
+	</Folder>
+	<Folder Name="/deps/third/GLFW3/">
+		<Project Path="../../_deps/glfw-build/src/glfw.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="5dae853d-76fd-3bc6-9391-d33d09119abe">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		</Project>
+	</Folder>
+</Solution>

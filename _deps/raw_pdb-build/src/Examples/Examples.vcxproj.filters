@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-build\src\Examples\CMakeFiles\Examples.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-src\src\Examples\ExampleContributions.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-src\src\Examples\ExampleFunctionSymbols.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-src\src\Examples\ExampleFunctionVariables.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-src\src\Examples\ExampleLines.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-src\src\Examples\ExampleMain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-src\src\Examples\ExampleMemoryMappedFile.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-src\src\Examples\Examples_PCH.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-src\src\Examples\ExampleSymbols.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-src\src\Examples\ExampleTypes.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-src\src\Examples\ExampleTimedScope.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-src\src\Examples\ExampleMemoryMappedFile.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-src\src\Examples\Examples_PCH.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-src\src\Examples\ExampleTimedScope.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-build\src\Examples\CMakeFiles\Examples.dir\Game__Debug__Win64\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-build\src\Examples\CMakeFiles\Examples.dir\Game__Dev__Win64\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-build\src\Examples\CMakeFiles\Examples.dir\Game__Shipping__Win64\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-build\src\Examples\CMakeFiles\Examples.dir\Game__Test__Win64\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-build\src\Examples\CMakeFiles\Examples.dir\CasePreserving__Debug__Win64\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-build\src\Examples\CMakeFiles\Examples.dir\CasePreserving__Dev__Win64\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-build\src\Examples\CMakeFiles\Examples.dir\CasePreserving__Shipping__Win64\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-build\src\Examples\CMakeFiles\Examples.dir\CasePreserving__Test__Win64\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-build\src\Examples\CMakeFiles\Examples.dir\LessEqual421__Debug__Win64\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-build\src\Examples\CMakeFiles\Examples.dir\LessEqual421__Dev__Win64\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-build\src\Examples\CMakeFiles\Examples.dir\LessEqual421__Shipping__Win64\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-build\src\Examples\CMakeFiles\Examples.dir\LessEqual421__Test__Win64\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\raw_pdb-src\src\Examples\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{F45AC04D-0DC0-355F-9A84-DB70E92C469C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4A80A2C5-7167-3C70-8213-513C2C35B1EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{50F59FB5-0054-3DC4-983B-7C45A6BBD8AF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

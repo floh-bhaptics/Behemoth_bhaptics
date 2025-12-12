@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth_bind\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth\patternsleuth\src\image\elf.rs">
+      <Filter>Source Files\image</Filter>
+    </None>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth\patternsleuth\src\image\macros.rs">
+      <Filter>Source Files\image</Filter>
+    </None>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth\patternsleuth\src\image\mod.rs">
+      <Filter>Source Files\image</Filter>
+    </None>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth\patternsleuth\src\image\pe.rs">
+      <Filter>Source Files\image</Filter>
+    </None>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth\patternsleuth\src\lib.rs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth\patternsleuth\src\process\external.rs">
+      <Filter>Source Files\process</Filter>
+    </None>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth\patternsleuth\src\process\internal.rs">
+      <Filter>Source Files\process</Filter>
+    </None>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth\patternsleuth\src\process\mod.rs">
+      <Filter>Source Files\process</Filter>
+    </None>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth\patternsleuth\src\resolvers\mod.rs">
+      <Filter>Source Files\resolvers</Filter>
+    </None>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth\patternsleuth\src\resolvers\unreal\aes.rs">
+      <Filter>Source Files\resolvers\unreal</Filter>
+    </None>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth\patternsleuth\src\resolvers\unreal\blueprint_library.rs">
+      <Filter>Source Files\resolvers\unreal</Filter>
+    </None>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth\patternsleuth\src\resolvers\unreal\engine_version.rs">
+      <Filter>Source Files\resolvers\unreal</Filter>
+    </None>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth\patternsleuth\src\resolvers\unreal\fname.rs">
+      <Filter>Source Files\resolvers\unreal</Filter>
+    </None>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth\patternsleuth\src\resolvers\unreal\ftext.rs">
+      <Filter>Source Files\resolvers\unreal</Filter>
+    </None>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth\patternsleuth\src\resolvers\unreal\fuobject_hash_tables.rs">
+      <Filter>Source Files\resolvers\unreal</Filter>
+    </None>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth\patternsleuth\src\resolvers\unreal\game_loop.rs">
+      <Filter>Source Files\resolvers\unreal</Filter>
+    </None>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth\patternsleuth\src\resolvers\unreal\gengine.rs">
+      <Filter>Source Files\resolvers\unreal</Filter>
+    </None>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth\patternsleuth\src\resolvers\unreal\gmalloc.rs">
+      <Filter>Source Files\resolvers\unreal</Filter>
+    </None>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth\patternsleuth\src\resolvers\unreal\guobject_array.rs">
+      <Filter>Source Files\resolvers\unreal</Filter>
+    </None>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth\patternsleuth\src\resolvers\unreal\kismet.rs">
+      <Filter>Source Files\resolvers\unreal</Filter>
+    </None>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth\patternsleuth\src\resolvers\unreal\mod.rs">
+      <Filter>Source Files\resolvers\unreal</Filter>
+    </None>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth\patternsleuth\src\resolvers\unreal\pak.rs">
+      <Filter>Source Files\resolvers\unreal</Filter>
+    </None>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth\patternsleuth\src\resolvers\unreal\save_game.rs">
+      <Filter>Source Files\resolvers\unreal</Filter>
+    </None>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth\patternsleuth\src\resolvers\unreal\static_construct_object.rs">
+      <Filter>Source Files\resolvers\unreal</Filter>
+    </None>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth\patternsleuth\src\resolvers\unreal\static_find_object.rs">
+      <Filter>Source Files\resolvers\unreal</Filter>
+    </None>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth\patternsleuth\src\symbols.rs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth\patternsleuth\src\uesym.rs">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4A80A2C5-7167-3C70-8213-513C2C35B1EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\image">
+      <UniqueIdentifier>{59521644-3D94-3535-ABED-7651F73F63CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\process">
+      <UniqueIdentifier>{FE803336-C2B3-357D-8945-EC8FBCCCCD87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\resolvers">
+      <UniqueIdentifier>{330A25B1-24B4-3272-BF34-0ACE3B46781F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\resolvers\unreal">
+      <UniqueIdentifier>{06A26805-6B6A-37DE-9537-0E3371340ACA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

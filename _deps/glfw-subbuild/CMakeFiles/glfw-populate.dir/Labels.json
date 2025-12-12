@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate"
+		},
+		{
+			"file" : "C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glfw-subbuild/CMakeFiles/37d8095a5124688e5c086e54f9c3920e/glfw-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glfw-subbuild/CMakeFiles/7fa9bc227910b79e00291d3adecfac31/glfw-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glfw-subbuild/CMakeFiles/af3c49c64704e31c466cfa712d388239/glfw-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glfw-subbuild/CMakeFiles/af3c49c64704e31c466cfa712d388239/glfw-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glfw-subbuild/CMakeFiles/af3c49c64704e31c466cfa712d388239/glfw-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glfw-subbuild/CMakeFiles/af3c49c64704e31c466cfa712d388239/glfw-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glfw-subbuild/CMakeFiles/af3c49c64704e31c466cfa712d388239/glfw-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glfw-subbuild/CMakeFiles/af3c49c64704e31c466cfa712d388239/glfw-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glfw-subbuild/CMakeFiles/af3c49c64704e31c466cfa712d388239/glfw-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/glfw-subbuild/CMakeFiles/af3c49c64704e31c466cfa712d388239/glfw-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glfw-populate"
+		],
+		"name" : "glfw-populate"
+	}
+}

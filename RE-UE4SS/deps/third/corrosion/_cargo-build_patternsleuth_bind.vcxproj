@@ -1,0 +1,840 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Game__Debug__Win64|x64">
+      <Configuration>Game__Debug__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Game__Dev__Win64|x64">
+      <Configuration>Game__Dev__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Game__Shipping__Win64|x64">
+      <Configuration>Game__Shipping__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Game__Test__Win64|x64">
+      <Configuration>Game__Test__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="CasePreserving__Debug__Win64|x64">
+      <Configuration>CasePreserving__Debug__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="CasePreserving__Dev__Win64|x64">
+      <Configuration>CasePreserving__Dev__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="CasePreserving__Shipping__Win64|x64">
+      <Configuration>CasePreserving__Shipping__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="CasePreserving__Test__Win64|x64">
+      <Configuration>CasePreserving__Test__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="LessEqual421__Debug__Win64|x64">
+      <Configuration>LessEqual421__Debug__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="LessEqual421__Dev__Win64|x64">
+      <Configuration>LessEqual421__Dev__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="LessEqual421__Shipping__Win64|x64">
+      <Configuration>LessEqual421__Shipping__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="LessEqual421__Test__Win64|x64">
+      <Configuration>LessEqual421__Test__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1E48570B-50CD-332B-94ED-D403D81A2018}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>_cargo-build_patternsleuth_bind</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying byproducts `patternsleuth_bind.lib` to C:/Users/Flori/source/repos/Behemoth_bhaptics/build/Game__Debug__Win64/lib</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Flori/source/repos/Behemoth_bhaptics/build/Game__Debug__Win64/lib
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Flori/source/repos/Behemoth_bhaptics/build/x64/Game__Debug__Win64/cargo/patternsleuth_bind_c4b67/x86_64-pc-windows-msvc/release/patternsleuth_bind.lib C:/Users/Flori/source/repos/Behemoth_bhaptics/build/Game__Debug__Win64/lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying byproducts `patternsleuth_bind.lib` to C:/Users/Flori/source/repos/Behemoth_bhaptics/build/Game__Dev__Win64/lib</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Flori/source/repos/Behemoth_bhaptics/build/Game__Dev__Win64/lib
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Flori/source/repos/Behemoth_bhaptics/build/x64/Game__Dev__Win64/cargo/patternsleuth_bind_c4b67/x86_64-pc-windows-msvc/release/patternsleuth_bind.lib C:/Users/Flori/source/repos/Behemoth_bhaptics/build/Game__Dev__Win64/lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying byproducts `patternsleuth_bind.lib` to C:/Users/Flori/source/repos/Behemoth_bhaptics/build/Game__Shipping__Win64/lib</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Flori/source/repos/Behemoth_bhaptics/build/Game__Shipping__Win64/lib
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Flori/source/repos/Behemoth_bhaptics/build/x64/Game__Shipping__Win64/cargo/patternsleuth_bind_c4b67/x86_64-pc-windows-msvc/release/patternsleuth_bind.lib C:/Users/Flori/source/repos/Behemoth_bhaptics/build/Game__Shipping__Win64/lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying byproducts `patternsleuth_bind.lib` to C:/Users/Flori/source/repos/Behemoth_bhaptics/build/Game__Test__Win64/lib</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Flori/source/repos/Behemoth_bhaptics/build/Game__Test__Win64/lib
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Flori/source/repos/Behemoth_bhaptics/build/x64/Game__Test__Win64/cargo/patternsleuth_bind_c4b67/x86_64-pc-windows-msvc/release/patternsleuth_bind.lib C:/Users/Flori/source/repos/Behemoth_bhaptics/build/Game__Test__Win64/lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying byproducts `patternsleuth_bind.lib` to C:/Users/Flori/source/repos/Behemoth_bhaptics/build/CasePreserving__Debug__Win64/lib</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Flori/source/repos/Behemoth_bhaptics/build/CasePreserving__Debug__Win64/lib
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Flori/source/repos/Behemoth_bhaptics/build/x64/CasePreserving__Debug__Win64/cargo/patternsleuth_bind_c4b67/x86_64-pc-windows-msvc/release/patternsleuth_bind.lib C:/Users/Flori/source/repos/Behemoth_bhaptics/build/CasePreserving__Debug__Win64/lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying byproducts `patternsleuth_bind.lib` to C:/Users/Flori/source/repos/Behemoth_bhaptics/build/CasePreserving__Dev__Win64/lib</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Flori/source/repos/Behemoth_bhaptics/build/CasePreserving__Dev__Win64/lib
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Flori/source/repos/Behemoth_bhaptics/build/x64/CasePreserving__Dev__Win64/cargo/patternsleuth_bind_c4b67/x86_64-pc-windows-msvc/release/patternsleuth_bind.lib C:/Users/Flori/source/repos/Behemoth_bhaptics/build/CasePreserving__Dev__Win64/lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying byproducts `patternsleuth_bind.lib` to C:/Users/Flori/source/repos/Behemoth_bhaptics/build/CasePreserving__Shipping__Win64/lib</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Flori/source/repos/Behemoth_bhaptics/build/CasePreserving__Shipping__Win64/lib
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Flori/source/repos/Behemoth_bhaptics/build/x64/CasePreserving__Shipping__Win64/cargo/patternsleuth_bind_c4b67/x86_64-pc-windows-msvc/release/patternsleuth_bind.lib C:/Users/Flori/source/repos/Behemoth_bhaptics/build/CasePreserving__Shipping__Win64/lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying byproducts `patternsleuth_bind.lib` to C:/Users/Flori/source/repos/Behemoth_bhaptics/build/CasePreserving__Test__Win64/lib</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Flori/source/repos/Behemoth_bhaptics/build/CasePreserving__Test__Win64/lib
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Flori/source/repos/Behemoth_bhaptics/build/x64/CasePreserving__Test__Win64/cargo/patternsleuth_bind_c4b67/x86_64-pc-windows-msvc/release/patternsleuth_bind.lib C:/Users/Flori/source/repos/Behemoth_bhaptics/build/CasePreserving__Test__Win64/lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying byproducts `patternsleuth_bind.lib` to C:/Users/Flori/source/repos/Behemoth_bhaptics/build/LessEqual421__Debug__Win64/lib</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Flori/source/repos/Behemoth_bhaptics/build/LessEqual421__Debug__Win64/lib
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Flori/source/repos/Behemoth_bhaptics/build/x64/LessEqual421__Debug__Win64/cargo/patternsleuth_bind_c4b67/x86_64-pc-windows-msvc/release/patternsleuth_bind.lib C:/Users/Flori/source/repos/Behemoth_bhaptics/build/LessEqual421__Debug__Win64/lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying byproducts `patternsleuth_bind.lib` to C:/Users/Flori/source/repos/Behemoth_bhaptics/build/LessEqual421__Dev__Win64/lib</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Flori/source/repos/Behemoth_bhaptics/build/LessEqual421__Dev__Win64/lib
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Flori/source/repos/Behemoth_bhaptics/build/x64/LessEqual421__Dev__Win64/cargo/patternsleuth_bind_c4b67/x86_64-pc-windows-msvc/release/patternsleuth_bind.lib C:/Users/Flori/source/repos/Behemoth_bhaptics/build/LessEqual421__Dev__Win64/lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying byproducts `patternsleuth_bind.lib` to C:/Users/Flori/source/repos/Behemoth_bhaptics/build/LessEqual421__Shipping__Win64/lib</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Flori/source/repos/Behemoth_bhaptics/build/LessEqual421__Shipping__Win64/lib
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Flori/source/repos/Behemoth_bhaptics/build/x64/LessEqual421__Shipping__Win64/cargo/patternsleuth_bind_c4b67/x86_64-pc-windows-msvc/release/patternsleuth_bind.lib C:/Users/Flori/source/repos/Behemoth_bhaptics/build/LessEqual421__Shipping__Win64/lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying byproducts `patternsleuth_bind.lib` to C:/Users/Flori/source/repos/Behemoth_bhaptics/build/LessEqual421__Test__Win64/lib</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Flori/source/repos/Behemoth_bhaptics/build/LessEqual421__Test__Win64/lib
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/Flori/source/repos/Behemoth_bhaptics/build/x64/LessEqual421__Test__Win64/cargo/patternsleuth_bind_c4b67/x86_64-pc-windows-msvc/release/patternsleuth_bind.lib C:/Users/Flori/source/repos/Behemoth_bhaptics/build/LessEqual421__Test__Win64/lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\CMakeFiles\efcd684dfdd3da0d389cec56eaeb70f2\_cargo-build_patternsleuth_bind.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'">setlocal
+cd C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth_bind
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "CC_x86_64_pc_windows_msvc=C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe" "CXX_x86_64_pc_windows_msvc=C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe" CORROSION_BUILD_DIR=C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/deps/third/corrosion CARGO_BUILD_RUSTC=C:/Users/Flori/.rustup/toolchains/1.92-x86_64-pc-windows-msvc/bin/rustc.exe C:/Users/Flori/.rustup/toolchains/1.92-x86_64-pc-windows-msvc/bin/cargo.exe rustc --lib --target=x86_64-pc-windows-msvc --package patternsleuth_bind --crate-type=staticlib --manifest-path C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/deps/first/patternsleuth_bind/Cargo.toml --target-dir C:/Users/Flori/source/repos/Behemoth_bhaptics/build/x64/Game__Debug__Win64/cargo/patternsleuth_bind_c4b67 --release -- -Cdefault-linker-libraries=yes
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\deps\third\corrosion\CMakeFiles\_cargo-build_patternsleuth_bind</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'">setlocal
+cd C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth_bind
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "CC_x86_64_pc_windows_msvc=C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe" "CXX_x86_64_pc_windows_msvc=C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe" CORROSION_BUILD_DIR=C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/deps/third/corrosion CARGO_BUILD_RUSTC=C:/Users/Flori/.rustup/toolchains/1.92-x86_64-pc-windows-msvc/bin/rustc.exe C:/Users/Flori/.rustup/toolchains/1.92-x86_64-pc-windows-msvc/bin/cargo.exe rustc --lib --target=x86_64-pc-windows-msvc --package patternsleuth_bind --crate-type=staticlib --manifest-path C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/deps/first/patternsleuth_bind/Cargo.toml --target-dir C:/Users/Flori/source/repos/Behemoth_bhaptics/build/x64/Game__Dev__Win64/cargo/patternsleuth_bind_c4b67 --release -- -Cdefault-linker-libraries=yes
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\deps\third\corrosion\CMakeFiles\_cargo-build_patternsleuth_bind</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">setlocal
+cd C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth_bind
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "CC_x86_64_pc_windows_msvc=C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe" "CXX_x86_64_pc_windows_msvc=C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe" CORROSION_BUILD_DIR=C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/deps/third/corrosion CARGO_BUILD_RUSTC=C:/Users/Flori/.rustup/toolchains/1.92-x86_64-pc-windows-msvc/bin/rustc.exe C:/Users/Flori/.rustup/toolchains/1.92-x86_64-pc-windows-msvc/bin/cargo.exe rustc --lib --target=x86_64-pc-windows-msvc --package patternsleuth_bind --crate-type=staticlib --manifest-path C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/deps/first/patternsleuth_bind/Cargo.toml --target-dir C:/Users/Flori/source/repos/Behemoth_bhaptics/build/x64/Game__Shipping__Win64/cargo/patternsleuth_bind_c4b67 --release -- -Cdefault-linker-libraries=yes
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\deps\third\corrosion\CMakeFiles\_cargo-build_patternsleuth_bind</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'">setlocal
+cd C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth_bind
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "CC_x86_64_pc_windows_msvc=C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe" "CXX_x86_64_pc_windows_msvc=C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe" CORROSION_BUILD_DIR=C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/deps/third/corrosion CARGO_BUILD_RUSTC=C:/Users/Flori/.rustup/toolchains/1.92-x86_64-pc-windows-msvc/bin/rustc.exe C:/Users/Flori/.rustup/toolchains/1.92-x86_64-pc-windows-msvc/bin/cargo.exe rustc --lib --target=x86_64-pc-windows-msvc --package patternsleuth_bind --crate-type=staticlib --manifest-path C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/deps/first/patternsleuth_bind/Cargo.toml --target-dir C:/Users/Flori/source/repos/Behemoth_bhaptics/build/x64/Game__Test__Win64/cargo/patternsleuth_bind_c4b67 --release -- -Cdefault-linker-libraries=yes
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\deps\third\corrosion\CMakeFiles\_cargo-build_patternsleuth_bind</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'">setlocal
+cd C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth_bind
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "CC_x86_64_pc_windows_msvc=C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe" "CXX_x86_64_pc_windows_msvc=C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe" CORROSION_BUILD_DIR=C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/deps/third/corrosion CARGO_BUILD_RUSTC=C:/Users/Flori/.rustup/toolchains/1.92-x86_64-pc-windows-msvc/bin/rustc.exe C:/Users/Flori/.rustup/toolchains/1.92-x86_64-pc-windows-msvc/bin/cargo.exe rustc --lib --target=x86_64-pc-windows-msvc --package patternsleuth_bind --crate-type=staticlib --manifest-path C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/deps/first/patternsleuth_bind/Cargo.toml --target-dir C:/Users/Flori/source/repos/Behemoth_bhaptics/build/x64/CasePreserving__Debug__Win64/cargo/patternsleuth_bind_c4b67 --release -- -Cdefault-linker-libraries=yes
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\deps\third\corrosion\CMakeFiles\_cargo-build_patternsleuth_bind</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'">setlocal
+cd C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth_bind
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "CC_x86_64_pc_windows_msvc=C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe" "CXX_x86_64_pc_windows_msvc=C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe" CORROSION_BUILD_DIR=C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/deps/third/corrosion CARGO_BUILD_RUSTC=C:/Users/Flori/.rustup/toolchains/1.92-x86_64-pc-windows-msvc/bin/rustc.exe C:/Users/Flori/.rustup/toolchains/1.92-x86_64-pc-windows-msvc/bin/cargo.exe rustc --lib --target=x86_64-pc-windows-msvc --package patternsleuth_bind --crate-type=staticlib --manifest-path C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/deps/first/patternsleuth_bind/Cargo.toml --target-dir C:/Users/Flori/source/repos/Behemoth_bhaptics/build/x64/CasePreserving__Dev__Win64/cargo/patternsleuth_bind_c4b67 --release -- -Cdefault-linker-libraries=yes
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\deps\third\corrosion\CMakeFiles\_cargo-build_patternsleuth_bind</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'">setlocal
+cd C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth_bind
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "CC_x86_64_pc_windows_msvc=C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe" "CXX_x86_64_pc_windows_msvc=C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe" CORROSION_BUILD_DIR=C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/deps/third/corrosion CARGO_BUILD_RUSTC=C:/Users/Flori/.rustup/toolchains/1.92-x86_64-pc-windows-msvc/bin/rustc.exe C:/Users/Flori/.rustup/toolchains/1.92-x86_64-pc-windows-msvc/bin/cargo.exe rustc --lib --target=x86_64-pc-windows-msvc --package patternsleuth_bind --crate-type=staticlib --manifest-path C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/deps/first/patternsleuth_bind/Cargo.toml --target-dir C:/Users/Flori/source/repos/Behemoth_bhaptics/build/x64/CasePreserving__Shipping__Win64/cargo/patternsleuth_bind_c4b67 --release -- -Cdefault-linker-libraries=yes
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\deps\third\corrosion\CMakeFiles\_cargo-build_patternsleuth_bind</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'">setlocal
+cd C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth_bind
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "CC_x86_64_pc_windows_msvc=C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe" "CXX_x86_64_pc_windows_msvc=C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe" CORROSION_BUILD_DIR=C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/deps/third/corrosion CARGO_BUILD_RUSTC=C:/Users/Flori/.rustup/toolchains/1.92-x86_64-pc-windows-msvc/bin/rustc.exe C:/Users/Flori/.rustup/toolchains/1.92-x86_64-pc-windows-msvc/bin/cargo.exe rustc --lib --target=x86_64-pc-windows-msvc --package patternsleuth_bind --crate-type=staticlib --manifest-path C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/deps/first/patternsleuth_bind/Cargo.toml --target-dir C:/Users/Flori/source/repos/Behemoth_bhaptics/build/x64/CasePreserving__Test__Win64/cargo/patternsleuth_bind_c4b67 --release -- -Cdefault-linker-libraries=yes
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\deps\third\corrosion\CMakeFiles\_cargo-build_patternsleuth_bind</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'">setlocal
+cd C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth_bind
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "CC_x86_64_pc_windows_msvc=C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe" "CXX_x86_64_pc_windows_msvc=C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe" CORROSION_BUILD_DIR=C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/deps/third/corrosion CARGO_BUILD_RUSTC=C:/Users/Flori/.rustup/toolchains/1.92-x86_64-pc-windows-msvc/bin/rustc.exe C:/Users/Flori/.rustup/toolchains/1.92-x86_64-pc-windows-msvc/bin/cargo.exe rustc --lib --target=x86_64-pc-windows-msvc --package patternsleuth_bind --crate-type=staticlib --manifest-path C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/deps/first/patternsleuth_bind/Cargo.toml --target-dir C:/Users/Flori/source/repos/Behemoth_bhaptics/build/x64/LessEqual421__Debug__Win64/cargo/patternsleuth_bind_c4b67 --release -- -Cdefault-linker-libraries=yes
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\deps\third\corrosion\CMakeFiles\_cargo-build_patternsleuth_bind</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'">setlocal
+cd C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth_bind
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "CC_x86_64_pc_windows_msvc=C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe" "CXX_x86_64_pc_windows_msvc=C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe" CORROSION_BUILD_DIR=C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/deps/third/corrosion CARGO_BUILD_RUSTC=C:/Users/Flori/.rustup/toolchains/1.92-x86_64-pc-windows-msvc/bin/rustc.exe C:/Users/Flori/.rustup/toolchains/1.92-x86_64-pc-windows-msvc/bin/cargo.exe rustc --lib --target=x86_64-pc-windows-msvc --package patternsleuth_bind --crate-type=staticlib --manifest-path C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/deps/first/patternsleuth_bind/Cargo.toml --target-dir C:/Users/Flori/source/repos/Behemoth_bhaptics/build/x64/LessEqual421__Dev__Win64/cargo/patternsleuth_bind_c4b67 --release -- -Cdefault-linker-libraries=yes
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\deps\third\corrosion\CMakeFiles\_cargo-build_patternsleuth_bind</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'">setlocal
+cd C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth_bind
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "CC_x86_64_pc_windows_msvc=C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe" "CXX_x86_64_pc_windows_msvc=C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe" CORROSION_BUILD_DIR=C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/deps/third/corrosion CARGO_BUILD_RUSTC=C:/Users/Flori/.rustup/toolchains/1.92-x86_64-pc-windows-msvc/bin/rustc.exe C:/Users/Flori/.rustup/toolchains/1.92-x86_64-pc-windows-msvc/bin/cargo.exe rustc --lib --target=x86_64-pc-windows-msvc --package patternsleuth_bind --crate-type=staticlib --manifest-path C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/deps/first/patternsleuth_bind/Cargo.toml --target-dir C:/Users/Flori/source/repos/Behemoth_bhaptics/build/x64/LessEqual421__Shipping__Win64/cargo/patternsleuth_bind_c4b67 --release -- -Cdefault-linker-libraries=yes
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\deps\third\corrosion\CMakeFiles\_cargo-build_patternsleuth_bind</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'">setlocal
+cd C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\patternsleuth_bind
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "CC_x86_64_pc_windows_msvc=C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe" "CXX_x86_64_pc_windows_msvc=C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe" CORROSION_BUILD_DIR=C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/deps/third/corrosion CARGO_BUILD_RUSTC=C:/Users/Flori/.rustup/toolchains/1.92-x86_64-pc-windows-msvc/bin/rustc.exe C:/Users/Flori/.rustup/toolchains/1.92-x86_64-pc-windows-msvc/bin/cargo.exe rustc --lib --target=x86_64-pc-windows-msvc --package patternsleuth_bind --crate-type=staticlib --manifest-path C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/deps/first/patternsleuth_bind/Cargo.toml --target-dir C:/Users/Flori/source/repos/Behemoth_bhaptics/build/x64/LessEqual421__Test__Win64/cargo/patternsleuth_bind_c4b67 --release -- -Cdefault-linker-libraries=yes
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\deps\third\corrosion\CMakeFiles\_cargo-build_patternsleuth_bind</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\third\corrosion\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/deps/third/corrosion/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/deps/third/corrosion/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\deps\third\corrosion\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/deps/third/corrosion/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/deps/third/corrosion/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\deps\third\corrosion\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/deps/third/corrosion/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/deps/third/corrosion/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\deps\third\corrosion\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/deps/third/corrosion/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/deps/third/corrosion/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\deps\third\corrosion\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/deps/third/corrosion/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/deps/third/corrosion/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\deps\third\corrosion\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/deps/third/corrosion/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/deps/third/corrosion/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\deps\third\corrosion\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/deps/third/corrosion/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/deps/third/corrosion/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\deps\third\corrosion\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/deps/third/corrosion/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/deps/third/corrosion/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\deps\third\corrosion\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/deps/third/corrosion/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/deps/third/corrosion/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\deps\third\corrosion\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/deps/third/corrosion/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/deps/third/corrosion/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\deps\third\corrosion\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/deps/third/corrosion/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/deps/third/corrosion/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\deps\third\corrosion\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/deps/third/corrosion/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/deps/third/corrosion/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\deps\third\corrosion\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\deps\third\corrosion\CMakeFiles\_cargo-build_patternsleuth_bind">
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\ZERO_CHECK.vcxproj">
+      <Project>{FC6D9511-ACF5-3872-894D-41ACA5390A35}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\deps\third\corrosion\cargo-prebuild_patternsleuth_bind.vcxproj">
+      <Project>{FC96652B-F6DF-3725-91FB-73B061033F0A}</Project>
+      <Name>cargo-prebuild_patternsleuth_bind</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>

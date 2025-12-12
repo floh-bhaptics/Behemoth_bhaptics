@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\glaze-subbuild\CMakeFiles\b2f90e70fa4ea247f0a8659351f733bd\glaze-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\glaze-subbuild\CMakeFiles\b2f90e70fa4ea247f0a8659351f733bd\glaze-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\glaze-subbuild\CMakeFiles\b2f90e70fa4ea247f0a8659351f733bd\glaze-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\glaze-subbuild\CMakeFiles\b2f90e70fa4ea247f0a8659351f733bd\glaze-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\glaze-subbuild\CMakeFiles\b2f90e70fa4ea247f0a8659351f733bd\glaze-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\glaze-subbuild\CMakeFiles\b2f90e70fa4ea247f0a8659351f733bd\glaze-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\glaze-subbuild\CMakeFiles\b2f90e70fa4ea247f0a8659351f733bd\glaze-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\glaze-subbuild\CMakeFiles\b2f90e70fa4ea247f0a8659351f733bd\glaze-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\glaze-subbuild\CMakeFiles\3bec2ad46828caf5862eb5e652ecafcc\glaze-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\glaze-subbuild\CMakeFiles\4887e30811851eb3ab8e87de20bc0d68\glaze-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\glaze-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\glaze-subbuild\CMakeFiles\glaze-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8C8AE62E-8DCA-3780-9167-2BC2CBA4C307}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

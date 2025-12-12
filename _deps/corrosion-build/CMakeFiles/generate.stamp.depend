@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindPackageMessage.cmake
+C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/corrosion-src/CMakeLists.txt
+C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/corrosion-src/cmake/Corrosion.cmake
+C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/corrosion-src/cmake/CorrosionGenerator.cmake
+C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/corrosion-src/cmake/FindRust.cmake

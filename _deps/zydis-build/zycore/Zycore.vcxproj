@@ -1,0 +1,1031 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Game__Debug__Win64|x64">
+      <Configuration>Game__Debug__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Game__Dev__Win64|x64">
+      <Configuration>Game__Dev__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Game__Shipping__Win64|x64">
+      <Configuration>Game__Shipping__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Game__Test__Win64|x64">
+      <Configuration>Game__Test__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="CasePreserving__Debug__Win64|x64">
+      <Configuration>CasePreserving__Debug__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="CasePreserving__Dev__Win64|x64">
+      <Configuration>CasePreserving__Dev__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="CasePreserving__Shipping__Win64|x64">
+      <Configuration>CasePreserving__Shipping__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="CasePreserving__Test__Win64|x64">
+      <Configuration>CasePreserving__Test__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="LessEqual421__Debug__Win64|x64">
+      <Configuration>LessEqual421__Debug__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="LessEqual421__Dev__Win64|x64">
+      <Configuration>LessEqual421__Dev__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="LessEqual421__Shipping__Win64|x64">
+      <Configuration>LessEqual421__Shipping__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="LessEqual421__Test__Win64|x64">
+      <Configuration>LessEqual421__Test__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{180AE371-CB01-3CD8-A3E0-C71BD2D6DBFE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>Zycore</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\Game__Debug__Win64\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'">Zycore.dir\Game__Debug__Win64\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'">Zycore</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\Game__Dev__Win64\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'">Zycore.dir\Game__Dev__Win64\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'">Zycore</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\Game__Shipping__Win64\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">Zycore.dir\Game__Shipping__Win64\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">Zycore</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\Game__Test__Win64\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'">Zycore.dir\Game__Test__Win64\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'">Zycore</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\CasePreserving__Debug__Win64\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'">Zycore.dir\CasePreserving__Debug__Win64\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'">Zycore</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\CasePreserving__Dev__Win64\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'">Zycore.dir\CasePreserving__Dev__Win64\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'">Zycore</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\CasePreserving__Shipping__Win64\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'">Zycore.dir\CasePreserving__Shipping__Win64\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'">Zycore</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\CasePreserving__Test__Win64\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'">Zycore.dir\CasePreserving__Test__Win64\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'">Zycore</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\LessEqual421__Debug__Win64\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'">Zycore.dir\LessEqual421__Debug__Win64\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'">Zycore</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\LessEqual421__Dev__Win64\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'">Zycore.dir\LessEqual421__Dev__Win64\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'">Zycore</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\LessEqual421__Shipping__Win64\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'">Zycore.dir\LessEqual421__Shipping__Win64\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'">Zycore</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\LessEqual421__Test__Win64\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'">Zycore.dir\LessEqual421__Test__Win64\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'">Zycore</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:strictStrings /Zc:strictStrings</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4251;4068;4201;4005;4251;4068</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;UE_BUILD_DEBUG;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR="Game__Debug__Win64"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;UE_BUILD_DEBUG;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR=\"Game__Debug__Win64\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;UE_BUILD_DEBUG;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR="Game__Debug__Win64";</PreprocessorDefinitions>
+      <IncludePaths>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>%(AdditionalOptions) /wd4201</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:strictStrings /Zc:strictStrings</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4251;4068;4201;4005;4251;4068</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;UE_BUILD_DEVELOPMENT;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR="Game__Dev__Win64"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;UE_BUILD_DEVELOPMENT;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR=\"Game__Dev__Win64\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;UE_BUILD_DEVELOPMENT;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR="Game__Dev__Win64";</PreprocessorDefinitions>
+      <IncludePaths>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>%(AdditionalOptions) /wd4201</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:strictStrings /Zc:strictStrings</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4251;4068;4201;4005;4251;4068</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;UE_BUILD_SHIPPING;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR="Game__Shipping__Win64"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;UE_BUILD_SHIPPING;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR=\"Game__Shipping__Win64\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;UE_BUILD_SHIPPING;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR="Game__Shipping__Win64";</PreprocessorDefinitions>
+      <IncludePaths>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>%(AdditionalOptions) /wd4201</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:strictStrings /Zc:strictStrings</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4251;4068;4201;4005;4251;4068</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;UE_BUILD_TEST;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR="Game__Test__Win64"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;UE_BUILD_TEST;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR=\"Game__Test__Win64\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;UE_BUILD_TEST;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR="Game__Test__Win64";</PreprocessorDefinitions>
+      <IncludePaths>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>%(AdditionalOptions) /wd4201</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:strictStrings /Zc:strictStrings</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4251;4068;4201;4005;4251;4068</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;WITH_CASE_PRESERVING_NAME;UE_BUILD_DEBUG;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR="CasePreserving__Debug__Win64"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;WITH_CASE_PRESERVING_NAME;UE_BUILD_DEBUG;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR=\"CasePreserving__Debug__Win64\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;WITH_CASE_PRESERVING_NAME;UE_BUILD_DEBUG;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR="CasePreserving__Debug__Win64";</PreprocessorDefinitions>
+      <IncludePaths>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>%(AdditionalOptions) /wd4201</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:strictStrings /Zc:strictStrings</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4251;4068;4201;4005;4251;4068</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;WITH_CASE_PRESERVING_NAME;UE_BUILD_DEVELOPMENT;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR="CasePreserving__Dev__Win64"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;WITH_CASE_PRESERVING_NAME;UE_BUILD_DEVELOPMENT;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR=\"CasePreserving__Dev__Win64\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;WITH_CASE_PRESERVING_NAME;UE_BUILD_DEVELOPMENT;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR="CasePreserving__Dev__Win64";</PreprocessorDefinitions>
+      <IncludePaths>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>%(AdditionalOptions) /wd4201</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:strictStrings /Zc:strictStrings</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4251;4068;4201;4005;4251;4068</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;WITH_CASE_PRESERVING_NAME;UE_BUILD_SHIPPING;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR="CasePreserving__Shipping__Win64"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;WITH_CASE_PRESERVING_NAME;UE_BUILD_SHIPPING;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR=\"CasePreserving__Shipping__Win64\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;WITH_CASE_PRESERVING_NAME;UE_BUILD_SHIPPING;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR="CasePreserving__Shipping__Win64";</PreprocessorDefinitions>
+      <IncludePaths>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>%(AdditionalOptions) /wd4201</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:strictStrings /Zc:strictStrings</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4251;4068;4201;4005;4251;4068</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;WITH_CASE_PRESERVING_NAME;UE_BUILD_TEST;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR="CasePreserving__Test__Win64"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;WITH_CASE_PRESERVING_NAME;UE_BUILD_TEST;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR=\"CasePreserving__Test__Win64\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;WITH_CASE_PRESERVING_NAME;UE_BUILD_TEST;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR="CasePreserving__Test__Win64";</PreprocessorDefinitions>
+      <IncludePaths>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>%(AdditionalOptions) /wd4201</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:strictStrings /Zc:strictStrings</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4251;4068;4201;4005;4251;4068</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;FNAME_ALIGN8;LESSEQUAL421;UE_BUILD_DEBUG;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR="LessEqual421__Debug__Win64"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;FNAME_ALIGN8;LESSEQUAL421;UE_BUILD_DEBUG;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR=\"LessEqual421__Debug__Win64\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;FNAME_ALIGN8;LESSEQUAL421;UE_BUILD_DEBUG;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR="LessEqual421__Debug__Win64";</PreprocessorDefinitions>
+      <IncludePaths>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>%(AdditionalOptions) /wd4201</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:strictStrings /Zc:strictStrings</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4251;4068;4201;4005;4251;4068</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;FNAME_ALIGN8;LESSEQUAL421;UE_BUILD_DEVELOPMENT;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR="LessEqual421__Dev__Win64"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;FNAME_ALIGN8;LESSEQUAL421;UE_BUILD_DEVELOPMENT;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR=\"LessEqual421__Dev__Win64\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;FNAME_ALIGN8;LESSEQUAL421;UE_BUILD_DEVELOPMENT;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR="LessEqual421__Dev__Win64";</PreprocessorDefinitions>
+      <IncludePaths>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>%(AdditionalOptions) /wd4201</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:strictStrings /Zc:strictStrings</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4251;4068;4201;4005;4251;4068</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;FNAME_ALIGN8;LESSEQUAL421;UE_BUILD_SHIPPING;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR="LessEqual421__Shipping__Win64"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;FNAME_ALIGN8;LESSEQUAL421;UE_BUILD_SHIPPING;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR=\"LessEqual421__Shipping__Win64\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;FNAME_ALIGN8;LESSEQUAL421;UE_BUILD_SHIPPING;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR="LessEqual421__Shipping__Win64";</PreprocessorDefinitions>
+      <IncludePaths>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>%(AdditionalOptions) /wd4201</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:strictStrings /Zc:strictStrings</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4251;4068;4201;4005;4251;4068</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;FNAME_ALIGN8;LESSEQUAL421;UE_BUILD_TEST;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR="LessEqual421__Test__Win64"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;FNAME_ALIGN8;LESSEQUAL421;UE_BUILD_TEST;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR=\"LessEqual421__Test__Win64\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;ZYCORE_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;FNAME_ALIGN8;LESSEQUAL421;UE_BUILD_TEST;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;CMAKE_INTDIR="LessEqual421__Test__Win64";</PreprocessorDefinitions>
+      <IncludePaths>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>%(AdditionalOptions) /wd4201</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/zydis-src/dependencies/zycore/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/zydis-build/zycore/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\cmake\zyan-functions.cmake;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\cmake\zycore-config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/zydis-src/dependencies/zycore/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/zydis-build/zycore/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\cmake\zyan-functions.cmake;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\cmake\zycore-config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/zydis-src/dependencies/zycore/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/zydis-build/zycore/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\cmake\zyan-functions.cmake;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\cmake\zycore-config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/zydis-src/dependencies/zycore/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/zydis-build/zycore/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\cmake\zyan-functions.cmake;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\cmake\zycore-config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/zydis-src/dependencies/zycore/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/zydis-build/zycore/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\cmake\zyan-functions.cmake;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\cmake\zycore-config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/zydis-src/dependencies/zycore/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/zydis-build/zycore/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\cmake\zyan-functions.cmake;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\cmake\zycore-config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/zydis-src/dependencies/zycore/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/zydis-build/zycore/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\cmake\zyan-functions.cmake;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\cmake\zycore-config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/zydis-src/dependencies/zycore/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/zydis-build/zycore/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\cmake\zyan-functions.cmake;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\cmake\zycore-config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/zydis-src/dependencies/zycore/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/zydis-build/zycore/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\cmake\zyan-functions.cmake;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\cmake\zycore-config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/zydis-src/dependencies/zycore/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/zydis-build/zycore/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\cmake\zyan-functions.cmake;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\cmake\zycore-config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/zydis-src/dependencies/zycore/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/zydis-build/zycore/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\cmake\zyan-functions.cmake;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\cmake\zycore-config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/zydis-src/dependencies/zycore/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/zydis-build/zycore/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\cmake\zyan-functions.cmake;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\cmake\zycore-config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-build\zycore\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include\Zycore\API\Memory.h" />
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include\Zycore\API\Process.h" />
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include\Zycore\API\Synchronization.h" />
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include\Zycore\API\Terminal.h" />
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include\Zycore\API\Thread.h" />
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include\Zycore\Allocator.h" />
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include\Zycore\ArgParse.h" />
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include\Zycore\Atomic.h" />
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include\Zycore\Bitset.h" />
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include\Zycore\Comparison.h" />
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include\Zycore\Defines.h" />
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include\Zycore\Format.h" />
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include\Zycore\LibC.h" />
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include\Zycore\List.h" />
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include\Zycore\Object.h" />
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include\Zycore\Status.h" />
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include\Zycore\String.h" />
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include\Zycore\Types.h" />
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include\Zycore\Vector.h" />
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include\Zycore\Zycore.h" />
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include\Zycore\Internal\AtomicGNU.h" />
+    <ClInclude Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\include\Zycore\Internal\AtomicMSVC.h" />
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src\API\Memory.c" />
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src\API\Process.c" />
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src\API\Synchronization.c" />
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src\API\Terminal.c" />
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src\API\Thread.c" />
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src\Allocator.c" />
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src\ArgParse.c" />
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src\Bitset.c" />
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src\Format.c" />
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src\List.c" />
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src\String.c" />
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src\Vector.c" />
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-src\dependencies\zycore\src\Zycore.c" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\ZERO_CHECK.vcxproj">
+      <Project>{FC6D9511-ACF5-3872-894D-41ACA5390A35}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>

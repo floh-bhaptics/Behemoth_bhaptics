@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\CMakeFiles\efcd684dfdd3da0d389cec56eaeb70f2\cargo-clean_patternsleuth_bind.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\third\corrosion\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\deps\third\corrosion\CMakeFiles\cargo-clean_patternsleuth_bind" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5242D6D0-1CDF-3E00-9455-40FA8A552B45}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

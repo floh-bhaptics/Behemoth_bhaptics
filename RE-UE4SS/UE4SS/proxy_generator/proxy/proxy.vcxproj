@@ -1,0 +1,1254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Game__Debug__Win64|x64">
+      <Configuration>Game__Debug__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Game__Dev__Win64|x64">
+      <Configuration>Game__Dev__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Game__Shipping__Win64|x64">
+      <Configuration>Game__Shipping__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Game__Test__Win64|x64">
+      <Configuration>Game__Test__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="CasePreserving__Debug__Win64|x64">
+      <Configuration>CasePreserving__Debug__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="CasePreserving__Dev__Win64|x64">
+      <Configuration>CasePreserving__Dev__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="CasePreserving__Shipping__Win64|x64">
+      <Configuration>CasePreserving__Shipping__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="CasePreserving__Test__Win64|x64">
+      <Configuration>CasePreserving__Test__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="LessEqual421__Debug__Win64|x64">
+      <Configuration>LessEqual421__Debug__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="LessEqual421__Dev__Win64|x64">
+      <Configuration>LessEqual421__Dev__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="LessEqual421__Shipping__Win64|x64">
+      <Configuration>LessEqual421__Shipping__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="LessEqual421__Test__Win64|x64">
+      <Configuration>LessEqual421__Test__Win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E4AD78D9-868D-364B-94E9-7018808E376A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>proxy</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\Game__Debug__Win64\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'">proxy.dir\Game__Debug__Win64\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'">dwmapi</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\Game__Dev__Win64\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'">proxy.dir\Game__Dev__Win64\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'">dwmapi</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\Game__Shipping__Win64\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">proxy.dir\Game__Shipping__Win64\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">dwmapi</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\Game__Test__Win64\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'">proxy.dir\Game__Test__Win64\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'">dwmapi</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\CasePreserving__Debug__Win64\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'">proxy.dir\CasePreserving__Debug__Win64\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'">dwmapi</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\CasePreserving__Dev__Win64\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'">proxy.dir\CasePreserving__Dev__Win64\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'">dwmapi</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\CasePreserving__Shipping__Win64\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'">proxy.dir\CasePreserving__Shipping__Win64\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'">dwmapi</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\CasePreserving__Test__Win64\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'">proxy.dir\CasePreserving__Test__Win64\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'">dwmapi</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\LessEqual421__Debug__Win64\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'">proxy.dir\LessEqual421__Debug__Win64\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'">dwmapi</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\LessEqual421__Dev__Win64\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'">proxy.dir\LessEqual421__Dev__Win64\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'">dwmapi</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\LessEqual421__Shipping__Win64\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'">proxy.dir\LessEqual421__Shipping__Win64\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'">dwmapi</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\LessEqual421__Test__Win64\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'">proxy.dir\LessEqual421__Test__Win64\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'">dwmapi</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/fmt-src/include" /Zc:strictStrings /Zc:strictStrings /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4251;4068;4005;4251;4068</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;UE_BUILD_DEBUG;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR="Game__Debug__Win64";proxy_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;UE_BUILD_DEBUG;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR=\"Game__Debug__Win64\";proxy_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;UE_BUILD_DEBUG;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR="Game__Debug__Win64";proxy_EXPORTS;</PreprocessorDefinitions>
+      <IncludePaths>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(IncludePaths)</IncludePaths>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\Game__Debug__Win64\lib\File.lib;..\..\..\..\Game__Debug__Win64\lib\Helpers.lib;..\..\..\..\Game__Debug__Win64\lib\fmt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/Game__Debug__Win64/lib/dwmapi.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ModuleDefinitionFile>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/UE4SS/proxy_generator/proxy/dwmapi.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/Game__Debug__Win64/bin/dwmapi.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem></SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/fmt-src/include" /Zc:strictStrings /Zc:strictStrings /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4251;4068;4005;4251;4068</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;UE_BUILD_DEVELOPMENT;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR="Game__Dev__Win64";proxy_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;UE_BUILD_DEVELOPMENT;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR=\"Game__Dev__Win64\";proxy_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;UE_BUILD_DEVELOPMENT;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR="Game__Dev__Win64";proxy_EXPORTS;</PreprocessorDefinitions>
+      <IncludePaths>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(IncludePaths)</IncludePaths>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\Game__Dev__Win64\lib\File.lib;..\..\..\..\Game__Dev__Win64\lib\Helpers.lib;..\..\..\..\Game__Dev__Win64\lib\fmt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/Game__Dev__Win64/lib/dwmapi.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ModuleDefinitionFile>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/UE4SS/proxy_generator/proxy/dwmapi.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/Game__Dev__Win64/bin/dwmapi.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem></SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/fmt-src/include" /Zc:strictStrings /Zc:strictStrings /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4251;4068;4005;4251;4068</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;UE_BUILD_SHIPPING;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR="Game__Shipping__Win64";proxy_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;UE_BUILD_SHIPPING;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR=\"Game__Shipping__Win64\";proxy_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;UE_BUILD_SHIPPING;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR="Game__Shipping__Win64";proxy_EXPORTS;</PreprocessorDefinitions>
+      <IncludePaths>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(IncludePaths)</IncludePaths>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\Game__Shipping__Win64\lib\File.lib;..\..\..\..\Game__Shipping__Win64\lib\Helpers.lib;..\..\..\..\Game__Shipping__Win64\lib\fmt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/Game__Shipping__Win64/lib/dwmapi.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <ModuleDefinitionFile>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/UE4SS/proxy_generator/proxy/dwmapi.def</ModuleDefinitionFile>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/Game__Shipping__Win64/bin/dwmapi.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem></SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/fmt-src/include" /Zc:strictStrings /Zc:strictStrings /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4251;4068;4005;4251;4068</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;UE_BUILD_TEST;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR="Game__Test__Win64";proxy_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;UE_BUILD_TEST;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR=\"Game__Test__Win64\";proxy_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;UE_BUILD_TEST;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR="Game__Test__Win64";proxy_EXPORTS;</PreprocessorDefinitions>
+      <IncludePaths>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(IncludePaths)</IncludePaths>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\Game__Test__Win64\lib\File.lib;..\..\..\..\Game__Test__Win64\lib\Helpers.lib;..\..\..\..\Game__Test__Win64\lib\fmt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/Game__Test__Win64/lib/dwmapi.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ModuleDefinitionFile>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/UE4SS/proxy_generator/proxy/dwmapi.def</ModuleDefinitionFile>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/Game__Test__Win64/bin/dwmapi.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem></SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/fmt-src/include" /Zc:strictStrings /Zc:strictStrings /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4251;4068;4005;4251;4068</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;WITH_CASE_PRESERVING_NAME;UE_BUILD_DEBUG;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR="CasePreserving__Debug__Win64";proxy_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;WITH_CASE_PRESERVING_NAME;UE_BUILD_DEBUG;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR=\"CasePreserving__Debug__Win64\";proxy_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;WITH_CASE_PRESERVING_NAME;UE_BUILD_DEBUG;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR="CasePreserving__Debug__Win64";proxy_EXPORTS;</PreprocessorDefinitions>
+      <IncludePaths>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(IncludePaths)</IncludePaths>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\CasePreserving__Debug__Win64\lib\File.lib;..\..\..\..\CasePreserving__Debug__Win64\lib\Helpers.lib;..\..\..\..\CasePreserving__Debug__Win64\lib\fmt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/CasePreserving__Debug__Win64/lib/dwmapi.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ModuleDefinitionFile>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/UE4SS/proxy_generator/proxy/dwmapi.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/CasePreserving__Debug__Win64/bin/dwmapi.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem></SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/fmt-src/include" /Zc:strictStrings /Zc:strictStrings /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4251;4068;4005;4251;4068</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;WITH_CASE_PRESERVING_NAME;UE_BUILD_DEVELOPMENT;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR="CasePreserving__Dev__Win64";proxy_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;WITH_CASE_PRESERVING_NAME;UE_BUILD_DEVELOPMENT;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR=\"CasePreserving__Dev__Win64\";proxy_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;WITH_CASE_PRESERVING_NAME;UE_BUILD_DEVELOPMENT;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR="CasePreserving__Dev__Win64";proxy_EXPORTS;</PreprocessorDefinitions>
+      <IncludePaths>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(IncludePaths)</IncludePaths>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\CasePreserving__Dev__Win64\lib\File.lib;..\..\..\..\CasePreserving__Dev__Win64\lib\Helpers.lib;..\..\..\..\CasePreserving__Dev__Win64\lib\fmt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/CasePreserving__Dev__Win64/lib/dwmapi.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ModuleDefinitionFile>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/UE4SS/proxy_generator/proxy/dwmapi.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/CasePreserving__Dev__Win64/bin/dwmapi.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem></SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/fmt-src/include" /Zc:strictStrings /Zc:strictStrings /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4251;4068;4005;4251;4068</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;WITH_CASE_PRESERVING_NAME;UE_BUILD_SHIPPING;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR="CasePreserving__Shipping__Win64";proxy_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;WITH_CASE_PRESERVING_NAME;UE_BUILD_SHIPPING;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR=\"CasePreserving__Shipping__Win64\";proxy_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;WITH_CASE_PRESERVING_NAME;UE_BUILD_SHIPPING;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR="CasePreserving__Shipping__Win64";proxy_EXPORTS;</PreprocessorDefinitions>
+      <IncludePaths>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(IncludePaths)</IncludePaths>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\CasePreserving__Shipping__Win64\lib\File.lib;..\..\..\..\CasePreserving__Shipping__Win64\lib\Helpers.lib;..\..\..\..\CasePreserving__Shipping__Win64\lib\fmt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/CasePreserving__Shipping__Win64/lib/dwmapi.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <ModuleDefinitionFile>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/UE4SS/proxy_generator/proxy/dwmapi.def</ModuleDefinitionFile>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/CasePreserving__Shipping__Win64/bin/dwmapi.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem></SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/fmt-src/include" /Zc:strictStrings /Zc:strictStrings /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4251;4068;4005;4251;4068</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;WITH_CASE_PRESERVING_NAME;UE_BUILD_TEST;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR="CasePreserving__Test__Win64";proxy_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;WITH_CASE_PRESERVING_NAME;UE_BUILD_TEST;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR=\"CasePreserving__Test__Win64\";proxy_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;WITH_CASE_PRESERVING_NAME;UE_BUILD_TEST;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR="CasePreserving__Test__Win64";proxy_EXPORTS;</PreprocessorDefinitions>
+      <IncludePaths>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(IncludePaths)</IncludePaths>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\CasePreserving__Test__Win64\lib\File.lib;..\..\..\..\CasePreserving__Test__Win64\lib\Helpers.lib;..\..\..\..\CasePreserving__Test__Win64\lib\fmt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/CasePreserving__Test__Win64/lib/dwmapi.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ModuleDefinitionFile>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/UE4SS/proxy_generator/proxy/dwmapi.def</ModuleDefinitionFile>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/CasePreserving__Test__Win64/bin/dwmapi.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem></SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/fmt-src/include" /Zc:strictStrings /Zc:strictStrings /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4251;4068;4005;4251;4068</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;FNAME_ALIGN8;LESSEQUAL421;UE_BUILD_DEBUG;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR="LessEqual421__Debug__Win64";proxy_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;FNAME_ALIGN8;LESSEQUAL421;UE_BUILD_DEBUG;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR=\"LessEqual421__Debug__Win64\";proxy_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;FNAME_ALIGN8;LESSEQUAL421;UE_BUILD_DEBUG;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR="LessEqual421__Debug__Win64";proxy_EXPORTS;</PreprocessorDefinitions>
+      <IncludePaths>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(IncludePaths)</IncludePaths>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\LessEqual421__Debug__Win64\lib\File.lib;..\..\..\..\LessEqual421__Debug__Win64\lib\Helpers.lib;..\..\..\..\LessEqual421__Debug__Win64\lib\fmt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/LessEqual421__Debug__Win64/lib/dwmapi.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ModuleDefinitionFile>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/UE4SS/proxy_generator/proxy/dwmapi.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/LessEqual421__Debug__Win64/bin/dwmapi.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem></SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/fmt-src/include" /Zc:strictStrings /Zc:strictStrings /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4251;4068;4005;4251;4068</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;FNAME_ALIGN8;LESSEQUAL421;UE_BUILD_DEVELOPMENT;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR="LessEqual421__Dev__Win64";proxy_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;FNAME_ALIGN8;LESSEQUAL421;UE_BUILD_DEVELOPMENT;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR=\"LessEqual421__Dev__Win64\";proxy_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;FNAME_ALIGN8;LESSEQUAL421;UE_BUILD_DEVELOPMENT;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR="LessEqual421__Dev__Win64";proxy_EXPORTS;</PreprocessorDefinitions>
+      <IncludePaths>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(IncludePaths)</IncludePaths>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\LessEqual421__Dev__Win64\lib\File.lib;..\..\..\..\LessEqual421__Dev__Win64\lib\Helpers.lib;..\..\..\..\LessEqual421__Dev__Win64\lib\fmt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/LessEqual421__Dev__Win64/lib/dwmapi.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ModuleDefinitionFile>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/UE4SS/proxy_generator/proxy/dwmapi.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/LessEqual421__Dev__Win64/bin/dwmapi.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem></SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/fmt-src/include" /Zc:strictStrings /Zc:strictStrings /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4251;4068;4005;4251;4068</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;FNAME_ALIGN8;LESSEQUAL421;UE_BUILD_SHIPPING;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR="LessEqual421__Shipping__Win64";proxy_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;FNAME_ALIGN8;LESSEQUAL421;UE_BUILD_SHIPPING;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR=\"LessEqual421__Shipping__Win64\";proxy_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;FNAME_ALIGN8;LESSEQUAL421;UE_BUILD_SHIPPING;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR="LessEqual421__Shipping__Win64";proxy_EXPORTS;</PreprocessorDefinitions>
+      <IncludePaths>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(IncludePaths)</IncludePaths>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\LessEqual421__Shipping__Win64\lib\File.lib;..\..\..\..\LessEqual421__Shipping__Win64\lib\Helpers.lib;..\..\..\..\LessEqual421__Shipping__Win64\lib\fmt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/LessEqual421__Shipping__Win64/lib/dwmapi.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <ModuleDefinitionFile>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/UE4SS/proxy_generator/proxy/dwmapi.def</ModuleDefinitionFile>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/LessEqual421__Shipping__Win64/bin/dwmapi.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem></SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Flori/source/repos/Behemoth_bhaptics/build/_deps/fmt-src/include" /Zc:strictStrings /Zc:strictStrings /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4251;4068;4005;4251;4068</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;FNAME_ALIGN8;LESSEQUAL421;UE_BUILD_TEST;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR="LessEqual421__Test__Win64";proxy_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;FNAME_ALIGN8;LESSEQUAL421;UE_BUILD_TEST;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR=\"LessEqual421__Test__Win64\";proxy_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;NDEBUG;HAS_INPUT;_UNICODE;UNICODE;_WIN32_WINNT=0x0A00;WINVER=0x0A00;UE_GAME;FNAME_ALIGN8;LESSEQUAL421;UE_BUILD_TEST;STATS;PLATFORM_WINDOWS;PLATFORM_MICROSOFT;OVERRIDE_PLATFORM_HEADER_NAME=Windows;UBT_COMPILED_PLATFORM=Win64;RC_STRING_BUILD_STATIC;CMAKE_INTDIR="LessEqual421__Test__Win64";proxy_EXPORTS;</PreprocessorDefinitions>
+      <IncludePaths>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(IncludePaths)</IncludePaths>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\File\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\Helpers\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\deps\first\String\include;C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\..\LessEqual421__Test__Win64\lib\File.lib;..\..\..\..\LessEqual421__Test__Win64\lib\Helpers.lib;..\..\..\..\LessEqual421__Test__Win64\lib\fmt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/LessEqual421__Test__Win64/lib/dwmapi.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ModuleDefinitionFile>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/UE4SS/proxy_generator/proxy/dwmapi.def</ModuleDefinitionFile>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>C:/Users/Flori/source/repos/Behemoth_bhaptics/build/LessEqual421__Test__Win64/bin/dwmapi.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem></SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\proxy_generator\proxy\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/UE4SS/proxy_generator/proxy/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/UE4SS/proxy_generator/proxy/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\UE4SS\proxy_generator\proxy\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Game__Debug__Win64|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/UE4SS/proxy_generator/proxy/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/UE4SS/proxy_generator/proxy/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\UE4SS\proxy_generator\proxy\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Game__Dev__Win64|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/UE4SS/proxy_generator/proxy/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/UE4SS/proxy_generator/proxy/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\UE4SS\proxy_generator\proxy\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Game__Shipping__Win64|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/UE4SS/proxy_generator/proxy/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/UE4SS/proxy_generator/proxy/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\UE4SS\proxy_generator\proxy\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Game__Test__Win64|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/UE4SS/proxy_generator/proxy/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/UE4SS/proxy_generator/proxy/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\UE4SS\proxy_generator\proxy\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Debug__Win64|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/UE4SS/proxy_generator/proxy/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/UE4SS/proxy_generator/proxy/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\UE4SS\proxy_generator\proxy\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Dev__Win64|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/UE4SS/proxy_generator/proxy/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/UE4SS/proxy_generator/proxy/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\UE4SS\proxy_generator\proxy\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Shipping__Win64|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/UE4SS/proxy_generator/proxy/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/UE4SS/proxy_generator/proxy/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\UE4SS\proxy_generator\proxy\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='CasePreserving__Test__Win64|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/UE4SS/proxy_generator/proxy/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/UE4SS/proxy_generator/proxy/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\UE4SS\proxy_generator\proxy\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Debug__Win64|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/UE4SS/proxy_generator/proxy/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/UE4SS/proxy_generator/proxy/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\UE4SS\proxy_generator\proxy\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Dev__Win64|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/UE4SS/proxy_generator/proxy/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/UE4SS/proxy_generator/proxy/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\UE4SS\proxy_generator\proxy\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Shipping__Win64|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'">Building Custom Rule C:/Users/Flori/source/repos/Behemoth_bhaptics/RE-UE4SS/UE4SS/proxy_generator/proxy/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Flori/source/repos/Behemoth_bhaptics -BC:/Users/Flori/source/repos/Behemoth_bhaptics/build --check-stamp-file C:/Users/Flori/source/repos/Behemoth_bhaptics/build/RE-UE4SS/UE4SS/proxy_generator/proxy/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'">C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\UE4SS\proxy_generator\proxy\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='LessEqual421__Test__Win64|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\RE-UE4SS\UE4SS\proxy_generator\proxy\proxy.rc" />
+    <ClCompile Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\UE4SS\proxy_generator\proxy\dllmain.cpp" />
+    <MASM Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\UE4SS\proxy_generator\proxy\dwmapi.asm" />
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\UE4SS\proxy_generator\proxy\dwmapi.def" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\ZERO_CHECK.vcxproj">
+      <Project>{FC6D9511-ACF5-3872-894D-41ACA5390A35}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\deps\first\File\File.vcxproj">
+      <Project>{7177183E-1D3D-3A1F-8E58-21D0F6964D88}</Project>
+      <Name>File</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\deps\first\Helpers\Helpers.vcxproj">
+      <Project>{72353AD6-3569-361A-9675-57C7857BA66E}</Project>
+      <Name>Helpers</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\fmt-build\fmt.vcxproj">
+      <Project>{7C82E362-7413-3126-95E0-5429DBBBB680}</Project>
+      <Name>fmt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\UE4SS\proxy_generator\proxy\proxy_files.vcxproj">
+      <Project>{3D174ED7-DDCD-3869-8116-41649EB61504}</Project>
+      <Name>proxy_files</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\RE-UE4SS\UE4SS\proxy_generator\proxy_generator.vcxproj">
+      <Project>{09EE1994-0767-3FFE-B082-E5725715E40F}</Project>
+      <Name>proxy_generator</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>

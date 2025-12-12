@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-subbuild\CMakeFiles\cdff2bd2d1c383946cd30a0caaa90efd\zydis-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-subbuild\CMakeFiles\cdff2bd2d1c383946cd30a0caaa90efd\zydis-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-subbuild\CMakeFiles\cdff2bd2d1c383946cd30a0caaa90efd\zydis-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-subbuild\CMakeFiles\cdff2bd2d1c383946cd30a0caaa90efd\zydis-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-subbuild\CMakeFiles\cdff2bd2d1c383946cd30a0caaa90efd\zydis-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-subbuild\CMakeFiles\cdff2bd2d1c383946cd30a0caaa90efd\zydis-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-subbuild\CMakeFiles\cdff2bd2d1c383946cd30a0caaa90efd\zydis-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-subbuild\CMakeFiles\cdff2bd2d1c383946cd30a0caaa90efd\zydis-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-subbuild\CMakeFiles\42a6bfe5385e8d980c00ecb25fd0d3c8\zydis-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-subbuild\CMakeFiles\558f4d8f6c7442a18d6f121789c5c7a8\zydis-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Flori\source\repos\Behemoth_bhaptics\build\_deps\zydis-subbuild\CMakeFiles\zydis-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{85079DF7-33C3-31CB-9030-FA8C42EB3D9B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
